@@ -11,21 +11,52 @@ export function tokensPlugin(): Plugin {
 			writeFileSync("./src/tokens/theme.css", cssContent);
 			console.log("✅ Tokens CSS regenerated!");
 		},
-		handleHotUpdate({ file, server }) {
-			// Regenera tokens quando arquivos de token mudam
-			if (
-				file.includes("/tokens/") &&
-				file.endsWith(".ts") &&
-				!file.includes("theme.css")
-			) {
-				const cssContent = generateTailwindTheme();
-				writeFileSync("./src/tokens/theme.css", cssContent);
-				console.log("✅ Tokens CSS updated!");
+		// Removido handleHotUpdate para evitar loop infinito
+		// Para dev: use `npm run build:tokens` em watch mode em terminal separado
+	};
+}
 
-				// Força reload do CSS
-				server.ws.send({
-					type: "full-reload",
-				});
+			// Regenera tokens apenas para arquivos .ts na pasta tokens
+			if (
+				normalizedFile.includes("/tokens/") &&
+				normalizedFile.endsWith(".ts")
+			) {
+				isGenerating = true;
+
+				try {
+					const newCssContent = generateTailwindTheme();
+
+					// Verifica se o conteúdo realmente mudou
+					let currentContent = "";
+					try {
+						currentContent = readFileSync("./src/tokens/theme.css", "utf-8");
+					} catch {
+						// Arquivo não existe, pode escrever
+					}
+
+					if (newCssContent !== currentContent) {
+						writeFileSync("./src/tokens/theme.css", newCssContent);
+						console.log("✅ Tokens CSS updated!");
+
+						// Envia update específico para o CSS
+						server.ws.send({
+							type: "update",
+							updates: [
+								{
+									type: "css-update",
+									path: "/src/tokens/theme.css",
+									acceptedPath: "/src/tokens/theme.css",
+									timestamp: Date.now(),
+								},
+							],
+						});
+					}
+				} finally {
+					// Libera o lock após um pequeno delay
+					setTimeout(() => {
+						isGenerating = false;
+					}, 100);
+				}
 			}
 		},
 	};

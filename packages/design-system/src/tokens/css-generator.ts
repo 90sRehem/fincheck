@@ -17,6 +17,10 @@ export function generateTailwindTheme() {
     "",
   );
 
+  // const roundedTheme = Object.entries(radii).reduce((acc, [key, value]) => {
+  //   return acc + `  --rounded-${key}: ${value};\n`;
+  // }, "");
+
   const spacingTheme = Object.entries(spacing).reduce((acc, [key, value]) => {
     return acc + `  --spacing-${key}: ${value};\n`;
   }, "");
@@ -39,6 +43,13 @@ ${spacingTheme}
 ${fontTheme}
 ${shadowTheme}}`;
 
+  // const roundedUtilities = Object.entries(radii)
+  //   .map(([key]) => {
+  //     const className = key === "default" ? "rounded" : `rounded-${key}`;
+  //     return `@utility ${className} {\n  border-radius: var(--rounded-${key});\n}`;
+  //   })
+  //   .join("\n\n");
+
   const tokenUtilities = generateUtilitiesFromTokens(typography, {
     filter: (key, value) =>
       key !== "fontFamily" &&
@@ -49,7 +60,7 @@ ${shadowTheme}}`;
 
   const headingUtilities = generateUtilitiesFromTokens(typography, {
     filter: (key) => key.startsWith("heading-"),
-    classNameMapper: (key) => `h${key.split("-")[1]}`,
+    classNameMapper: (key) => `heading-${key.split("-")[1]}`,
     cssGenerator: (token) => generateTokenCSS(token),
   });
 
@@ -57,9 +68,11 @@ ${shadowTheme}}`;
     .filter(Boolean)
     .join("\n\n");
 
+  const allUtilities = [typographyUtilities].filter(Boolean).join("\n\n");
+
   return `${themeSection}
 
-${typographyUtilities}`;
+${allUtilities}`;
 }
 
 export function getCSSCustomProperty(tokenPath: string) {

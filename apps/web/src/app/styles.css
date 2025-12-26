@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+/* Importa apenas o TEMA do design system (variáveis CSS) */
+@import "../../../../packages/design-system/src/tokens/theme.css";
+
+/* Configura detecção automática de classes nos componentes do design system */
+@source "../../../../packages/design-system/src/**/*.{tsx,ts}";
+
+/* Também detecta classes na própria aplicação web */
+@source "../**/*.{tsx,ts}";
+
+/* For Webkit-based browsers (Chrome, Safari and Opera) */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}

@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "rehem@fincheck.com",
+      "password": "123456"
+    },
+    {
+      "id": "2",
+      "email": "jonathan@email.com",
+      "password": "123456"
+    },
+    {
+      "email": "rehem1@fincheck.com",
+      "password": "$2a$10$ZVhZ5u7BzRQHVXdBUAsS4efPXnH0ISAOexG2kfy7eVF13slKl4tei",
+      "id": "48-eia2"
+    }
+  ]
+}
