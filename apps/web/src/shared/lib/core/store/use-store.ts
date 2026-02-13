@@ -1,16 +1,19 @@
-import { useSyncExternalStore } from "react";
+import { useSyncExternalStore, useCallback } from "react";
 import type { Store } from "./create-store";
 
 export function useStore<T, S>(store: Store<T>, selector: (state: T) => S): S {
-  const getSnapshot = () => selector(store.getState());
+	const getSnapshot = useCallback(
+		() => selector(store.getState()),
+		[store, selector],
+	);
 
-  const subscribe = (onStoreChange: () => void) =>
-    store.subscribe(
-      selector,
-      () => {
-        onStoreChange();
-      }
-    );
+	const subscribe = useCallback(
+		(onStoreChange: () => void) =>
+			store.subscribe(selector, () => {
+				onStoreChange();
+			}),
+		[store, selector],
+	);
 
-  return useSyncExternalStore(subscribe, getSnapshot);
+	return useSyncExternalStore(subscribe, getSnapshot);
 }

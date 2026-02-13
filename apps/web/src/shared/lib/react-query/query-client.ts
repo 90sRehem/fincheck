@@ -6,6 +6,7 @@ import type {
   DefaultOptions,
 } from "@tanstack/react-query";
 import { MutationCache, QueryCache, QueryClient } from "@tanstack/react-query";
+import { reportError } from "../core/error/error-reporter";
 
 declare module "@tanstack/react-query" {
   interface Register {
@@ -20,7 +21,7 @@ declare module "@tanstack/react-query" {
 
 const queryConfig: DefaultOptions = {
   queries: {
-    throwOnError: false,
+    throwOnError: true,
     refetchOnWindowFocus: false,
     retry: (failureCount, error) => {
       if (
@@ -83,8 +84,15 @@ const queryCache = new QueryCache({
         message: error.message,
         errors: error.errors,
       });
+
+      if (error.statusCode === 401 || error.statusCode === 403) {
+        // userStore.getState().clearUser();
+        // window.location.href = "/session/login";
+      }
     } else {
       console.error(`Query error [${query.queryKey}]:`, error);
+
+      reportError(error, { queryKey: query.queryKey });
     }
   },
 });
