@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+/* Importa o tema do design system (variáveis CSS) */
+@import "../../../packages/design-system/src/tokens/theme.css";
+
+/* Configura detecção de classes Tailwind nos componentes do design system */
+@source "../../../packages/design-system/src/**/*.{tsx,ts}";
+
+/* Também detecta classes nas stories */
+@source "./**/*.{tsx,ts}";
+
+/* Define a cor muted para o Storybook */
+@theme {
+  --color-muted: #f1f3f5;
+}
