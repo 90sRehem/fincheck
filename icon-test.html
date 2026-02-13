@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Teste dos Ícones com Tailwind</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { 
+      font-family: Arial, sans-serif; 
+      background: #f9fafb; 
+    }
+  </style>
+</head>
+<body class="p-8">
+  <h1 class="text-2xl font-bold mb-8">Teste dos Ícones com Customização Tailwind</h1>
+  
+  <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+    
+    <!-- Expense Icon -->
+    <div class="bg-white p-6 rounded-lg shadow">
+      <h3 class="text-sm font-medium mb-4">Expense Icons</h3>
+      <div class="space-y-4">
+        <div class="text-red-500" id="expense-red"></div>
+        <div class="text-orange-500" id="expense-orange"></div>
+        <div class="text-purple-500" id="expense-purple"></div>
+      </div>
+    </div>
+
+    <!-- Revenue Icon -->
+    <div class="bg-white p-6 rounded-lg shadow">
+      <h3 class="text-sm font-medium mb-4">Revenue Icons</h3>
+      <div class="space-y-4">
+        <div class="text-green-500" id="revenue-green"></div>
+        <div class="text-blue-500" id="revenue-blue"></div>
+        <div class="text-teal-500" id="revenue-teal"></div>
+      </div>
+    </div>
+
+    <!-- BankAccounts Icon -->
+    <div class="bg-white p-6 rounded-lg shadow">
+      <h3 class="text-sm font-medium mb-4">Bank Account Icons</h3>
+      <div class="space-y-4">
+        <div class="text-blue-600" id="bank-blue"></div>
+        <div class="text-indigo-500" id="bank-indigo"></div>
+        <div class="text-cyan-500" id="bank-cyan"></div>
+      </div>
+    </div>
+
+    <!-- Simple Icons -->
+    <div class="bg-white p-6 rounded-lg shadow">
+      <h3 class="text-sm font-medium mb-4">Simple Icons</h3>
+      <div class="space-y-4">
+        <div class="text-gray-600" id="delete-gray"></div>
+        <div class="text-red-600 hover:text-red-800 transition-colors" id="delete-hover"></div>
+        <div class="text-emerald-500" id="plus-green"></div>
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    // Simulando os ícones SVG (você usaria os componentes React reais)
+    
+    const expenseIcon = `
+      <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="1" y="1" width="42" height="42" rx="21" fill="currentColor" fill-opacity="0.1"/>
+        <rect x="1" y="1" width="42" height="42" rx="21" stroke="currentColor" stroke-width="2"/>
+        <path d="M23.26 28.348h-6.838c-1.888 0-3.062-1.332-3.062-3.217v-7.103c0-1.885 1.174-3.217 3.06-3.217h11.16c1.88 0 3.06 1.332 3.06 3.217v1.919M16.444 18.171h1.347" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path clip-rule="evenodd" d="M19.805 21.58a2.196 2.196 0 114.391 0 2.196 2.196 0 01-4.391 0z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M26.538 26.298l2.05 2.05 2.051-2.05M28.589 23.5v4.848" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    `;
+
+    const revenueIcon = `
+      <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="1" y="1" width="42" height="42" rx="21" fill="currentColor" fill-opacity="0.1"/>
+        <rect x="1" y="1" width="42" height="42" rx="21" stroke="currentColor" stroke-width="2"/>
+        <path d="M23.26 28.348h-6.838c-1.888 0-3.062-1.332-3.062-3.217v-7.103c0-1.885 1.174-3.217 3.06-3.217h11.16c1.88 0 3.06 1.332 3.06 3.217v1.919M26.538 25.551l2.05-2.051 2.051 2.051M28.589 23.5v4.848M16.444 18.173h1.347" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path clip-rule="evenodd" d="M19.803 21.58a2.196 2.196 0 114.392 0 2.196 2.196 0 01-4.392 0z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    `;
+
+    const bankIcon = `
+      <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="1" y="1" width="42" height="42" rx="21" fill="currentColor" fill-opacity="0.1"/>
+        <rect x="1" y="1" width="42" height="42" rx="21" stroke="currentColor" stroke-width="2"/>
+        <path d="M13.722 18.552l7.87-5.08a.701.701 0 01.76 0l7.87 5.08c.2.13.32.351.32.59v.551a.7.7 0 01-.7.7h-15.74a.7.7 0 01-.7-.7v-.552c0-.238.12-.46.32-.589zM21.971 17.455v.01" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path clip-rule="evenodd" d="M30.568 30.044l-.37-1.686a.49.49 0 00-.48-.384H14.225a.49.49 0 00-.479.384l-.37 1.686a.49.49 0 00.477.594h16.239a.49.49 0 00.477-.594z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M24.138 20.391v7.584m4.333-7.584v7.584M15.47 20.39v7.584m4.333-7.584v7.584" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    `;
+
+    const deleteIcon = `
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M19.325 9.468s-.543 6.735-.858 9.572c-.15 1.355-.987 2.15-2.358 2.174-2.61.047-5.221.05-7.83-.005-1.318-.027-2.141-.83-2.288-2.162-.317-2.862-.857-9.579-.857-9.579M20.708 6.24H3.75m13.69 0a1.648 1.648 0 01-1.614-1.324L15.583 3.7a1.28 1.28 0 00-1.237-.95h-4.233a1.28 1.28 0 00-1.237.95l-.243 1.216A1.648 1.648 0 017.018 6.24" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    `;
+
+    const plusIcon = `
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M6 12h12m-6-6v12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    `;
+
+    // Inserir os ícones
+    document.getElementById('expense-red').innerHTML = expenseIcon;
+    document.getElementById('expense-orange').innerHTML = expenseIcon;
+    document.getElementById('expense-purple').innerHTML = expenseIcon;
+    
+    document.getElementById('revenue-green').innerHTML = revenueIcon;
+    document.getElementById('revenue-blue').innerHTML = revenueIcon;
+    document.getElementById('revenue-teal').innerHTML = revenueIcon;
+    
+    document.getElementById('bank-blue').innerHTML = bankIcon;
+    document.getElementById('bank-indigo').innerHTML = bankIcon;
+    document.getElementById('bank-cyan').innerHTML = bankIcon;
+    
+    document.getElementById('delete-gray').innerHTML = deleteIcon;
+    document.getElementById('delete-hover').innerHTML = deleteIcon;
+    document.getElementById('plus-green').innerHTML = plusIcon;
+  </script>
+
+  <div class="mt-8 bg-white p-6 rounded-lg shadow">
+    <h2 class="text-lg font-semibold mb-4">Como usar no React:</h2>
+    <pre class="bg-gray-100 p-4 rounded text-sm overflow-x-auto"><code>// Ícone vermelho
+&lt;Icons.Expense className="text-red-500" /&gt;
+
+// Ícone verde
+&lt;Icons.Revenue className="text-green-600" /&gt;
+
+// Ícone azul
+&lt;Icons.BankAccounts className="text-blue-500" /&gt;
+
+// Ícone com hover
+&lt;Icons.Delete className="text-gray-400 hover:text-red-500 transition-colors" /&gt;
+
+// Tamanhos customizados
+&lt;Icons.Plus className="text-emerald-500 w-6 h-6" /&gt;
+&lt;Icons.Plus className="text-emerald-500 w-8 h-8" /&gt;</code></pre>
+  </div>
+</body>
+</html>
