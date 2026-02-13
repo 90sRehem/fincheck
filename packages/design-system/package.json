@@ -10,16 +10,41 @@
     "react",
     "typescript"
   ],
-  "main": "./dist/index.cjs",
-  "module": "./dist/index.js",
+  "main": "./dist/index.cjs.js",
+  "module": "./dist/index.es.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/index.js",
-      "require": "./dist/index.cjs"
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.cjs.js"
     },
-    "./styles": "./dist/styles.css"
+    "./styles": "./dist/design-system.css",
+    "./icons/expense": {
+      "types": "./dist/icons/expense.d.ts",
+      "import": "./dist/icons/expense.es.js",
+      "require": "./dist/icons/expense.cjs.js"
+    },
+    "./icons/revenue": {
+      "types": "./dist/icons/revenue.d.ts",
+      "import": "./dist/icons/revenue.es.js",
+      "require": "./dist/icons/revenue.cjs.js"
+    },
+    "./icons/account": {
+      "types": "./dist/icons/account.d.ts",
+      "import": "./dist/icons/account.es.js",
+      "require": "./dist/icons/account.cjs.js"
+    },
+    "./icons/general": {
+      "types": "./dist/icons/general.d.ts",
+      "import": "./dist/icons/general.es.js",
+      "require": "./dist/icons/general.cjs.js"
+    },
+    "./icons/colors": {
+      "types": "./dist/icons/colors.d.ts",
+      "import": "./dist/icons/colors.es.js",
+      "require": "./dist/icons/colors.cjs.js"
+    }
   },
   "scripts": {
     "dev": "concurrently \"npm run tokens:watch\" \"vite build --watch\"",
@@ -37,15 +62,20 @@
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
     "@radix-ui/react-avatar": "^1.1.11",
+    "@radix-ui/react-dialog": "^1.1.15",
     "@radix-ui/react-dropdown-menu": "^2.1.16",
     "@radix-ui/react-label": "^2.1.8",
     "@radix-ui/react-popover": "^1.1.15",
+    "@radix-ui/react-scroll-area": "^1.2.10",
+    "@radix-ui/react-select": "^2.2.6",
     "@radix-ui/react-separator": "^1.1.8",
     "@radix-ui/react-slot": "^1.2.4",
     "@tailwindcss/vite": "^4.1.14",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "date-fns": "^4.1.0",
     "lucide-react": "^0.545.0",
+    "react-day-picker": "^9.13.0",
     "react-hook-form": "^7.66.0",
     "tailwind-merge": "^3.3.1",
     "tailwind-variants": "^3.1.1",
