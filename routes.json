@@ -1,3 +1,6 @@
 {
-  "/api/*": "/$1"
+  "/api/*": "/$1",
+  "balances": 600,
+  "users": 600,
+  "transactions": 600
 }

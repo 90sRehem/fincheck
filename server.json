@@ -1,19 +1,918 @@
 {
   "users": [
     {
-      "id": "1",
-      "email": "rehem@fincheck.com",
-      "password": "123456"
-    },
-    {
-      "id": "2",
-      "email": "jonathan@email.com",
-      "password": "123456"
-    },
-    {
       "email": "rehem1@fincheck.com",
       "password": "$2a$10$ZVhZ5u7BzRQHVXdBUAsS4efPXnH0ISAOexG2kfy7eVF13slKl4tei",
-      "id": "48-eia2"
+      "id": "48-eia2",
+      "name": "Jonathan Rehem"
+    }
+  ],
+  "balances": [
+    {
+      "id": "48-eia2",
+      "amountCents": 112339,
+      "currency": "BRL",
+      "userId": "48-eia2"
+    }
+  ],
+  "accounts": [
+    {
+      "id": "account-1",
+      "userId": "48-eia2",
+      "name": "Nubank",
+      "type": "bank_account",
+      "color": "blue",
+      "amount": 112338
+    },
+    {
+      "name": "Nubanco",
+      "type": "bank_account",
+      "color": "purple",
+      "amount": 0,
+      "userId": "48-eia2",
+      "id": "tRBwdFn"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "trans-24",
+      "userId": "48-eia2",
+      "accountId": "account-1",
+      "title": "Supermercado",
+      "description": "Compras da semana",
+      "amountCents": 32000,
+      "type": "expense",
+      "category": "grocery",
+      "color": "indigo",
+      "date": "2025-12-15T00:00:00.000Z",
+      "createdAt": "2025-12-15T00:00:00.000Z",
+      "updatedAt": "2025-12-15T00:00:00.000Z"
+    },
+    {
+      "id": "trans-25",
+      "userId": "48-eia2",
+      "accountId": "account-1",
+      "title": "Freelance Design",
+      "description": "Logo + identidade visual",
+      "amountCents": 120000,
+      "type": "revenue",
+      "category": "revenue",
+      "color": "green",
+      "date": "2025-12-14T00:00:00.000Z",
+      "createdAt": "2025-12-14T00:00:00.000Z",
+      "updatedAt": "2025-12-14T00:00:00.000Z"
+    },
+    {
+      "id": "trans-26",
+      "userId": "48-eia2",
+      "accountId": "account-1",
+      "title": "Netflix",
+      "description": "Assinatura mensal",
+      "amountCents": 5490,
+      "type": "expense",
+      "category": "entertainment",
+      "color": "red",
+      "date": "2025-12-01T00:00:00.000Z",
+      "createdAt": "2025-12-01T00:00:00.000Z",
+      "updatedAt": "2025-12-01T00:00:00.000Z"
+    },
+    {
+      "id": "trans-27",
+      "userId": "48-eia2",
+      "accountId": "account-1",
+      "title": "Uber",
+      "description": "Corrida para o trabalho",
+      "amountCents": 2850,
+      "type": "expense",
+      "category": "transport",
+      "color": "gray",
+      "date": "2025-12-10T00:00:00.000Z",
+      "createdAt": "2025-12-10T00:00:00.000Z",
+      "updatedAt": "2025-12-10T00:00:00.000Z"
+    },
+    {
+      "id": "trans-28",
+      "userId": "48-eia2",
+      "accountId": "account-1",
+      "title": "Salário",
+      "description": "Salário mensal",
+      "amountCents": 650000,
+      "type": "revenue",
+      "category": "revenue",
+      "color": "green",
+      "date": "2025-12-05T00:00:00.000Z",
+      "createdAt": "2025-12-05T00:00:00.000Z",
+      "updatedAt": "2025-12-05T00:00:00.000Z"
+    },
+    {
+      "id": "trans-29",
+      "userId": "48-eia2",
+      "accountId": "account-1",
+      "title": "Academia",
+      "description": "Mensalidade dezembro",
+      "amountCents": 15000,
+      "type": "expense",
+      "category": "health",
+      "color": "cyan",
+      "date": "2025-12-03T00:00:00.000Z",
+      "createdAt": "2025-12-03T00:00:00.000Z",
+      "updatedAt": "2025-12-03T00:00:00.000Z"
+    },
+    {
+      "id": "trans-30",
+      "userId": "48-eia2",
+      "accountId": "account-1",
+      "title": "Restaurante",
+      "description": "Jantar com amigos",
+      "amountCents": 18500,
+      "type": "expense",
+      "category": "food",
+      "color": "orange",
+      "date": "2025-12-08T00:00:00.000Z",
+      "createdAt": "2025-12-08T00:00:00.000Z",
+      "updatedAt": "2025-12-08T00:00:00.000Z"
+    },
+    {
+      "id": "trans-31",
+      "userId": "48-eia2",
+      "accountId": "account-1",
+      "title": "Curso Online",
+      "description": "React Advanced",
+      "amountCents": 49900,
+      "type": "expense",
+      "category": "education",
+      "color": "purple",
+      "date": "2025-12-12T00:00:00.000Z",
+      "createdAt": "2025-12-12T00:00:00.000Z",
+      "updatedAt": "2025-12-12T00:00:00.000Z"
+    },
+    {
+      "id": "trans-32",
+      "userId": "48-eia2",
+      "accountId": "tRBwdFn",
+      "title": "Aluguel",
+      "description": "Aluguel dezembro",
+      "amountCents": 200000,
+      "type": "expense",
+      "category": "home",
+      "color": "blue",
+      "date": "2025-12-01T00:00:00.000Z",
+      "createdAt": "2025-12-01T00:00:00.000Z",
+      "updatedAt": "2025-12-01T00:00:00.000Z"
+    },
+    {
+      "id": "trans-33",
+      "userId": "48-eia2",
+      "accountId": "account-1",
+      "title": "Zara",
+      "description": "Roupas de verão",
+      "amountCents": 32900,
+      "type": "expense",
+      "category": "clothing",
+      "color": "pink",
+      "date": "2025-12-06T00:00:00.000Z",
+      "createdAt": "2025-12-06T00:00:00.000Z",
+      "updatedAt": "2025-12-06T00:00:00.000Z"
+    },
+    {
+      "id": "trans-34",
+      "userId": "48-eia2",
+      "accountId": "account-1",
+      "title": "Gasolina",
+      "description": "Posto Shell",
+      "amountCents": 25000,
+      "type": "expense",
+      "category": "transport",
+      "color": "yellow",
+      "date": "2025-12-11T00:00:00.000Z",
+      "createdAt": "2025-12-11T00:00:00.000Z",
+      "updatedAt": "2025-12-11T00:00:00.000Z"
+    },
+    {
+      "id": "trans-35",
+      "userId": "48-eia2",
+      "accountId": "account-1",
+      "title": "Freelance Web",
+      "description": "Site institucional",
+      "amountCents": 280000,
+      "type": "revenue",
+      "category": "revenue",
+      "color": "teal",
+      "date": "2025-12-20T00:00:00.000Z",
+      "createdAt": "2025-12-20T00:00:00.000Z",
+      "updatedAt": "2025-12-20T00:00:00.000Z"
+    },
+    {
+      "id": "trans-36",
+      "userId": "48-eia2",
+      "accountId": "account-1",
+      "title": "Farmácia",
+      "description": "Medicamentos",
+      "amountCents": 8750,
+      "type": "expense",
+      "category": "health",
+      "color": "lime",
+      "date": "2025-12-09T00:00:00.000Z",
+      "createdAt": "2025-12-09T00:00:00.000Z",
+      "updatedAt": "2025-12-09T00:00:00.000Z"
+    },
+    {
+      "id": "trans-37",
+      "userId": "48-eia2",
+      "accountId": "account-1",
+      "title": "Spotify",
+      "description": "Assinatura Premium",
+      "amountCents": 2190,
+      "type": "expense",
+      "category": "entertainment",
+      "color": "green",
+      "date": "2025-12-02T00:00:00.000Z",
+      "createdAt": "2025-12-02T00:00:00.000Z",
+      "updatedAt": "2025-12-02T00:00:00.000Z"
+    },
+    {
+      "id": "trans-38",
+      "userId": "48-eia2",
+      "accountId": "tRBwdFn",
+      "title": "Internet",
+      "description": "Mensalidade NET",
+      "amountCents": 11990,
+      "type": "expense",
+      "category": "home",
+      "color": "blue",
+      "date": "2025-12-05T00:00:00.000Z",
+      "createdAt": "2025-12-05T00:00:00.000Z",
+      "updatedAt": "2025-12-05T00:00:00.000Z"
+    },
+    {
+      "id": "trans-39",
+      "userId": "48-eia2",
+      "accountId": "account-1",
+      "title": "Padaria",
+      "description": "Pão e café da manhã",
+      "amountCents": 4200,
+      "type": "expense",
+      "category": "food",
+      "color": "orange",
+      "date": "2025-12-16T00:00:00.000Z",
+      "createdAt": "2025-12-16T00:00:00.000Z",
+      "updatedAt": "2025-12-16T00:00:00.000Z"
+    },
+    {
+      "id": "trans-40",
+      "userId": "48-eia2",
+      "accountId": "account-1",
+      "title": "Cinema",
+      "description": "Ingressos + pipoca",
+      "amountCents": 8500,
+      "type": "expense",
+      "category": "entertainment",
+      "color": "grape",
+      "date": "2025-12-13T00:00:00.000Z",
+      "createdAt": "2025-12-13T00:00:00.000Z",
+      "updatedAt": "2025-12-13T00:00:00.000Z"
+    },
+    {
+      "id": "trans-41",
+      "userId": "48-eia2",
+      "accountId": "account-1",
+      "title": "Livros",
+      "description": "Amazon - 3 livros técnicos",
+      "amountCents": 18900,
+      "type": "expense",
+      "category": "education",
+      "color": "purple",
+      "date": "2025-12-07T00:00:00.000Z",
+      "createdAt": "2025-12-07T00:00:00.000Z",
+      "updatedAt": "2025-12-07T00:00:00.000Z"
+    },
+    {
+      "id": "trans-42",
+      "userId": "48-eia2",
+      "accountId": "account-1",
+      "title": "Dentista",
+      "description": "Consulta + limpeza",
+      "amountCents": 35000,
+      "type": "expense",
+      "category": "health",
+      "color": "cyan",
+      "date": "2025-12-04T00:00:00.000Z",
+      "createdAt": "2025-12-04T00:00:00.000Z",
+      "updatedAt": "2025-12-04T00:00:00.000Z"
+    },
+    {
+      "id": "trans-43",
+      "userId": "48-eia2",
+      "accountId": "account-1",
+      "title": "iFood",
+      "description": "Almoço executivo",
+      "amountCents": 4590,
+      "type": "expense",
+      "category": "food",
+      "color": "red",
+      "date": "2025-12-17T00:00:00.000Z",
+      "createdAt": "2025-12-17T00:00:00.000Z",
+      "updatedAt": "2025-12-17T00:00:00.000Z"
+    },
+    {
+      "id": "trans-44",
+      "userId": "48-eia2",
+      "accountId": "account-1",
+      "title": "Steam",
+      "description": "Jogo Red Dead Redemption 2",
+      "amountCents": 12499,
+      "type": "expense",
+      "category": "entertainment",
+      "color": "indigo",
+      "date": "2025-12-18T00:00:00.000Z",
+      "createdAt": "2025-12-18T00:00:00.000Z",
+      "updatedAt": "2025-12-18T00:00:00.000Z"
+    },
+    {
+      "id": "trans-45",
+      "userId": "48-eia2",
+      "accountId": "tRBwdFn",
+      "title": "Energia Elétrica",
+      "description": "Conta de luz dezembro",
+      "amountCents": 28500,
+      "type": "expense",
+      "category": "home",
+      "color": "yellow",
+      "date": "2025-12-10T00:00:00.000Z",
+      "createdAt": "2025-12-10T00:00:00.000Z",
+      "updatedAt": "2025-12-10T00:00:00.000Z"
+    },
+    {
+      "id": "trans-46",
+      "userId": "48-eia2",
+      "accountId": "account-1",
+      "title": "Estacionamento",
+      "description": "Shopping center",
+      "amountCents": 1800,
+      "type": "expense",
+      "category": "transport",
+      "color": "gray",
+      "date": "2025-12-19T00:00:00.000Z",
+      "createdAt": "2025-12-19T00:00:00.000Z",
+      "updatedAt": "2025-12-19T00:00:00.000Z"
+    },
+    {
+      "id": "trans-47",
+      "userId": "48-eia2",
+      "accountId": "account-1",
+      "title": "Nike",
+      "description": "Tênis de corrida",
+      "amountCents": 59900,
+      "type": "expense",
+      "category": "clothing",
+      "color": "pink",
+      "date": "2025-12-21T00:00:00.000Z",
+      "createdAt": "2025-12-21T00:00:00.000Z",
+      "updatedAt": "2025-12-21T00:00:00.000Z"
+    },
+    {
+      "id": "trans-48",
+      "userId": "48-eia2",
+      "accountId": "account-1",
+      "title": "Consultoria Tech",
+      "description": "Projeto arquitetura software",
+      "amountCents": 450000,
+      "type": "revenue",
+      "category": "revenue",
+      "color": "teal",
+      "date": "2025-12-22T00:00:00.000Z",
+      "createdAt": "2025-12-22T00:00:00.000Z",
+      "updatedAt": "2025-12-22T00:00:00.000Z"
+    },
+    {
+      "id": "trans-49",
+      "userId": "48-eia2",
+      "accountId": "account-1",
+      "title": "Barbeiro",
+      "description": "Corte + barba",
+      "amountCents": 6500,
+      "type": "expense",
+      "category": "health",
+      "color": "lime",
+      "date": "2025-12-23T00:00:00.000Z",
+      "createdAt": "2025-12-23T00:00:00.000Z",
+      "updatedAt": "2025-12-23T00:00:00.000Z"
+    },
+    {
+      "id": "trans-50",
+      "userId": "48-eia2",
+      "accountId": "account-1",
+      "title": "Mercado Livre",
+      "description": "Teclado mecânico",
+      "amountCents": 38900,
+      "type": "expense",
+      "category": "grocery",
+      "color": "yellow",
+      "date": "2025-12-24T00:00:00.000Z",
+      "createdAt": "2025-12-24T00:00:00.000Z",
+      "updatedAt": "2025-12-24T00:00:00.000Z"
+    },
+    {
+      "id": "trans-51",
+      "userId": "48-eia2",
+      "accountId": "account-1",
+      "title": "Uber Eats",
+      "description": "Jantar pizza",
+      "amountCents": 7890,
+      "type": "expense",
+      "category": "food",
+      "color": "orange",
+      "date": "2025-12-25T00:00:00.000Z",
+      "createdAt": "2025-12-25T00:00:00.000Z",
+      "updatedAt": "2025-12-25T00:00:00.000Z"
+    },
+    {
+      "id": "trans-52",
+      "userId": "48-eia2",
+      "accountId": "account-1",
+      "title": "Presente Natal",
+      "description": "Presentes para família",
+      "amountCents": 95000,
+      "type": "expense",
+      "category": "grocery",
+      "color": "red",
+      "date": "2025-12-20T00:00:00.000Z",
+      "createdAt": "2025-12-20T00:00:00.000Z",
+      "updatedAt": "2025-12-20T00:00:00.000Z"
+    },
+    {
+      "id": "trans-53",
+      "userId": "48-eia2",
+      "accountId": "account-1",
+      "title": "Apple Store",
+      "description": "AirPods Pro",
+      "amountCents": 229900,
+      "type": "expense",
+      "category": "grocery",
+      "color": "grape",
+      "date": "2025-12-26T00:00:00.000Z",
+      "createdAt": "2025-12-26T00:00:00.000Z",
+      "updatedAt": "2025-12-26T00:00:00.000Z"
+    },
+    {
+      "id": "trans-54",
+      "userId": "48-eia2",
+      "accountId": "account-1",
+      "title": "Hotel Airbnb",
+      "description": "Final de semana - Campos do Jordão",
+      "amountCents": 180000,
+      "type": "expense",
+      "category": "trip",
+      "color": "cyan",
+      "date": "2025-12-27T00:00:00.000Z",
+      "createdAt": "2025-12-27T00:00:00.000Z",
+      "updatedAt": "2025-12-27T00:00:00.000Z"
+    },
+    {
+      "id": "trans-55",
+      "userId": "48-eia2",
+      "accountId": "account-1",
+      "title": "Bonus Empresa",
+      "description": "Bônus de performance Q4",
+      "amountCents": 850000,
+      "type": "revenue",
+      "category": "revenue",
+      "color": "green",
+      "date": "2025-12-28T00:00:00.000Z",
+      "createdAt": "2025-12-28T00:00:00.000Z",
+      "updatedAt": "2025-12-28T00:00:00.000Z"
+    },
+    {
+      "id": "trans-56",
+      "userId": "48-eia2",
+      "accountId": "account-1",
+      "title": "Salário Janeiro",
+      "description": "Salário mensal",
+      "amountCents": 650000,
+      "type": "revenue",
+      "category": "revenue",
+      "color": "green",
+      "date": "2026-01-05T00:00:00.000Z",
+      "createdAt": "2026-01-05T00:00:00.000Z",
+      "updatedAt": "2026-01-05T00:00:00.000Z"
+    },
+    {
+      "id": "trans-57",
+      "userId": "48-eia2",
+      "accountId": "account-1",
+      "title": "Supermercado Carrefour",
+      "description": "Compras do mês",
+      "amountCents": 45000,
+      "type": "expense",
+      "category": "grocery",
+      "color": "blue",
+      "date": "2026-01-03T00:00:00.000Z",
+      "createdAt": "2026-01-03T00:00:00.000Z",
+      "updatedAt": "2026-01-03T00:00:00.000Z"
+    },
+    {
+      "id": "trans-58",
+      "userId": "48-eia2",
+      "accountId": "tRBwdFn",
+      "title": "Aluguel Janeiro",
+      "description": "Aluguel + condomínio",
+      "amountCents": 200000,
+      "type": "expense",
+      "category": "home",
+      "color": "indigo",
+      "date": "2026-01-01T00:00:00.000Z",
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "trans-59",
+      "userId": "48-eia2",
+      "accountId": "account-1",
+      "title": "Netflix",
+      "description": "Assinatura janeiro",
+      "amountCents": 5490,
+      "type": "expense",
+      "category": "entertainment",
+      "color": "red",
+      "date": "2026-01-01T00:00:00.000Z",
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "trans-60",
+      "userId": "48-eia2",
+      "accountId": "account-1",
+      "title": "Spotify",
+      "description": "Assinatura janeiro",
+      "amountCents": 2190,
+      "type": "expense",
+      "category": "entertainment",
+      "color": "green",
+      "date": "2026-01-02T00:00:00.000Z",
+      "createdAt": "2026-01-02T00:00:00.000Z",
+      "updatedAt": "2026-01-02T00:00:00.000Z"
+    },
+    {
+      "id": "trans-61",
+      "userId": "48-eia2",
+      "accountId": "account-1",
+      "title": "Academia",
+      "description": "Mensalidade janeiro",
+      "amountCents": 15000,
+      "type": "expense",
+      "category": "health",
+      "color": "cyan",
+      "date": "2026-01-03T00:00:00.000Z",
+      "createdAt": "2026-01-03T00:00:00.000Z",
+      "updatedAt": "2026-01-03T00:00:00.000Z"
+    },
+    {
+      "id": "trans-62",
+      "userId": "48-eia2",
+      "accountId": "account-1",
+      "title": "Uber",
+      "description": "Corridas da semana",
+      "amountCents": 8500,
+      "type": "expense",
+      "category": "transport",
+      "color": "gray",
+      "date": "2026-01-04T00:00:00.000Z",
+      "createdAt": "2026-01-04T00:00:00.000Z",
+      "updatedAt": "2026-01-04T00:00:00.000Z"
+    },
+    {
+      "id": "trans-63",
+      "userId": "48-eia2",
+      "accountId": "account-1",
+      "title": "iFood",
+      "description": "Almoço trabalho",
+      "amountCents": 5200,
+      "type": "expense",
+      "category": "food",
+      "color": "orange",
+      "date": "2026-01-06T00:00:00.000Z",
+      "createdAt": "2026-01-06T00:00:00.000Z",
+      "updatedAt": "2026-01-06T00:00:00.000Z"
+    },
+    {
+      "id": "trans-64",
+      "userId": "48-eia2",
+      "accountId": "tRBwdFn",
+      "title": "Internet",
+      "description": "Mensalidade janeiro",
+      "amountCents": 11990,
+      "type": "expense",
+      "category": "home",
+      "color": "blue",
+      "date": "2026-01-05T00:00:00.000Z",
+      "createdAt": "2026-01-05T00:00:00.000Z",
+      "updatedAt": "2026-01-05T00:00:00.000Z"
+    },
+    {
+      "id": "trans-65",
+      "userId": "48-eia2",
+      "accountId": "account-1",
+      "title": "Café Starbucks",
+      "description": "Café da manhã",
+      "amountCents": 2890,
+      "type": "expense",
+      "category": "food",
+      "color": "pink",
+      "date": "2026-01-07T00:00:00.000Z",
+      "createdAt": "2026-01-07T00:00:00.000Z",
+      "updatedAt": "2026-01-07T00:00:00.000Z"
+    },
+    {
+      "id": "trans-66",
+      "userId": "48-eia2",
+      "accountId": "account-1",
+      "title": "Gasolina Shell",
+      "description": "Tanque cheio",
+      "amountCents": 30000,
+      "type": "expense",
+      "category": "transport",
+      "color": "yellow",
+      "date": "2026-01-08T00:00:00.000Z",
+      "createdAt": "2026-01-08T00:00:00.000Z",
+      "updatedAt": "2026-01-08T00:00:00.000Z"
+    },
+    {
+      "id": "trans-67",
+      "userId": "48-eia2",
+      "accountId": "account-1",
+      "title": "Farmácia Drogasil",
+      "description": "Remédios mensais",
+      "amountCents": 12500,
+      "type": "expense",
+      "category": "health",
+      "color": "lime",
+      "date": "2026-01-09T00:00:00.000Z",
+      "createdAt": "2026-01-09T00:00:00.000Z",
+      "updatedAt": "2026-01-09T00:00:00.000Z"
+    },
+    {
+      "id": "trans-68",
+      "userId": "48-eia2",
+      "accountId": "account-1",
+      "title": "Freelance Mobile",
+      "description": "App de delivery",
+      "amountCents": 380000,
+      "type": "revenue",
+      "category": "revenue",
+      "color": "teal",
+      "date": "2026-01-10T00:00:00.000Z",
+      "createdAt": "2026-01-10T00:00:00.000Z",
+      "updatedAt": "2026-01-10T00:00:00.000Z"
+    },
+    {
+      "id": "trans-69",
+      "userId": "48-eia2",
+      "accountId": "account-1",
+      "title": "Restaurante Japonês",
+      "description": "Jantar aniversário",
+      "amountCents": 28500,
+      "type": "expense",
+      "category": "food",
+      "color": "red",
+      "date": "2026-01-11T00:00:00.000Z",
+      "createdAt": "2026-01-11T00:00:00.000Z",
+      "updatedAt": "2026-01-11T00:00:00.000Z"
+    },
+    {
+      "id": "trans-70",
+      "userId": "48-eia2",
+      "accountId": "tRBwdFn",
+      "title": "Energia Elétrica",
+      "description": "Conta janeiro",
+      "amountCents": 32000,
+      "type": "expense",
+      "category": "home",
+      "color": "yellow",
+      "date": "2026-01-10T00:00:00.000Z",
+      "createdAt": "2026-01-10T00:00:00.000Z",
+      "updatedAt": "2026-01-10T00:00:00.000Z"
+    },
+    {
+      "id": "trans-71",
+      "userId": "48-eia2",
+      "accountId": "account-1",
+      "title": "Amazon Prime",
+      "description": "Assinatura anual",
+      "amountCents": 14900,
+      "type": "expense",
+      "category": "entertainment",
+      "color": "orange",
+      "date": "2026-01-01T00:00:00.000Z",
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "trans-72",
+      "userId": "48-eia2",
+      "accountId": "account-1",
+      "title": "Udemy",
+      "description": "Curso de TypeScript",
+      "amountCents": 2799,
+      "type": "expense",
+      "category": "education",
+      "color": "purple",
+      "date": "2026-01-02T00:00:00.000Z",
+      "createdAt": "2026-01-02T00:00:00.000Z",
+      "updatedAt": "2026-01-02T00:00:00.000Z"
+    },
+    {
+      "id": "trans-73",
+      "userId": "48-eia2",
+      "accountId": "account-1",
+      "title": "Renner",
+      "description": "Camisa social",
+      "amountCents": 14990,
+      "type": "expense",
+      "category": "clothing",
+      "color": "grape",
+      "date": "2026-01-05T00:00:00.000Z",
+      "createdAt": "2026-01-05T00:00:00.000Z",
+      "updatedAt": "2026-01-05T00:00:00.000Z"
+    },
+    {
+      "id": "trans-74",
+      "userId": "48-eia2",
+      "accountId": "account-1",
+      "title": "Barbeiro",
+      "description": "Corte e barba",
+      "amountCents": 6500,
+      "type": "expense",
+      "category": "health",
+      "color": "cyan",
+      "date": "2026-01-08T00:00:00.000Z",
+      "createdAt": "2026-01-08T00:00:00.000Z",
+      "updatedAt": "2026-01-08T00:00:00.000Z"
+    },
+    {
+      "id": "trans-75",
+      "userId": "48-eia2",
+      "accountId": "account-1",
+      "title": "Cinema Kinoplex",
+      "description": "Filme + pipoca",
+      "amountCents": 9500,
+      "type": "expense",
+      "category": "entertainment",
+      "color": "indigo",
+      "date": "2026-01-09T00:00:00.000Z",
+      "createdAt": "2026-01-09T00:00:00.000Z",
+      "updatedAt": "2026-01-09T00:00:00.000Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "food",
+      "name": "Alimentação"
+    },
+    {
+      "id": "home",
+      "name": "Casa"
+    },
+    {
+      "id": "education",
+      "name": "Educação"
+    },
+    {
+      "id": "entertainment",
+      "name": "Entretenimento"
+    },
+    {
+      "id": "grocery",
+      "name": "Compras"
+    },
+    {
+      "id": "clothing",
+      "name": "Roupas"
+    },
+    {
+      "id": "health",
+      "name": "Saúde"
+    },
+    {
+      "id": "transport",
+      "name": "Transporte"
+    },
+    {
+      "id": "trip",
+      "name": "Viagem"
+    },
+    {
+      "id": "revenue",
+      "name": "Receita"
+    },
+    {
+      "id": "expense",
+      "name": "Despesa"
+    },
+    {
+      "id": "bank_accounts",
+      "name": "Contas Bancárias"
+    },
+    {
+      "id": "money",
+      "name": "Dinheiro"
+    },
+    {
+      "id": "investment",
+      "name": "Investimento"
+    },
+    {
+      "id": "transactions",
+      "name": "Transações"
+    },
+    {
+      "id": "account",
+      "name": "Conta"
+    }
+  ],
+  "colors": [
+    {
+      "id": "gray",
+      "name": "Gray"
+    },
+    {
+      "id": "red",
+      "name": "Red"
+    },
+    {
+      "id": "pink",
+      "name": "Pink"
+    },
+    {
+      "id": "grape",
+      "name": "Grape"
+    },
+    {
+      "id": "purple",
+      "name": "Purple"
+    },
+    {
+      "id": "indigo",
+      "name": "Indigo"
+    },
+    {
+      "id": "blue",
+      "name": "Blue"
+    },
+    {
+      "id": "cyan",
+      "name": "Cyan"
+    },
+    {
+      "id": "teal",
+      "name": "Teal"
+    },
+    {
+      "id": "green",
+      "name": "Green"
+    },
+    {
+      "id": "lime",
+      "name": "Lime"
+    },
+    {
+      "id": "yellow",
+      "name": "Yellow"
+    },
+    {
+      "id": "orange",
+      "name": "Orange"
+    }
+  ],
+  "transaction_types": [
+    {
+      "id": "expense",
+      "name": "Despesa"
+    },
+    {
+      "id": "revenue",
+      "name": "Receita"
+    },
+    {
+      "id": "transfer",
+      "name": "Transferência"
+    }
+  ],
+  "account_types": [
+    {
+      "id": "bank_account",
+      "name": "Conta"
+    },
+    {
+      "id": "wallet",
+      "name": "Carteira"
+    },
+    {
+      "id": "credit_card",
+      "name": "Cartão de Crédito"
+    },
+    {
+      "id": "investment",
+      "name": "Investimento"
     }
   ]
 }
