@@ -1,43 +1,59 @@
-import { DropdownMenu, Icons } from "../ui";
-import { IconButton } from "./icon-button";
+import { DropdownMenu, General } from "../ui";
+import { type ComponentProps } from "react";
+import { cn } from "@/lib/utils.ts";
 
-export function Fab() {
+export interface FabProps extends ComponentProps<"div"> {}
+
+export function Root({ children, className, ...props }: Readonly<FabProps>) {
   return (
-    <div className="fixed bottom-6 right-6">
-      <DropdownMenu>
-        <DropdownMenu.Trigger asChild>
-          <IconButton
-            icon="Plus"
-            className="data-[state=open]:rotate-45 transition-all duration-300 ease-in-out"
-          />
-        </DropdownMenu.Trigger>
-        <DropdownMenu.Content
-          side="top"
-          align="end"
-          sideOffset={16}
-          className="bg-white flex flex-col justify-end items-start p-2 rounded-2xl"
-        >
-          <FabItem>
-            <FabItemIcon icon="Expense" />
-            <FabItemText>Nova Despesa</FabItemText>
-          </FabItem>
-          <FabItem>
-            <FabItemIcon icon="Revenue" />
-            <FabItemText>Nova Receita</FabItemText>
-          </FabItem>
-          <FabItem>
-            <FabItemIcon icon="BankAccounts" />
-            <FabItemText>Nova Conta</FabItemText>
-          </FabItem>
-        </DropdownMenu.Content>
-      </DropdownMenu>
+    <div className={cn(className)} {...props}>
+      <DropdownMenu>{children}</DropdownMenu>
     </div>
   );
 }
 
-function FabItem({ children }: { children: React.ReactNode }) {
+const Icons = {
+  Expense: General.Expense,
+  Revenue: General.Revenue,
+  BankAccounts: General.BankAccounts,
+};
+
+export type FabContentProps = ComponentProps<typeof DropdownMenu.Content>;
+
+function FabContent({ className, ...props }: Readonly<FabContentProps>) {
   return (
-    <DropdownMenu.Item className="flex flex-row justify-center items-center p-2 gap-2 w-full h-16 bg-white rounded-2xl">
+    <DropdownMenu.Content
+      side="top"
+      align="end"
+      sideOffset={16}
+      className={cn(
+        "bg-white flex flex-col justify-end items-start p-2 rounded-2xl",
+        className,
+      )}
+      {...props}
+    />
+  );
+}
+
+export type FabTriggerProps = ComponentProps<typeof DropdownMenu.Trigger>;
+
+function FabTrigger({ className, ...props }: Readonly<FabTriggerProps>) {
+  return <DropdownMenu.Trigger className={cn(className)} {...props} />;
+}
+
+export type FabItemProps = {
+  children: React.ReactNode;
+  className?: string;
+};
+
+function FabItem({ children, className = "" }: Readonly<FabItemProps>) {
+  return (
+    <DropdownMenu.Item
+      className={cn(
+        "flex flex-row justify-start items-center p-2 gap-2 w-full h-16 bg-white rounded-2xl hover:cursor-pointer",
+        className,
+      )}
+    >
       {children}
     </DropdownMenu.Item>
   );
@@ -51,3 +67,10 @@ function FabItemIcon({ icon }: { icon: keyof typeof Icons }) {
   const IconComponent = Icons[icon];
   return <IconComponent />;
 }
+export const Fab = Object.assign(Root, {
+  Item: FabItem,
+  ItemText: FabItemText,
+  ItemIcon: FabItemIcon,
+  Trigger: FabTrigger,
+  Content: FabContent,
+});

@@ -51,10 +51,10 @@ const InputField = React.forwardRef<HTMLInputElement, InputFieldProps>(
     const showLabel = label && (isFocused || hasValue);
 
     return (
-      <Field className={cn("gap-2 max-w-[329px]", containerClassName)}>
+      <Field className={cn("gap-2", containerClassName)}>
         <div
           className={cn(
-            "relative flex items-center  max-w-[329px] h-[52px] px-3 bg-white rounded-lg border transition-colors",
+            "relative flex items-center h-13 px-3 bg-white rounded-lg border transition-colors",
             error
               ? "border-[#C92A2A]"
               : isFocused
@@ -136,8 +136,10 @@ const InputField = React.forwardRef<HTMLInputElement, InputFieldProps>(
 );
 InputField.displayName = "InputField";
 
-interface PasswordInputProps
-  extends Omit<InputFieldProps, "type" | "icon" | "iconPosition"> {}
+interface PasswordInputProps extends Omit<
+  InputFieldProps,
+  "type" | "icon" | "iconPosition"
+> {}
 
 const PasswordInput = React.forwardRef<HTMLInputElement, PasswordInputProps>(
   (props, ref) => {
@@ -171,8 +173,10 @@ const PasswordInput = React.forwardRef<HTMLInputElement, PasswordInputProps>(
 );
 PasswordInput.displayName = "PasswordInput";
 
-interface DateInputProps
-  extends Omit<InputFieldProps, "type" | "icon" | "iconPosition"> {}
+interface DateInputProps extends Omit<
+  InputFieldProps,
+  "type" | "icon" | "iconPosition"
+> {}
 
 const DateInput = React.forwardRef<HTMLInputElement, DateInputProps>(
   (props, ref) => {

@@ -3,15 +3,15 @@ import * as AvatarPrimitive from "@radix-ui/react-avatar";
 
 import { cn } from "@/lib/utils";
 
-function AvatarRoot({
-  className,
-  ...props
-}: React.ComponentProps<typeof AvatarPrimitive.Root>) {
+export interface AvatarProps
+  extends React.ComponentProps<typeof AvatarPrimitive.Root> {}
+
+function AvatarRoot({ className, ...props }: AvatarProps) {
   return (
     <AvatarPrimitive.Root
       data-slot="avatar"
       className={cn(
-        "relative flex size-8 shrink-0 overflow-hidden rounded-full",
+        "relative flex size-12 bg-teal-0 text-teal-9 shrink-0 overflow-hidden rounded-full",
         className,
       )}
       {...props}

@@ -3,8 +3,8 @@ import { Slot } from "@radix-ui/react-slot";
 import { cva } from "class-variance-authority";
 import * as React from "react";
 
-export const button = cva(
-  "inline-flex cursor-pointer items-center justify-center rounded font-medium transition-colors select-none h-12 px-6 disabled:opacity-50 disabled:pointer-events-none",
+export const buttonVariants = cva(
+  "inline-flex cursor-pointer items-center justify-center rounded font-medium transition-colors select-none h-12 px-6 rounded-2xl disabled:opacity-50 disabled:pointer-events-none",
   {
     variants: {
       variant: {
@@ -79,8 +79,7 @@ export const button = cva(
 export type ButtonVariant = "primary" | "secondary" | "tertiary";
 export type ButtonIntent = "default" | "destructive" | "ghost";
 
-export interface ButtonProps
-  extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: ButtonVariant;
   intent?: ButtonIntent;
   asChild?: boolean;
@@ -95,6 +94,6 @@ export function Button({
   ...props
 }: Readonly<ButtonProps>) {
   const Comp = asChild ? Slot : "button";
-  const buttonClassNames = cn(button({ variant, intent }), className);
+  const buttonClassNames = cn(buttonVariants({ variant, intent }), className);
   return <Comp type={type} className={buttonClassNames} {...props} />;
 }
