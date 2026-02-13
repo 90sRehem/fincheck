@@ -1,9 +1,9 @@
-import { useLoginMutation } from "@/shared/api";
 import { Button, Form, InputField } from "@fincheck/design-system";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { Link } from "@tanstack/react-router";
 import { useForm } from "react-hook-form";
 import z from "zod";
+import { useLogin } from "../model/use-login";
 
 const formSchema = z.object({
   email: z.email({
@@ -21,7 +21,7 @@ export function LoginPage() {
     resolver: zodResolver(formSchema),
   });
 
-  const { login } = useLoginMutation();
+  const { login } = useLogin();
 
   const handleSubmit = (data: FormData) => {
     console.log(data);
@@ -69,7 +69,7 @@ export function LoginPage() {
               variant="primary"
               type="submit"
               intent="default"
-              className="w-full"
+              className="w-full h-13.5"
             >
               Entrar
             </Button>{" "}
