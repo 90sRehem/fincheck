@@ -1,8 +1,8 @@
-import { login } from "@/shared/api";
 import { useMutation } from "@tanstack/react-query";
 import { useRouter } from "@tanstack/react-router";
 import { sessionActions } from "@/entities/session";
 import { userActions } from "@/entities/users";
+import { login } from "@/shared/api";
 
 export function useLogin() {
 	const router = useRouter();
@@ -12,7 +12,7 @@ export function useLogin() {
 		onSuccess: ({ accessToken, userId }) => {
 			console.log("login success", { accessToken, userId });
 			sessionActions.login({ token: accessToken });
-			userActions.addUser({ user: { id: userId, email: "", name: "" } });
+			userActions.addUser({ user: { id: userId, email: "" } });
 
 			router.navigate({ to: "/" });
 		},
