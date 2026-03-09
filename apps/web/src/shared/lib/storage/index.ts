@@ -1,18 +1,15 @@
-export { StorageService, createStorageService } from "./storage-service";
 export type {
-  StorageChangeType,
-  StorageChangeData,
-  StorageObserver,
-  StorageServiceConfig,
+	StorageChangeData,
+	StorageChangeType,
+	StorageObserver,
+	StorageServiceConfig,
 } from "./storage-service";
-
-export {
-  TokenStorage,
-  createTokenStorage,
-  tokenStorage,
-} from "./token-storage";
+export { createStorageService, StorageService } from "./storage-service";
 export type { TokenStorageConfig } from "./token-storage";
-
-export { UserStorage, createUserStorage, userStorage } from "./user-storage";
-
-export type { UserStorageConfig, User } from "./user-storage";
+export {
+	createTokenStorage,
+	TokenStorage,
+	tokenStorage,
+} from "./token-storage";
+export type { UserStorageConfig } from "./user-storage";
+export { createUserStorage, UserStorage, userStorage } from "./user-storage";
