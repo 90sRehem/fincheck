@@ -1,20 +1,17 @@
+/** biome-ignore-all lint/style/noMagicNumbers: <explanation> */
 import { NestFactory } from "@nestjs/core";
-import type { NestFastifyApplication } from "@nestjs/platform-fastify";
-import { FastifyAdapter } from "@nestjs/platform-fastify";
+import { NestExpressApplication } from "@nestjs/platform-express";
 import { DocumentBuilder, SwaggerModule } from "@nestjs/swagger";
 import { apiReference } from "@scalar/nestjs-api-reference";
 import { AppModule } from "./app.module";
 
-const PORT = 3333;
+const PORT = process.env.PORT ?? 3333;
 
 async function bootstrap() {
-	const app = await NestFactory.create<NestFastifyApplication>(
-		AppModule,
-		new FastifyAdapter({ logger: process.env.NODE_ENV === "development" }),
-	);
+	const app = await NestFactory.create<NestExpressApplication>(AppModule);
 
 	app.enableCors();
-
+	app.set("x-powered-by", false);
 	app.setGlobalPrefix("api");
 
 	const config = new DocumentBuilder()
@@ -24,10 +21,7 @@ async function bootstrap() {
 		.build();
 
 	const document = SwaggerModule.createDocument(app, config);
-
-	SwaggerModule.setup("/docs", app, document);
-
-	app.use("/docs", apiReference({ content: document, withFastify: true }));
+	app.use("/docs", apiReference({ content: document }));
 	await app.listen(process.env.PORT ?? PORT);
 }
 
