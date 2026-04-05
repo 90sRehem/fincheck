@@ -5,6 +5,7 @@ import { AppService } from "./app.service";
 import { AuthModule } from "./core/auth";
 import { DatabaseModule } from "./core/database";
 import { EnvModule, envSchema } from "./core/env";
+import { EventsModule } from "./core/events/events.module";
 
 @Module({
 	imports: [
@@ -14,6 +15,7 @@ import { EnvModule, envSchema } from "./core/env";
 		}),
 		EnvModule,
 		DatabaseModule,
+		EventsModule,
 		AuthModule,
 	],
 	controllers: [AppController],

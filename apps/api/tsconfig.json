@@ -9,6 +9,10 @@
 		"esModuleInterop": true,
 		"allowSyntheticDefaultImports": true,
 		"outDir": "./dist",
-		"baseUrl": "./"
+		"baseUrl": "./",
+		"paths": {
+			"@/shared/domain/*": ["./src/shared/domain/*"],
+			"@/core/*": ["./src/core/*"]
+		}
 	}
 }
