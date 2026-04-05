@@ -1,4 +1,15 @@
 {
 	"$schema": "https://opencode.ai/config.json",
-	"instructions": ["apps/*/AGENTS.md", "packages/*/AGENTS.md"]
+	"instructions": ["apps/*/AGENTS.md", "packages/*/AGENTS.md"],
+	"mcp": {
+		"figma": {
+			"type": "remote",
+			"url": "https://mcp.figma.com/mcp",
+			"enabled": true,
+			"oauth": {
+				"clientId": "pR8AAG9njis73Rfzi2DP9q",
+				"clientSecret": "j5lIYT9BbtBL5fdALKCs0h4LkUYy6U"
+			}
+		}
+	}
 }
