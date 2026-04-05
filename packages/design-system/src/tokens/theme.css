@@ -5,7 +5,7 @@
   --color-gray-3: #dee2e6;
   --color-gray-4: #ced4da;
   --color-gray-5: #adb5bd;
-  --color-gray-6: #868b96;
+  --color-gray-6: #868E96;
   --color-gray-7: #495057;
   --color-gray-8: #343a40;
   --color-gray-9: #212529;
@@ -124,10 +124,14 @@
   --color-orange-2: #ffd8a8;
   --color-orange-3: #ffc078;
   --color-orange-4: #ffa94d;
+  --color-orange-5: #FF922B;
   --color-orange-6: #fd7e14;
   --color-orange-7: #f76707;
   --color-orange-8: #e8590c;
   --color-orange-9: #d9480f;
+
+  --radius-default: 1rem;
+  --radius-pill: 9999px;
 
   --spacing-0: 0;
   --spacing-1: 0.25rem;
@@ -151,6 +155,8 @@
   --font-family-base: DM Sans, system-ui, sans-serif;
 
   --shadow-default: 0px 11px 20px rgba(0, 0, 0, 0.1);
+
+  --blur-default: 10px;
 }
 
 @utility heading-1 {
@@ -168,35 +174,35 @@
 }
 
 @utility heading-3 {
-  font-size: 1.3rem;
+  font-size: 1.25rem;
   font-weight: 700;
   line-height: 1.625rem;
   letter-spacing: -0.06rem;
 }
 
 @utility heading-4 {
-  font-size: 1.1rem;
+  font-size: 1.125rem;
   font-weight: 700;
   line-height: 1.438rem;
   letter-spacing: -0.06rem;
 }
 
 @utility body-large-bold {
-  font-size: 1.1rem;
+  font-size: 1.125rem;
   font-weight: 700;
   line-height: 1.688rem;
   letter-spacing: -0.031rem;
 }
 
 @utility body-large-medium {
-  font-size: 1.1rem;
+  font-size: 1.125rem;
   font-weight: 500;
   line-height: 1.688rem;
   letter-spacing: -0.031rem;
 }
 
 @utility body-large-regular {
-  font-size: 1.1rem;
+  font-size: 1.125rem;
   font-weight: 400;
   line-height: 1.688rem;
   letter-spacing: -0.031rem;
@@ -226,15 +232,15 @@
 @utility body-small-regular {
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1.5rem;
+  line-height: 1.3125rem;
   letter-spacing: 0rem;
 }
 
 @utility input-label {
   font-size: 0.75rem;
   font-weight: 400;
-  line-height: 1.25rem;
-  letter-spacing: 0.025rem;
+  line-height: 0.75rem;
+  letter-spacing: 0rem;
 }
 
 @utility input-label-small {
@@ -254,8 +260,8 @@
 @utility input-helper {
   font-size: 0.75rem;
   font-weight: 400;
-  line-height: 0.75rem;
-  letter-spacing: 1.063rem;
+  line-height: 1.0625rem;
+  letter-spacing: 0rem;
 }
 
 @utility button-large {
@@ -268,7 +274,7 @@
 @utility button-small {
   font-size: 0.875rem;
   font-weight: 500;
-  line-height: 1.125rem;
+  line-height: 1.25rem;
   letter-spacing: -0.031rem;
 }
 
@@ -279,37 +285,10 @@
   letter-spacing: -0.025rem;
 }
 
-@utility heading-1 {
-  font-size: 2rem;
-  font-weight: 700;
-  line-height: 2rem;
-  letter-spacing: -0.06rem;
+@utility rounded {
+  border-radius: var(--radius-default);
 }
 
-@utility heading-2 {
-  font-size: 1.5rem;
-  font-weight: 700;
-  line-height: 1.938rem;
-  letter-spacing: -0.06rem;
-}
-
-@utility heading-3 {
-  font-size: 1.3rem;
-  font-weight: 700;
-  line-height: 1.625rem;
-  letter-spacing: -0.06rem;
-}
-
-@utility heading-4 {
-  font-size: 1.1rem;
-  font-weight: 700;
-  line-height: 1.438rem;
-  letter-spacing: -0.06rem;
-}
-
-@utility heading-5 {
-  font-size: 1rem;
-  font-weight: 600;
-  line-height: 1.25rem;
-  letter-spacing: -0.025rem;
+@utility rounded-pill {
+  border-radius: var(--radius-pill);
 }
