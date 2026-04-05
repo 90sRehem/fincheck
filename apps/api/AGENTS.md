@@ -61,4 +61,5 @@ src/
 - **Test files STALE:** `app.controller.spec.ts` expects `"Hello World!"` but service returns `"healthy"`. E2E tests expect `/` but app uses `/api` prefix.
 
 For module structure, entity/VO patterns, and use-case conventions, load the `nestjs-ddd` skill.
+For bounded contexts, module boundaries, event communication, and state isolation, load the `nestjs-modular-monolith` skill.
 For schema changes, migrations, and Drizzle patterns, load the `fincheck-database` skill.

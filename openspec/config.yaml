@@ -1,0 +1,62 @@
+schema: spec-driven
+
+# Project context
+context: |
+  ## Project: Fincheck — Personal Finance Management App
+  
+  ### Tech Stack
+  - **Monorepo:** Bun + Turborepo
+  - **Backend:** NestJS 11, Drizzle ORM, PostgreSQL 15, better-auth
+  - **Frontend:** React 19, TanStack Router/Query, Tailwind CSS 4
+  - **Design System:** Radix UI, shadcn/ui (new-york style), lucide-react
+  - **Testing:** Vitest + Testing Library + Playwright
+  - **Linter/Formatter:** Biome (except docs app uses ESLint)
+  
+  ### Architecture
+  - **Backend:** DDD patterns — use-case folders, entity/VO separation, core infrastructure
+  - **Frontend:** Feature-Sliced Design (FSD) — app/pages/entities/shared layers
+  - **Design System:** Two-tier components — ui/ primitives + patterns/ composed
+  
+  ### Key Conventions
+  - TypeScript strict mode, Zod validation everywhere
+  - kebab-case files, PascalCase exports
+  - Workspace imports via @fincheck/* (never cross-app imports)
+  - Path alias @/* → src/* (frontend/design-system only)
+  - Auth: global guards with @AllowAnonymous() decorator
+  - Database: UUIDv4 as text, plural table names
+  - Forms: react-hook-form + Zod schemas
+  - Props: Readonly<> wrapper
+  
+  ### Domain
+  Personal finance management — transactions, budgets, accounts, categories
+  
+  ### Quality Standards
+  - No magic numbers or hardcoded values
+  - Explicit error handling (never silent failures)
+  - Type-safe APIs (DTOs with Zod)
+  - Accessibility-first UI components
+
+# Per-artifact rules
+rules:
+  proposal:
+    - Keep proposals focused and under 800 words
+    - Always include "Success Criteria" section
+    - Include "Technical Constraints" if touching database/auth/routing
+    - Reference existing modules/components to maintain consistency
+    - Specify which app(s) are affected (api/web/docs/design-system)
+  
+  tasks:
+    - Break into max 2-hour chunks
+    - Each task must have clear acceptance criteria
+    - Specify test requirements (unit/integration/e2e)
+    - Tag tasks with layer/module (e.g., [api/core], [web/entities], [design-system/patterns])
+    - Database changes require separate migration task
+    - API changes require DTO + validation task
+  
+  implementation:
+    - Run type checking before claiming done (turbo check-types)
+    - Follow FSD import rules on frontend (layers only import downward)
+    - Use DI patterns on backend (inject via constructor)
+    - All new components need Storybook stories
+    - Database changes need migration files
+    - Update relevant AGENTS.md if introducing new patterns

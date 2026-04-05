@@ -39,6 +39,7 @@ bun run --filter @fincheck/api db:studio       # Open Drizzle Studio
 Load via `skill` tool only when the task requires it:
 
 - `nestjs-ddd` — Backend module structure, entity/VO patterns, use-case conventions
+- `nestjs-modular-monolith` — Bounded contexts, module boundaries, event communication, state isolation, CQRS (optional)
 - `react-fsd` — Frontend FSD layers, state management, routing, HTTP client patterns
 - `fincheck-design-system` — Component tiers, token pipeline, icon system, build config
 - `fincheck-database` — Drizzle schema, migrations, DI patterns, better-auth tables
