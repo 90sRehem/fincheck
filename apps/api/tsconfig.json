@@ -1,18 +1,12 @@
 {
+	"extends": "@fincheck/ts-config/node.json",
 	"compilerOptions": {
-		"strict": true,
-		"emitDecoratorMetadata": true,
-		"experimentalDecorators": true,
-		"target": "es2022",
-		"module": "commonjs",
-		"moduleResolution": "node",
-		"esModuleInterop": true,
-		"allowSyntheticDefaultImports": true,
 		"outDir": "./dist",
 		"baseUrl": "./",
 		"paths": {
 			"@/shared/domain/*": ["./src/shared/domain/*"],
-			"@/core/*": ["./src/core/*"]
+			"@/core/*": ["./src/core/*"],
+			"@/modules/bank-accounts/*": ["./src/modules/bank-accounts/*"]
 		}
 	}
 }

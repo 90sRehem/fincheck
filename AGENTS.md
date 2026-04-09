@@ -34,6 +34,22 @@ bun run --filter @fincheck/api db:studio       # Open Drizzle Studio
 - **NEVER import between apps:** Apps (`api`, `web`, `docs`) must not import from each other
 - **Path aliases:** Frontend/design-system use `@/*` → `src/*`; backend uses relative imports
 
+## Code Conventions
+
+- **No TypeScript enums:** Never use `enum` or `const enum`. Use `as const` objects with derived union types instead:
+  ```ts
+  // Correct
+  export const BANK_ACCOUNT_TYPE = {
+    CHECKING: "checking",
+    SAVINGS: "savings",
+  } as const;
+  export type BankAccountType = typeof BANK_ACCOUNT_TYPE[keyof typeof BANK_ACCOUNT_TYPE];
+
+  // Wrong — never do this
+  export enum BankAccountType { CHECKING = "checking", SAVINGS = "savings" }
+  ```
+  PostgreSQL `pgEnum` in Drizzle schemas is allowed — this rule applies only to TypeScript.
+
 ## On-Demand Skills
 
 Load via `skill` tool only when the task requires it:

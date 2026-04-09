@@ -17,7 +17,7 @@ export class Id extends ValueObject<string> {
 		return new Id(value);
 	}
 
-	toString(): string {
+	override toString(): string {
 		return this.props;
 	}
 }
