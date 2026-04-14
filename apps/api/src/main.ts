@@ -16,8 +16,13 @@ async function bootstrap() {
 
 	const config = new DocumentBuilder()
 		.setTitle("Fincheck API")
-		.setDescription("Fincheck API")
+		.setDescription(
+			"API de gerenciamento de finanças pessoais. Todos os endpoints requerem autenticação via sessão (cookie `better-auth.session_token`).",
+		)
 		.setVersion("1.0")
+		.addCookieAuth("better-auth.session_token")
+		.addTag("Health", "Status da API")
+		.addTag("Bank Accounts", "Gerenciamento de contas bancárias")
 		.build();
 
 	const document = SwaggerModule.createDocument(app, config);
