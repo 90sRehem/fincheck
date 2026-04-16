@@ -36,7 +36,8 @@ bun run --filter @fincheck/api db:studio       # Open Drizzle Studio
 
 ## Code Conventions
 
-- **No TypeScript enums:** Never use `enum` or `const enum`. Use `as const` objects with derived union types instead:
+- **No TypeScript enums:** Never use `enum`. Use `as const` objects with derived union types instead:
+
   ```ts
   // Correct
   export const BANK_ACCOUNT_TYPE = {
@@ -48,6 +49,7 @@ bun run --filter @fincheck/api db:studio       # Open Drizzle Studio
   // Wrong — never do this
   export enum BankAccountType { CHECKING = "checking", SAVINGS = "savings" }
   ```
+
   PostgreSQL `pgEnum` in Drizzle schemas is allowed — this rule applies only to TypeScript.
 
 ## On-Demand Skills
@@ -61,3 +63,28 @@ Load via `skill` tool only when the task requires it:
 - `fincheck-database` — Drizzle schema, migrations, DI patterns, better-auth tables
 - `fincheck-tooling` — Biome, Bun, Turborepo, Docker, Terraform configs
 - `fincheck-code-quality` — Biome rule rationale, TS strict patterns, naming conventions
+
+## Vault de Memória Persistente
+
+O vault centralizado do projeto fica em `~/Documents/dev/projets-wiki/`.
+
+### Regra de Consulta em 3 Camadas
+
+1. **Primeiro:** consultar `graphify-out/graph.json` ou `graphify-out/GRAPH_REPORT.md` para estrutura do código
+2. **Segundo:** consultar `~/Documents/dev/projets-wiki/fincheck/` para decisões, progresso e contexto
+3. **Terceiro:** ler arquivos de código bruto apenas ao editar
+
+### Comandos de Sessão
+
+- `/resume` — ler logs recentes em `~/Documents/dev/projets-wiki/fincheck/logs/` + `architecture/decisions.md`, resumir estado atual
+- `/save` — criar log em `~/Documents/dev/projets-wiki/fincheck/logs/YYYY-MM-DD-descricao.md` com o que foi feito, decisões e pendências
+
+## graphify
+
+This project has a graphify knowledge graph at graphify-out/.
+
+Rules:
+
+- Before answering architecture or codebase questions, read graphify-out/GRAPH_REPORT.md for god nodes and community structure
+- If graphify-out/wiki/index.md exists, navigate it instead of reading raw files
+- After modifying code files in this session, run `python3 -c "from graphify.watch import _rebuild_code; from pathlib import Path; _rebuild_code(Path('.'))"` to keep the graph current
