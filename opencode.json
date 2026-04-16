@@ -10,6 +10,14 @@
 				"clientId": "pR8AAG9njis73Rfzi2DP9q",
 				"clientSecret": "j5lIYT9BbtBL5fdALKCs0h4LkUYy6U"
 			}
+		},
+		"githubPersonal": {
+			"type": "local",
+			"command": ["npx", "-y", "@modelcontextprotocol/server-github"],
+			"environment": {
+				"GITHUB_PERSONAL_ACCESS_TOKEN": "${GITHUB_PERSONAL_ACCESS_TOKEN}"
+			},
+			"enabled": true
 		}
 	}
 }

@@ -4,7 +4,7 @@
 		"outDir": "./dist",
 		"baseUrl": "./",
 		"paths": {
-			"@/shared/domain/*": ["./src/shared/domain/*"],
+			"@/shared/*": ["./src/shared/*"],
 			"@/core/*": ["./src/core/*"],
 			"@/modules/bank-accounts/*": ["./src/modules/bank-accounts/*"]
 		}
