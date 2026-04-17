@@ -14,17 +14,10 @@ interface BankAccountEntityProps extends BankAccountProps {
 }
 
 export class BankAccount extends Entity<BankAccountEntityProps> {
-	private constructor(props: BankAccountEntityProps, id?: string) {
+	constructor(props: BankAccountEntityProps, id?: string) {
 		super(props, id);
-	}
-
-	static create(props: BankAccountProps, id?: string): BankAccount {
-		const entityProps: BankAccountEntityProps = {
-			...props,
-			createdAt: new Date(),
-			updatedAt: new Date(),
-		};
-		return new BankAccount(entityProps, id);
+		this.props.createdAt = props.createdAt ?? new Date();
+		this.props.updatedAt = props.updatedAt ?? new Date();
 	}
 
 	validate(): Either<ValidationFieldsError, void> {

@@ -1,24 +1,30 @@
 import { apiClient } from "@/shared/api";
 
-type GetUserResponse = {
-  id: string;
-  email: string;
-  name: string;
-  password: string;
+type GetSessionResponse = {
+	session: {
+		id: string;
+		userId: string;
+		expiresAt: string;
+	};
+	user: {
+		id: string;
+		name: string;
+		email: string;
+		image: string | null;
+		emailVerified: boolean;
+	};
 };
 
-export type GetUserRequest = {
-  id: string;
-};
+export async function getUser() {
+	const response = await apiClient.get<GetSessionResponse>({
+		url: "/api/auth/get-session",
+	});
 
-export async function getUser({ id }: GetUserRequest) {
-  const response = await apiClient.get<GetUserResponse>({
-    url: `/api/users/${id}`,
-  });
-
-  return {
-    id: response.data.id,
-    email: response.data.email,
-    name: response.data.name,
-  };
+	return {
+		id: response.data.user.id,
+		name: response.data.user.name,
+		email: response.data.user.email,
+		image: response.data.user.image,
+		emailVerified: response.data.user.emailVerified,
+	};
 }

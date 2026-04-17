@@ -1,11 +1,11 @@
 import { queryOptions } from "@tanstack/react-query";
-import { getUser, type GetUserRequest } from "./get-user";
+import { getUser } from "./get-user";
 
 export const userQueryFactory = {
-  all: ["user"] as const,
-  getMe: ({ id }: GetUserRequest) =>
-    queryOptions({
-      queryKey: ["user", id],
-      queryFn: () => getUser({ id }),
-    }),
+	all: ["user"] as const,
+	getMe: () =>
+		queryOptions({
+			queryKey: ["user", "me"],
+			queryFn: () => getUser(),
+		}),
 };

@@ -10,7 +10,10 @@ const PORT = process.env.PORT ?? 3333;
 async function bootstrap() {
 	const app = await NestFactory.create<NestExpressApplication>(AppModule);
 
-	app.enableCors();
+	app.enableCors({
+		origin: process.env.WEB_CLIENT_URL,
+		credentials: true,
+	});
 	app.set("x-powered-by", false);
 	app.setGlobalPrefix("api");
 

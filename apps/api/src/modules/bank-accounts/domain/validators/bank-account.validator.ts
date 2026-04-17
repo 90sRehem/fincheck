@@ -15,6 +15,8 @@ export interface BankAccountProps {
 	currency: string;
 	color: string;
 	icon: string | null;
+	createdAt: Date;
+	updatedAt: Date;
 }
 
 export class BankAccountValidator extends ZodValidationStrategy<BankAccountProps> {
@@ -52,6 +54,8 @@ export class BankAccountValidator extends ZodValidationStrategy<BankAccountProps
 						"color must be a valid hex color (#RRGGBB)",
 					),
 				icon: z.string().nullable().default(null),
+				createdAt: z.date(),
+				updatedAt: z.date(),
 			}),
 		);
 	}

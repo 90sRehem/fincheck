@@ -11,5 +11,3 @@ export {
 	TokenStorage,
 	tokenStorage,
 } from "./token-storage";
-export type { UserStorageConfig } from "./user-storage";
-export { createUserStorage, UserStorage, userStorage } from "./user-storage";

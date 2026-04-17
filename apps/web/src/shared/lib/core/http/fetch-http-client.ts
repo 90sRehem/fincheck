@@ -120,6 +120,7 @@ export class FetchHttpClient implements HttpClient {
 
 			const response = await fetch(url.toString(), {
 				method: processedRequest.method,
+				credentials: "include",
 				headers: {
 					"content-type": "application/json;charset=utf-8",
 					...headers,

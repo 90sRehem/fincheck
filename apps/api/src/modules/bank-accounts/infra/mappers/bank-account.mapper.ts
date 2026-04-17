@@ -14,6 +14,7 @@ export type BankAccountRaw = {
 	updatedAt: Date;
 };
 
+// biome-ignore lint/complexity/noStaticOnlyClass: <explanation>
 export class BankAccountMapper {
 	static toDomain(raw: BankAccountRaw): BankAccount {
 		const props: BankAccountProps = {
@@ -25,8 +26,10 @@ export class BankAccountMapper {
 			currency: raw.currency,
 			color: raw.color,
 			icon: raw.icon ?? null,
+			createdAt: raw.createdAt,
+			updatedAt: raw.updatedAt,
 		};
-		return BankAccount.create(props, raw.id);
+		return new BankAccount(props, raw.id);
 	}
 
 	static toPersistence(entity: BankAccount) {

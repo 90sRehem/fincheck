@@ -8,7 +8,10 @@ import {
 } from "../../domain";
 
 export interface CreateBankAccountUseCaseInput
-	extends Omit<BankAccountProps, "currentBalance" | "icon"> {
+	extends Omit<
+		BankAccountProps,
+		"currentBalance" | "icon" | "createdAt" | "updatedAt"
+	> {
 	userId: string;
 	icon?: string | null;
 }
@@ -23,7 +26,7 @@ export class CreateBankAccountUseCase
 	): Promise<Either<ValidationFieldsError, BankAccount>> {
 		const { userId, initialBalance, icon, name, type, currency, color } = input;
 
-		const bankAccount = BankAccount.create(
+		const bankAccount = new BankAccount(
 			{
 				userId,
 				name,
@@ -33,6 +36,8 @@ export class CreateBankAccountUseCase
 				initialBalance,
 				currentBalance: initialBalance,
 				icon: icon ?? null,
+				createdAt: new Date(),
+				updatedAt: new Date(),
 			},
 			crypto.randomUUID(),
 		);

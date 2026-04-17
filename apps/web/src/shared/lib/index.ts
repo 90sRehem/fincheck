@@ -17,7 +17,6 @@ export {
 export {
 	createStorageService,
 	createTokenStorage,
-	createUserStorage,
 	type StorageChangeData,
 	type StorageChangeType,
 	type StorageObserver,
@@ -26,9 +25,6 @@ export {
 	TokenStorage,
 	type TokenStorageConfig,
 	tokenStorage,
-	UserStorage,
-	type UserStorageConfig,
-	userStorage,
 } from "./storage";
 export {
 	configureTokenServiceWithLogout,
@@ -36,4 +32,3 @@ export {
 	type TokenServiceConfig,
 	tokenService,
 } from "./token";
-export { UserService, type UserServiceConfig, userService } from "./user";

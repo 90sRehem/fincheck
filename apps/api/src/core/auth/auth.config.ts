@@ -32,5 +32,6 @@ export function createAuthConfig(
 				generateId: () => uuidv4(),
 			},
 		},
+		trustedOrigins: [env.get("WEB_CLIENT_URL")],
 	});
 }

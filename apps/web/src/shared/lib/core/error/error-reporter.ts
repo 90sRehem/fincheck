@@ -1,5 +1,4 @@
 import type { ErrorInfo } from "react";
-import { userStorage } from "../../storage";
 
 type ErrorContext = {
 	type?: "global" | "session" | "app-route" | "component";
@@ -14,7 +13,6 @@ export function reportError(error: Error, context?: ErrorContext) {
 		timestamp: new Date().toISOString(),
 		userAgent: navigator.userAgent,
 		url: window.location.href,
-		userId: userStorage.getUser()?.id,
 		...context,
 	};
 	console.error("Error reported:", errorData);

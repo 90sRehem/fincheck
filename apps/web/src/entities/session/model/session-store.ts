@@ -1,9 +1,9 @@
 import { createStore } from "@/shared/lib/core";
+import { queryClient } from "@/shared/lib/react-query";
 import {
 	configureTokenServiceWithLogout,
 	tokenService,
 } from "@/shared/lib/token";
-import { userService } from "@/shared/lib/user";
 
 type Session = {
 	token: string | null;
@@ -23,7 +23,8 @@ export const sessionActions = {
 	logout() {
 		sessionStore.setState(initialState);
 		tokenService.removeToken();
-		userService.removeUser();
+		void queryClient.invalidateQueries({ queryKey: ["user", "me"] });
+		globalThis.location.href = "/session";
 	},
 	getToken() {
 		return tokenService.getToken();
@@ -54,5 +55,4 @@ function getInitialState(): Session {
 configureTokenServiceWithLogout(() => {
 	console.warn("🚫 Token expirado, fazendo logout...");
 	sessionActions.logout();
-	globalThis.location.reload();
 });

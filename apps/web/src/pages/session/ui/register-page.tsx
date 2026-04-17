@@ -1,19 +1,39 @@
-import { Button, InputField } from "@fincheck/design-system";
+import { Button, Form, InputField } from "@fincheck/design-system";
 import { standardSchemaResolver } from "@hookform/resolvers/standard-schema";
-import { Link } from "@tanstack/react-router";
-import { Form, useForm } from "react-hook-form";
+import { Link, useRouter } from "@tanstack/react-router";
+import { useForm } from "react-hook-form";
 import z from "zod";
+import { useRegisterMutation } from "../model/use-register";
+
+const MIN_PASSWORD_LENGTH = 8;
+const MIN_NAME_LENGTH = 3;
 
 const formSchema = z.object({
-	username: z.string().min(2, {
-		message: "Username must be at least 2 characters.",
+	name: z.string().min(MIN_NAME_LENGTH, {
+		message: "Nome deve ter no mínimo 3 caracteres.",
+	}),
+	email: z.email({
+		message: "E-mail inválido.",
+	}),
+	password: z.string().min(MIN_PASSWORD_LENGTH, {
+		message: "Senha deve ter no mínimo 8 caracteres.",
 	}),
 });
+
+type FormData = z.infer<typeof formSchema>;
 
 export function RegisterPage() {
 	const form = useForm({
 		resolver: standardSchemaResolver(formSchema),
 	});
+
+	const router = useRouter();
+	const { register } = useRegisterMutation();
+
+	const handleSubmit = (data: FormData) => {
+		console.log("handleSubmit register", data);
+		register(data, { onSuccess: () => router.navigate({ to: "/" }) });
+	};
 
 	return (
 		<>
@@ -30,24 +50,34 @@ export function RegisterPage() {
 				</div>
 			</div>
 			<Form {...form}>
-				<form className="flex flex-col items-center p-0 gap-6 w-[311px]">
+				<form
+					onSubmit={form.handleSubmit(handleSubmit)}
+					className="flex flex-col items-center p-0 gap-6 w-[311px]"
+					noValidate
+				>
 					<InputField
 						label="Nome"
 						type="text"
 						placeholder="Nome"
 						containerClassName="w-full"
+						{...form.register("name")}
+						error={form.formState.errors.name?.message}
 					/>
 					<InputField
 						label="E-mail"
 						type="email"
 						placeholder="E-mail"
 						containerClassName="w-full"
+						{...form.register("email")}
+						error={form.formState.errors.email?.message}
 					/>
 					<InputField
 						label="Senha"
 						type="password"
 						placeholder="Senha"
 						containerClassName="w-full"
+						{...form.register("password")}
+						error={form.formState.errors.password?.message}
 					/>
 					<div className="flex flex-row justify-center items-center gap-2 w-full">
 						<Button

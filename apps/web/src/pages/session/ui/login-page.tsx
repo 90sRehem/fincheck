@@ -9,8 +9,8 @@ const formSchema = z.object({
 	email: z.email({
 		message: "E-mail inválido.",
 	}),
-	password: z.string().min(2, {
-		message: "Senha deve ter no mínimo 2 caracteres.",
+	password: z.string().min(8, {
+		message: "Senha deve ter no mínimo 8 caracteres.",
 	}),
 });
 
@@ -24,7 +24,7 @@ export function LoginPage() {
 	const { login } = useLogin();
 
 	const handleSubmit = (data: FormData) => {
-		console.log(data);
+		console.log("handleSubmit login", data);
 		login(data);
 	};
 
