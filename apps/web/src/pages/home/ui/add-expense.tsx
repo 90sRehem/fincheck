@@ -1,23 +1,28 @@
-import * as users from "@/entities/users";
-import { Dialog, IconButton } from "@fincheck/design-system";
+import {
+	Button,
+	Dialog,
+	IconButton,
+	InputField,
+	Select,
+} from "@fincheck/design-system";
 import { standardSchemaResolver } from "@hookform/resolvers/standard-schema";
 import { Link, useNavigate } from "@tanstack/react-router";
 import { Controller, useForm } from "react-hook-form";
-import { createTransactionSchema } from "../model/create-transaction-schema";
+import { NumericFormat } from "react-number-format";
+import * as users from "@/entities/users";
 import type { CreateTransactionFormData } from "../model/create-transaction-schema";
+import { createTransactionSchema } from "../model/create-transaction-schema";
 import { useCategoriesList } from "../model/use-categories-list";
 import { useCreateTransaction } from "../model/use-create-transaction";
 import { useListAccounts } from "../model/use-list-accounts";
-import { NumericFormat } from "react-number-format";
-import { Button, InputField, Select } from "@fincheck/design-system";
+
+const CENTS_PER_UNIT = 100;
 
 export function AddExpense() {
 	const navigate = useNavigate();
 	const { user } = users.useUser();
 	const { categories } = useCategoriesList();
-	const { accounts } = useListAccounts({
-		userId: user.id,
-	});
+	const { accounts } = useListAccounts();
 	const createTransactionMutation = useCreateTransaction();
 
 	const form = useForm<CreateTransactionFormData>({
@@ -41,7 +46,7 @@ export function AddExpense() {
 				userId: user.id,
 				accountId: data.account,
 				title: data.name,
-				amountCents: data.amount * 100,
+				amountCents: data.amount * CENTS_PER_UNIT,
 				date: data.date,
 				category: data.category,
 				type: "expense",

@@ -22,9 +22,7 @@ export function AddRevenue() {
 	const navigate = useNavigate();
 	const { user } = useUser();
 	const { categories } = useCategoriesList();
-	const { accounts } = useListAccounts({
-		userId: user.id,
-	});
+	const { accounts } = useListAccounts();
 	const createTransactionMutation = useCreateTransaction();
 
 	const form = useForm<CreateTransactionFormData>({

@@ -1,15 +1,12 @@
 import { useSuspenseQuery } from "@tanstack/react-query";
-import {
-  accountsQueryFactory,
-  type ListAccountsRequest,
-} from "../api/accounts";
+import { accountsQueryFactory } from "../api/accounts";
 
-export function useListAccounts({ userId }: ListAccountsRequest) {
-  const query = useSuspenseQuery(accountsQueryFactory.listAccounts({ userId }));
+export function useListAccounts() {
+	const query = useSuspenseQuery(accountsQueryFactory.listAccounts());
 
-  return {
-    accounts: query.data,
-    isLoading: query.isLoading,
-    isError: query.isError,
-  };
+	return {
+		accounts: query.data,
+		isLoading: query.isLoading,
+		isError: query.isError,
+	};
 }

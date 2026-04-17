@@ -1,63 +1,49 @@
-import { apiClient } from "@/shared/api";
 import { queryOptions } from "@tanstack/react-query";
+import { apiClient } from "@/shared/api";
 
 export type CreateAccountRequest = {
 	name: string;
 	type: string;
 	color: string;
-	amount: number;
-	userId: string;
+	initialBalance: number;
+	currency?: string;
+	icon?: string | null;
 };
 
-export async function createAccount({
-	name,
-	type,
-	color,
-	amount,
-	userId,
-}: CreateAccountRequest) {
+export async function createAccount(data: CreateAccountRequest) {
 	const response = await apiClient.post({
-		url: "api/accounts",
-		body: {
-			name,
-			type,
-			color,
-			amount,
-			userId,
-		},
+		url: "api/bank-accounts",
+		body: data,
 	});
 	return response.data;
 }
 
-type Colors = "gray" | "red" | "pink" | "grape" | "violet" | "indigo" | "blue";
-type AccountType = "bank_account" | "wallet" | "credit_card" | "investment";
-
-type Account = {
+export type Account = {
 	id: string;
 	name: string;
-	type: AccountType;
-	color: Colors;
-	amount: number;
-	userId: string;
+	type: "checking" | "savings" | "credit_card" | "cash" | "investment";
+	color: string;
+	initialBalance: number;
+	currency: string;
+	icon: string | null;
+	createdAt: string;
+	updatedAt: string;
 };
 
-export type ListAccountsRequest = {
-	userId: string;
-};
 type ListAccountsResponse = Account[];
 
-async function listAccounts({ userId }: ListAccountsRequest) {
+async function listAccounts() {
 	const response = await apiClient.get<ListAccountsResponse>({
-		url: `api/accounts?userId=${userId}`,
+		url: "api/bank-accounts",
 	});
 	return response.data;
 }
 
 export const accountsQueryFactory = {
 	all: ["accounts"] as const,
-	listAccounts: ({ userId }: ListAccountsRequest) =>
+	listAccounts: () =>
 		queryOptions({
-			queryKey: [...accountsQueryFactory.all, userId],
-			queryFn: () => listAccounts({ userId }),
+			queryKey: [...accountsQueryFactory.all],
+			queryFn: () => listAccounts(),
 		}),
 };

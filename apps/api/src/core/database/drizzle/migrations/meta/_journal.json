@@ -15,6 +15,20 @@
       "when": 1775609315435,
       "tag": "0001_natural_doctor_octopus",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1776428774123,
+      "tag": "0002_modern_red_wolf",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1776468909875,
+      "tag": "0003_freezing_silk_fever",
+      "breakpoints": true
     }
   ]
 }

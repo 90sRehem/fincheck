@@ -29,9 +29,6 @@ export const bankAccounts = pgTable(
 		initialBalance: numeric("initial_balance", { precision: 12, scale: 2 })
 			.notNull()
 			.default("0"),
-		currentBalance: numeric("current_balance", { precision: 12, scale: 2 })
-			.notNull()
-			.default("0"),
 		currency: text("currency").notNull().default("BRL"),
 		color: text("color").notNull(),
 		icon: text("icon"),

@@ -6,7 +6,6 @@ export type BankAccountRaw = {
 	name: string;
 	type: string;
 	initialBalance: string;
-	currentBalance: string;
 	currency: string;
 	color: string;
 	icon: string | null | undefined;
@@ -22,7 +21,6 @@ export class BankAccountMapper {
 			name: raw.name,
 			type: raw.type as BankAccountProps["type"],
 			initialBalance: parseFloat(raw.initialBalance),
-			currentBalance: parseFloat(raw.currentBalance),
 			currency: raw.currency,
 			color: raw.color,
 			icon: raw.icon ?? null,
@@ -39,7 +37,6 @@ export class BankAccountMapper {
 			name: entity.name,
 			type: entity.type,
 			initialBalance: entity.initialBalance.toString(),
-			currentBalance: entity.currentBalance.toString(),
 			currency: entity.currency,
 			color: entity.color,
 			icon: entity.icon,
@@ -54,7 +51,6 @@ export class BankAccountMapper {
 			name: entity.name,
 			type: entity.type,
 			initialBalance: entity.initialBalance,
-			currentBalance: entity.currentBalance,
 			currency: entity.currency,
 			color: entity.color,
 			icon: entity.icon,

@@ -3,13 +3,7 @@ import { CreateBankAccountService } from "./application/create-bank-account/crea
 import { DeleteBankAccountService } from "./application/delete-bank-account/delete-bank-account.service";
 import { ListBankAccountsService } from "./application/list-bank-accounts/list-bank-accounts.service";
 import { UpdateBankAccountService } from "./application/update-bank-account/update-bank-account.service";
-import {
-	BankAccountRepository,
-	CreateBankAccountUseCase,
-	DeleteBankAccountUseCase,
-	ListBankAccountsUseCase,
-	UpdateBankAccountUseCase,
-} from "./domain";
+import { BankAccountRepository } from "./domain";
 import { DrizzleBankAccountRepository } from "./infra/persistence/drizzle-bank-account.repository";
 import { CreateBankAccountController } from "./presentation/create-bank-account.controller";
 import { DeleteBankAccountController } from "./presentation/delete-bank-account.controller";
@@ -28,10 +22,6 @@ import { UpdateBankAccountController } from "./presentation/update-bank-account.
 			provide: BankAccountRepository,
 			useClass: DrizzleBankAccountRepository,
 		},
-		CreateBankAccountUseCase,
-		ListBankAccountsUseCase,
-		UpdateBankAccountUseCase,
-		DeleteBankAccountUseCase,
 		CreateBankAccountService,
 		ListBankAccountsService,
 		UpdateBankAccountService,

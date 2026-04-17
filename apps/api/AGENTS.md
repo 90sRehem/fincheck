@@ -65,25 +65,57 @@ src/
 
 ### UseCase / Service Pattern
 
+The service **extends** the use-case class. This is the standard pattern.
+
+> **Rule**: Use-cases are NEVER registered as NestJS providers. The service IS the use-case via inheritance.
+
+**Simple case** — service only adds `@Injectable()`:
+
 ```typescript
-// domain/use-cases/create-bank-account.use-case.ts
-// Pure domain logic - NO @Injectable decorator
-export class CreateBankAccountUseCase {
-  constructor(private readonly repository: BankAccountRepository) {}
-  
-  async execute(input: CreateBankAccountInput): Promise<Either<ValidationError, BankAccount>> {
-    // Business logic only
+// domain/use-cases/get-user-balances.use-case.ts
+// Pure domain logic - NO @Injectable
+export class GetUserBalancesUseCase {
+  constructor(private readonly balanceRepository: BalanceRepository) {}
+
+  async execute(input: GetUserBalancesInput) {
+    // Business logic
   }
 }
 
-// application/services/create-bank-account.service.ts
-// NestJS-injectable wrapper
+// application/get-user-balances.service.ts
+// Service IS the use-case via inheritance
 @Injectable()
-export class CreateBankAccountService {
-  constructor(private readonly useCase: CreateBankAccountUseCase) {}
-  
-  async execute(input: CreateBankAccountInput & { userId: string }) {
-    return this.useCase.execute(input);
+export class GetUserBalancesService extends GetUserBalancesUseCase {
+  constructor(balanceRepository: BalanceRepository) {
+    super(balanceRepository);
+  }
+}
+```
+
+**With orchestration** — service extends use-case AND adds extra deps (e.g., event dispatching):
+
+```typescript
+// application/create-bank-account.service.ts
+@Injectable()
+export class CreateBankAccountService extends CreateBankAccountUseCase {
+  private readonly dispatcher: DomainEventDispatcher;
+
+  constructor(
+    bankAccountRepository: BankAccountRepository,
+    dispatcher: DomainEventDispatcher,
+  ) {
+    super(bankAccountRepository);
+    this.dispatcher = dispatcher;
+  }
+
+  override async execute(input: CreateBankAccountInput) {
+    const result = await super.execute(input);
+
+    if (result.isSuccess) {
+      await this.dispatcher.dispatchAll(result.value);
+    }
+
+    return result;
   }
 }
 ```
@@ -155,7 +187,7 @@ Plus a second glob for module schemas: `./src/modules/*/infra/drizzle/schemas/*`
 2. Define domain entity in `domain/entities/`
 3. Define abstract repository in `domain/repositories/`
 4. Write pure use-case in `domain/use-cases/` (no @Injectable)
-5. Create @Injectable service wrapper in `application/{use-case}/`
+5. Create @Injectable service that **extends** the use-case in `application/{use-case}/`
 6. Create DTO in `application/{use-case}/`
 7. Create controller in `presentation/`
 8. Implement Drizzle schema in `infra/drizzle/schemas/`
@@ -163,8 +195,9 @@ Plus a second glob for module schemas: `./src/modules/*/infra/drizzle/schemas/*`
 10. Create mapper in `infra/mappers/`
 11. Register in `{feature}.module.ts`:
     - Controllers from presentation
-    - Services from application
-    - Repository binding (abstract -> concrete)
+    - Services from application (the service IS the use-case via inheritance)
+    - Repository binding (abstract → concrete)
+    - **NOTE**: Use-cases are NOT registered as standalone providers
 12. Add schema glob to `drizzle.config.ts`
 13. Add schema to `schema-registry.ts`
 14. Import module in `app.module.ts`

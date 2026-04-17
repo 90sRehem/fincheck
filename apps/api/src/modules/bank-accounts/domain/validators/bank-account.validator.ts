@@ -11,7 +11,6 @@ export interface BankAccountProps {
 	name: string;
 	type: (typeof BANK_ACCOUNT_TYPE)[keyof typeof BANK_ACCOUNT_TYPE];
 	initialBalance: number;
-	currentBalance: number;
 	currency: string;
 	color: string;
 	icon: string | null;
@@ -39,7 +38,6 @@ export class BankAccountValidator extends ZodValidationStrategy<BankAccountProps
 					BANK_ACCOUNT_TYPE.INVESTMENT,
 				]),
 				initialBalance: z.number(),
-				currentBalance: z.number(),
 				currency: z
 					.string()
 					.length(

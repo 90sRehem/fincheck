@@ -1,30 +1,30 @@
 import { apiClient } from "@/shared/api";
 
-type BalanceResponse = {
-  id: string;
-  userId: string;
-  amountCents: number;
-  currency: string;
+type BalanceEntry = {
+	amountCents: number;
+	currency: string;
 };
 
-export type BalanceRequest = {
-  userId: string;
+export type GetBalanceResponse = {
+	amountCents: number;
+	currency: string;
 };
 
-type GetBalanceResponse = {
-  amountCents: number;
-  currency: string;
-};
+export async function getBalance(): Promise<GetBalanceResponse> {
+	const response = await apiClient.get<BalanceEntry[]>({
+		url: "api/balances",
+	});
 
-export async function getBalance({
-  userId,
-}: BalanceRequest): Promise<GetBalanceResponse> {
-  const response = await apiClient.get<BalanceResponse>({
-    url: `api/balances/${userId}`,
-  });
-  const result = response.data;
-  return {
-    amountCents: result.amountCents,
-    currency: result.currency,
-  };
+	const entries = response.data;
+
+	if (entries.length === 0) {
+		return { amountCents: 0, currency: "BRL" };
+	}
+
+	const brlEntry = entries.find((e) => e.currency === "BRL");
+	if (brlEntry) {
+		return brlEntry;
+	}
+
+	return entries[0] ?? { amountCents: 0, currency: "BRL" };
 }

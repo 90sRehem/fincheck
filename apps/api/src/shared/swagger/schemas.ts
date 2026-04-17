@@ -68,3 +68,47 @@ export const NotFoundErrorSchema: SchemaObject = {
 		error: { type: "string", example: "Not Found" },
 	},
 };
+
+export const TransactionResponseSchema: SchemaObject = {
+	type: "object",
+	properties: {
+		id: {
+			type: "string",
+			format: "uuid",
+			example: "550e8400-e29b-41d4-a716-446655440000",
+		},
+		userId: {
+			type: "string",
+			example: "user-id-123",
+		},
+		accountId: {
+			type: "string",
+			format: "uuid",
+			example: "550e8400-e29b-41d4-a716-446655440001",
+		},
+		title: { type: "string", example: "Grocery shopping" },
+		amountCents: { type: "integer", example: 5000 },
+		type: {
+			type: "string",
+			enum: ["expense", "revenue"],
+			example: "expense",
+		},
+		color: { type: "string", example: "#FF6B6B" },
+		category: { type: "string", nullable: true, example: "Food" },
+		date: {
+			type: "string",
+			format: "date-time",
+			example: "2024-01-15T10:30:00.000Z",
+		},
+		createdAt: {
+			type: "string",
+			format: "date-time",
+			example: "2024-01-15T10:30:00.000Z",
+		},
+		updatedAt: {
+			type: "string",
+			format: "date-time",
+			example: "2024-01-20T14:22:00.000Z",
+		},
+	},
+};

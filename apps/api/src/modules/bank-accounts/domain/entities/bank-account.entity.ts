@@ -1,5 +1,5 @@
-import { Entity } from "@/shared/domain/entities/entity";
-import { Either, failure, success } from "@/shared/domain/types/either";
+import { AggregateRoot } from "@/shared/domain/entities/aggregate-root";
+import type { Either } from "@/shared/domain/types/either";
 import { ValidationFieldsError } from "@/shared/domain/validators/validation-fields-error";
 import {
 	BankAccountProps,
@@ -13,7 +13,7 @@ interface BankAccountEntityProps extends BankAccountProps {
 	updatedAt: Date;
 }
 
-export class BankAccount extends Entity<BankAccountEntityProps> {
+export class BankAccount extends AggregateRoot<BankAccountEntityProps> {
 	constructor(props: BankAccountEntityProps, id?: string) {
 		super(props, id);
 		this.props.createdAt = props.createdAt ?? new Date();
@@ -41,10 +41,6 @@ export class BankAccount extends Entity<BankAccountEntityProps> {
 		return this.props.initialBalance;
 	}
 
-	get currentBalance(): number {
-		return this.props.currentBalance;
-	}
-
 	get currency(): string {
 		return this.props.currency;
 	}
@@ -58,9 +54,7 @@ export class BankAccount extends Entity<BankAccountEntityProps> {
 	}
 
 	override update(
-		props: Partial<
-			Omit<BankAccountProps, "userId" | "initialBalance" | "currentBalance">
-		>,
+		props: Partial<Omit<BankAccountProps, "userId" | "initialBalance">>,
 	): void {
 		this.props = {
 			...this.props,

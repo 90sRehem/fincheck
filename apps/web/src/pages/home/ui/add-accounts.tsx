@@ -10,7 +10,6 @@ import { Link, useNavigate } from "@tanstack/react-router";
 import { Suspense } from "react";
 import { Controller, useForm } from "react-hook-form";
 import { NumericFormat } from "react-number-format";
-import { useUser } from "@/entities/users";
 import { getColorIcon } from "../lib/get-color-icon";
 import {
 	type AddAccountFormData,
@@ -73,7 +72,6 @@ function AddAccountForm() {
 	const { accountTypes } = useListAccountTypes();
 	const { colors } = useListColors();
 	const { addAccount, isPending } = useAddAccount();
-	const { user } = useUser();
 
 	const form = useForm<AddAccountFormData>({
 		resolver: standardSchemaResolver(addAcountSchema),
@@ -90,10 +88,11 @@ function AddAccountForm() {
 	};
 
 	const handleSubmit = (data: AddAccountFormData) => {
-		console.log(data);
 		addAccount({
-			...data,
-			userId: user.id,
+			name: data.name,
+			type: data.type,
+			color: data.color,
+			initialBalance: data.amount,
 		});
 	};
 

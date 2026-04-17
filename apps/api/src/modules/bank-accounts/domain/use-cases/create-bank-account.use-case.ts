@@ -1,3 +1,4 @@
+import { BankAccountCreatedEvent } from "@/shared/domain/events";
 import { Either, failure, success } from "@/shared/domain/types/either";
 import { UseCase } from "@/shared/domain/types/use-case";
 import { ValidationFieldsError } from "@/shared/domain/validators/validation-fields-error";
@@ -8,10 +9,7 @@ import {
 } from "../../domain";
 
 export interface CreateBankAccountUseCaseInput
-	extends Omit<
-		BankAccountProps,
-		"currentBalance" | "icon" | "createdAt" | "updatedAt"
-	> {
+	extends Omit<BankAccountProps, "icon" | "createdAt" | "updatedAt"> {
 	userId: string;
 	icon?: string | null;
 }
@@ -34,7 +32,6 @@ export class CreateBankAccountUseCase
 				currency,
 				color,
 				initialBalance,
-				currentBalance: initialBalance,
 				icon: icon ?? null,
 				createdAt: new Date(),
 				updatedAt: new Date(),
@@ -48,8 +45,17 @@ export class CreateBankAccountUseCase
 			return failure(validationResult.value);
 		}
 
-		const created = await this.bankAccountRepository.create(bankAccount);
+		bankAccount.addDomainEvent(
+			new BankAccountCreatedEvent(
+				bankAccount.id,
+				userId,
+				initialBalance,
+				currency,
+			),
+		);
 
-		return success(created);
+		await this.bankAccountRepository.create(bankAccount);
+
+		return success(bankAccount);
 	}
 }

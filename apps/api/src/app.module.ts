@@ -6,7 +6,9 @@ import { AuthModule } from "./core/auth";
 import { DatabaseModule } from "./core/database";
 import { EnvModule, envSchema } from "./core/env";
 import { EventsModule } from "./core/events/events.module";
+import { BalancesModule } from "./modules/balances/balances.module";
 import { BankAccountsModule } from "./modules/bank-accounts/bank-accounts.module";
+import { TransactionsModule } from "./modules/transactions/transactions.module";
 
 @Module({
 	imports: [
@@ -19,6 +21,8 @@ import { BankAccountsModule } from "./modules/bank-accounts/bank-accounts.module
 		EventsModule,
 		AuthModule,
 		BankAccountsModule,
+		TransactionsModule,
+		BalancesModule,
 	],
 	controllers: [AppController],
 	providers: [AppService],

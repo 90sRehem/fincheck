@@ -56,3 +56,4 @@ src/
 - **Module Federation commented out:** `@module-federation/vite` is a dependency but unused in vite.config.ts
 
 For detailed conventions (state management, routing, HTTP client, forms, error handling), load the `react-fsd` skill.
+For FSD layer hierarchy, slice anatomy, import rules, and architecture patterns, load the `feature-sliced-design` skill.

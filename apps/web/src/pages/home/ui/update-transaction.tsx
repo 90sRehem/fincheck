@@ -6,7 +6,7 @@ import {
 	InputField,
 	Select,
 } from "@fincheck/design-system";
-import { zodResolver } from "@hookform/resolvers/zod";
+import { standardSchemaResolver } from "@hookform/resolvers/standard-schema";
 import { Link, useNavigate, useParams } from "@tanstack/react-router";
 import { Suspense } from "react";
 import { Controller, useForm } from "react-hook-form";
@@ -21,7 +21,8 @@ import {
 } from "../model/update-transaction-schema";
 import { useCategoriesList } from "../model/use-categories-list";
 import { useListAccounts } from "../model/use-list-accounts";
-import { standardSchemaResolver } from "@hookform/resolvers/standard-schema";
+
+const CENTS_PER_UNIT = 100;
 
 function UpdateTransactionSkeleton() {
 	return (
@@ -85,9 +86,7 @@ function UpdateTransactionForm() {
 
 	const { user } = useUser();
 	const { categories } = useCategoriesList();
-	const { accounts } = useListAccounts({
-		userId: user.id,
-	});
+	const { accounts } = useListAccounts();
 	const { transaction } = useTransaction({ id: params.id });
 	const updateTransactionMutation = useUpdateTransaction();
 
@@ -113,7 +112,7 @@ function UpdateTransactionForm() {
 				userId: user.id,
 				accountId: data.account,
 				title: data.name,
-				amountCents: data.amount * 100,
+				amountCents: data.amount * CENTS_PER_UNIT,
 				type: "revenue",
 				category: data.category,
 				date: data.date,

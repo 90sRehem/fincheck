@@ -1,10 +1,11 @@
-import type { CardProps, Colors, IconName } from "@fincheck/design-system";
+import type { Colors } from "@fincheck/design-system";
 import { CardLarge, IconButton } from "@fincheck/design-system";
 import { Link } from "@tanstack/react-router";
-import { useUser } from "@/entities/users";
 import { formatBRLFromCents } from "@/shared/lib";
 import { useBalanceVisibility } from "../model/balance-visibility-store";
 import { useListAccounts } from "../model/use-list-accounts";
+
+const CENTS_PER_UNIT = 100;
 
 type AccountIconName = "money" | "investment" | "account";
 
@@ -16,8 +17,7 @@ const accountTypeToIcon: Record<string, AccountIconName> = {
 };
 
 export function AccountsList() {
-	const { user } = useUser();
-	const { accounts } = useListAccounts({ userId: user.id });
+	const { accounts } = useListAccounts();
 	const hideAmount = useBalanceVisibility();
 
 	return (
@@ -35,7 +35,10 @@ export function AccountsList() {
 							<CardLarge.Content>
 								<CardLarge.Header>{account.name}</CardLarge.Header>
 								<CardLarge.Balance>
-									{formatBRLFromCents(account.amount, "BRL")}
+									{formatBRLFromCents(
+										account.initialBalance * CENTS_PER_UNIT,
+										"BRL",
+									)}
 								</CardLarge.Balance>
 							</CardLarge.Content>
 						</CardLarge>
