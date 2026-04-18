@@ -8,6 +8,7 @@ import { EnvModule, envSchema } from "./core/env";
 import { EventsModule } from "./core/events/events.module";
 import { BalancesModule } from "./modules/balances/balances.module";
 import { BankAccountsModule } from "./modules/bank-accounts/bank-accounts.module";
+import { CategoriesModule } from "./modules/categories/categories.module";
 import { ColorsModule } from "./modules/colors/colors.module";
 import { TransactionsModule } from "./modules/transactions/transactions.module";
 
@@ -25,6 +26,7 @@ import { TransactionsModule } from "./modules/transactions/transactions.module";
 		TransactionsModule,
 		BalancesModule,
 		ColorsModule,
+		CategoriesModule,
 	],
 	controllers: [AppController],
 	providers: [AppService],
