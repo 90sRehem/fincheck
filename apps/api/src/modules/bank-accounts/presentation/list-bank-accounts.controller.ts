@@ -12,7 +12,6 @@ import {
 	UnauthorizedErrorSchema,
 } from "@/shared/swagger/schemas";
 import { ListBankAccountsService } from "../application/list-bank-accounts/list-bank-accounts.service";
-import { BankAccount } from "../domain";
 import { BankAccountMapper } from "../infra/mappers/bank-account.mapper";
 
 @ApiTags("Bank Accounts")
@@ -43,7 +42,12 @@ export class ListBankAccountsController {
 			userId: session.user.id,
 		});
 
-		const accounts = result.value as BankAccount[];
-		return accounts.map(BankAccountMapper.toResponse);
+		if (result.isSuccess) {
+			return result.value.map((bankAccount) =>
+				BankAccountMapper.toResponse(bankAccount),
+			);
+		}
+
+		return [];
 	}
 }

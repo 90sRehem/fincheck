@@ -62,17 +62,15 @@ export class UpdateBankAccountController {
 					maxLength: 100,
 					example: "Conta Poupança",
 				},
-				type: {
+				accountTypeId: {
 					type: "string",
-					enum: ["checking", "savings", "credit_card", "cash", "investment"],
 					example: "savings",
 				},
 				initialBalance: { type: "number", example: 2000.0 },
-				currency: { type: "string", example: "BRL" },
-				color: {
+				currencyId: { type: "string", example: "BRL" },
+				colorId: {
 					type: "string",
-					pattern: "^#[0-9A-Fa-f]{6}$",
-					example: "#10B981",
+					example: "green",
 				},
 				icon: { type: "string", nullable: true, example: null },
 			},
@@ -126,6 +124,6 @@ export class UpdateBankAccountController {
 			throw new BadRequestException("Failed to update bank account");
 		}
 
-		return BankAccountMapper.toResponse(result.value as any);
+		return BankAccountMapper.toResponse(result.value);
 	}
 }

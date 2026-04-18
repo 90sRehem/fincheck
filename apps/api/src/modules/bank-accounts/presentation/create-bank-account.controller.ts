@@ -43,7 +43,7 @@ export class CreateBankAccountController {
 		description: "Dados da conta bancária",
 		schema: {
 			type: "object",
-			required: ["name", "type", "color"],
+			required: ["name", "accountTypeId", "colorId"],
 			properties: {
 				name: {
 					type: "string",
@@ -51,18 +51,16 @@ export class CreateBankAccountController {
 					maxLength: 100,
 					example: "Conta Corrente Nubank",
 				},
-				type: {
+				accountTypeId: {
 					type: "string",
-					enum: ["checking", "savings", "credit_card", "cash", "investment"],
 					example: "checking",
 				},
 				initialBalance: { type: "number", default: 0, example: 1500.0 },
-				currency: { type: "string", default: "BRL", example: "BRL" },
-				color: {
+				currencyId: { type: "string", default: "BRL", example: "BRL" },
+				colorId: {
 					type: "string",
-					pattern: "^#[0-9A-Fa-f]{6}$",
-					example: "#8B5CF6",
-					description: "Cor em formato hexadecimal (#RRGGBB)",
+					example: "indigo",
+					description: "ID da cor",
 				},
 				icon: { type: "string", nullable: true, example: null },
 			},
@@ -70,7 +68,7 @@ export class CreateBankAccountController {
 	})
 	@ApiResponse({
 		status: 201,
-		description: "Conta bancária criada com sucesso",
+		description: "Conta criada com sucesso",
 		schema: BankAccountResponseSchema,
 	})
 	@ApiResponse({
@@ -90,7 +88,7 @@ export class CreateBankAccountController {
 			throw new BadRequestException(parseResult.error.flatten().fieldErrors);
 		}
 
-		const result = await this.createBankAccountService.execute({
+		const result = await this.createBankAccountService.create({
 			userId: session.user.id,
 			...parseResult.data,
 		});
@@ -103,6 +101,7 @@ export class CreateBankAccountController {
 			throw new BadRequestException("Failed to create bank account");
 		}
 
-		return BankAccountMapper.toResponse(result.value);
+		// biome-ignore lint/suspicious/noExplicitAny: Either type system requires this cast
+		return BankAccountMapper.toResponse(result.value as any);
 	}
 }
