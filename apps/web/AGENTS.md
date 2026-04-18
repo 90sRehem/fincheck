@@ -56,12 +56,12 @@ src/
 
 The frontend consumes two API base URLs:
 
-- **`VITE_API_BASE_URL`**: The API host without version (e.g., `http://localhost:3333`)
+- **`VITE_AUTH_API_URL`**: The API host without version (e.g., `http://localhost:3333`)
 - **`VITE_API_URL`**: The versioned API base (e.g., `http://localhost:3333/api/v1`)
 
 **Configuration:**
 ```env
-VITE_API_BASE_URL=http://localhost:3333
+VITE_AUTH_API_URL=http://localhost:3333
 VITE_API_URL=http://localhost:3333/api/v1
 ```
 
@@ -91,7 +91,7 @@ Used for authentication endpoints only (sign-in, sign-up, get-session). These ro
 ```typescript
 import { authClient } from "@/shared/api";
 
-// baseURL is http://localhost:3333 (from VITE_API_BASE_URL)
+// baseURL is http://localhost:3333 (from VITE_AUTH_API_URL)
 // Paths must include full auth prefix: "/api/auth/..."
 const response = await authClient.post<LoginResponse>({
   url: "/api/auth/sign-in/email",  // Full URL: http://localhost:3333/api/auth/sign-in/email

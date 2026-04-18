@@ -82,20 +82,16 @@ export class FetchHttpClient implements HttpClient {
 		for (const interceptor of this.options.interceptors.error) {
 			try {
 				const result = await interceptor<TResponse>(currentError);
-				// Se interceptor retornar HttpResponse, converte erro em sucesso
 				return result;
 			} catch (interceptorError) {
-				// Se interceptor lançar erro, usa o novo erro
 				if (interceptorError instanceof ApiError) {
 					currentError = interceptorError;
 				} else {
-					// Se não for ApiError, mantém o erro original
 					throw currentError;
 				}
 			}
 		}
 
-		// Se nenhum interceptor converteu em sucesso, lança o último erro
 		throw currentError;
 	}
 
@@ -105,7 +101,10 @@ export class FetchHttpClient implements HttpClient {
 		try {
 			const processedRequest = await this.executeRequestInterceptors(request);
 
-			const url = new URL(processedRequest.url, this.options.baseURL);
+			const rawUrl = processedRequest.url.startsWith("http")
+				? processedRequest.url
+				: `${this.options.baseURL.replace(/\/$/, "")}/${processedRequest.url.replace(/^\//, "")}`;
+			const url = new URL(rawUrl);
 
 			if (processedRequest.params) {
 				Object.entries(processedRequest.params).forEach(([key, value]) => {
