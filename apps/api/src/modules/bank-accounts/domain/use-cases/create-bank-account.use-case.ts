@@ -2,15 +2,18 @@ import { BankAccountCreatedEvent } from "@/shared/domain/events";
 import { Either, failure, success } from "@/shared/domain/types/either";
 import { UseCase } from "@/shared/domain/types/use-case";
 import { ValidationFieldsError } from "@/shared/domain/validators/validation-fields-error";
-import {
-	BankAccount,
-	BankAccountProps,
-	BankAccountRepository,
-} from "../../domain";
+import { BankAccount, BankAccountRepository } from "../../domain";
+import { AccountType } from "../../domain/entities/account-type.entity";
+import { Color } from "../../domain/entities/color.entity";
+import { Currency } from "../../domain/entities/currency.entity";
 
-export interface CreateBankAccountUseCaseInput
-	extends Omit<BankAccountProps, "icon" | "createdAt" | "updatedAt"> {
+export interface CreateBankAccountUseCaseInput {
 	userId: string;
+	name: string;
+	accountType: AccountType;
+	initialBalance: number;
+	currency: Currency;
+	color: Color;
 	icon?: string | null;
 }
 
@@ -22,13 +25,15 @@ export class CreateBankAccountUseCase
 	async execute(
 		input: CreateBankAccountUseCaseInput,
 	): Promise<Either<ValidationFieldsError, BankAccount>> {
-		const { userId, initialBalance, icon, name, type, currency, color } = input;
+		const { userId, initialBalance, icon, name, accountType, currency, color } =
+			input;
 
+		// Entidades já são passadas resolvidas pelo service
 		const bankAccount = new BankAccount(
 			{
 				userId,
 				name,
-				type,
+				accountType,
 				currency,
 				color,
 				initialBalance,
@@ -50,12 +55,12 @@ export class CreateBankAccountUseCase
 				bankAccount.id,
 				userId,
 				initialBalance,
-				currency,
+				currency.id,
 			),
 		);
 
-		await this.bankAccountRepository.create(bankAccount);
+		const created = await this.bankAccountRepository.create(bankAccount);
 
-		return success(bankAccount);
+		return success(created);
 	}
 }
