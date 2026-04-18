@@ -10,9 +10,10 @@ const CENTS_PER_UNIT = 100;
 type AccountIconName = "money" | "investment" | "account";
 
 const accountTypeToIcon: Record<string, AccountIconName> = {
-	bank_account: "account",
-	wallet: "money",
+	checking: "account",
+	savings: "account",
 	credit_card: "account",
+	cash: "money",
 	investment: "investment",
 };
 
@@ -28,8 +29,8 @@ export function AccountsList() {
 					accounts.map((account) => (
 						<CardLarge
 							key={account.id}
-							color={account.color as Colors}
-							icon={accountTypeToIcon[account.type] ?? "money"}
+							color={account.color.id as Colors}
+							icon={accountTypeToIcon[account.accountType.id] ?? "money"}
 							hideAmount={hideAmount}
 						>
 							<CardLarge.Content>

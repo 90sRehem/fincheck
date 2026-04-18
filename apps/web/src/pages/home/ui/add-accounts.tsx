@@ -77,9 +77,9 @@ function AddAccountForm() {
 		resolver: standardSchemaResolver(addAcountSchema),
 		defaultValues: {
 			name: "",
-			type: "",
-			color: "",
-			amount: 0,
+			accountTypeId: "",
+			colorId: "",
+			initialBalance: 0,
 		},
 	});
 
@@ -90,9 +90,9 @@ function AddAccountForm() {
 	const handleSubmit = (data: AddAccountFormData) => {
 		addAccount({
 			name: data.name,
-			type: data.type,
-			color: data.color,
-			initialBalance: data.amount,
+			accountTypeId: data.accountTypeId,
+			colorId: data.colorId,
+			initialBalance: data.initialBalance,
 		});
 	};
 
@@ -114,7 +114,7 @@ function AddAccountForm() {
 				>
 					<div className="flex gap-4 items-center justify-center">
 						<Controller
-							name="amount"
+							name="initialBalance"
 							control={form.control}
 							render={({ field }) => {
 								const displayValue = field.value?.toString();
@@ -138,9 +138,9 @@ function AddAccountForm() {
 											/>
 										</div>
 										<span className="input-label text-gray-6">Saldo atual</span>
-										{form.formState.errors.amount && (
+										{form.formState.errors.initialBalance && (
 											<span className="text-xs text-red-500">
-												{form.formState.errors.amount.message}
+												{form.formState.errors.initialBalance.message}
 											</span>
 										)}
 									</div>
@@ -159,7 +159,7 @@ function AddAccountForm() {
 						/>
 
 						<Controller
-							name="type"
+							name="accountTypeId"
 							control={form.control}
 							render={({ field }) => (
 								<div className="flex flex-col gap-1">
@@ -180,9 +180,9 @@ function AddAccountForm() {
 											</Select.Group>
 										</Select.Content>
 									</Select>
-									{form.formState.errors.type && (
+									{form.formState.errors.accountTypeId && (
 										<span className="text-xs text-red-500">
-											{form.formState.errors.type.message}
+											{form.formState.errors.accountTypeId.message}
 										</span>
 									)}
 								</div>
@@ -190,7 +190,7 @@ function AddAccountForm() {
 						/>
 
 						<Controller
-							name="color"
+							name="colorId"
 							control={form.control}
 							render={({ field }) => (
 								<div className="flex flex-col gap-1">
@@ -203,7 +203,7 @@ function AddAccountForm() {
 												{colors.map((color) => {
 													const Icon = getColorIcon(color.id);
 													return (
-														<Select.Item key={color.id} value={color.hex}>
+														<Select.Item key={color.id} value={color.id}>
 															<div className="flex items-center gap-2">
 																{Icon && <Icon className="w-6 h-6" />}
 																<span>{color.name}</span>
@@ -214,9 +214,9 @@ function AddAccountForm() {
 											</Select.Group>
 										</Select.Content>
 									</Select>
-									{form.formState.errors.color && (
+									{form.formState.errors.colorId && (
 										<span className="text-xs text-red-500">
-											{form.formState.errors.color.message}
+											{form.formState.errors.colorId.message}
 										</span>
 									)}
 								</div>

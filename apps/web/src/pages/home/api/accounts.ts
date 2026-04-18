@@ -3,10 +3,10 @@ import { apiClient } from "@/shared/api";
 
 export type CreateAccountRequest = {
 	name: string;
-	type: string;
-	color: string;
+	accountTypeId: string;
+	colorId: string;
 	initialBalance: number;
-	currency?: string;
+	currencyId?: string;
 	icon?: string | null;
 };
 
@@ -18,13 +18,30 @@ export async function createAccount(data: CreateAccountRequest) {
 	return response.data;
 }
 
+export interface ColorData {
+	id: string;
+	name: string;
+	hex: string;
+}
+
+export interface AccountTypeData {
+	id: string;
+	name: string;
+}
+
+export interface CurrencyData {
+	id: string;
+	code: string;
+	name: string;
+}
+
 export type Account = {
 	id: string;
 	name: string;
-	type: "checking" | "savings" | "credit_card" | "cash" | "investment";
-	color: string;
+	accountType: AccountTypeData;
+	color: ColorData;
 	initialBalance: number;
-	currency: string;
+	currency: CurrencyData;
 	icon: string | null;
 	createdAt: string;
 	updatedAt: string;
