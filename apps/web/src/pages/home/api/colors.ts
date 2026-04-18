@@ -4,6 +4,7 @@ import { apiClient } from "@/shared/api";
 export type Color = {
 	id: string;
 	name: string;
+	hex: string;
 };
 
 async function listColors() {

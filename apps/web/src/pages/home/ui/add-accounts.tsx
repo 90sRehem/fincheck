@@ -203,7 +203,7 @@ function AddAccountForm() {
 												{colors.map((color) => {
 													const Icon = getColorIcon(color.id);
 													return (
-														<Select.Item key={color.id} value={color.id}>
+														<Select.Item key={color.id} value={color.hex}>
 															<div className="flex items-center gap-2">
 																{Icon && <Icon className="w-6 h-6" />}
 																<span>{color.name}</span>
