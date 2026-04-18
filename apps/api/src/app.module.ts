@@ -10,6 +10,7 @@ import { BalancesModule } from "./modules/balances/balances.module";
 import { BankAccountsModule } from "./modules/bank-accounts/bank-accounts.module";
 import { CategoriesModule } from "./modules/categories/categories.module";
 import { ColorsModule } from "./modules/colors/colors.module";
+import { CurrenciesModule } from "./modules/currencies/currencies.module";
 import { TransactionsModule } from "./modules/transactions/transactions.module";
 
 @Module({
@@ -26,6 +27,7 @@ import { TransactionsModule } from "./modules/transactions/transactions.module";
 		TransactionsModule,
 		BalancesModule,
 		ColorsModule,
+		CurrenciesModule,
 		CategoriesModule,
 	],
 	controllers: [AppController],

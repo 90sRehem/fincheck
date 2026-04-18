@@ -9,15 +9,30 @@ export const BankAccountResponseSchema: SchemaObject = {
 			example: "550e8400-e29b-41d4-a716-446655440000",
 		},
 		name: { type: "string", example: "Conta Corrente Nubank" },
-		type: {
-			type: "string",
-			enum: ["checking", "savings", "credit_card", "cash", "investment"],
-			example: "checking",
+		accountType: {
+			type: "object",
+			properties: {
+				id: { type: "string", example: "checking" },
+				name: { type: "string", example: "Checking" },
+			},
 		},
 		initialBalance: { type: "number", example: 1500.0 },
-		currentBalance: { type: "number", example: 1350.75 },
-		currency: { type: "string", example: "BRL" },
-		color: { type: "string", example: "#8B5CF6" },
+		currency: {
+			type: "object",
+			properties: {
+				id: { type: "string", example: "BRL" },
+				code: { type: "string", example: "BRL" },
+				name: { type: "string", example: "Real Brasileiro" },
+			},
+		},
+		color: {
+			type: "object",
+			properties: {
+				id: { type: "string", example: "indigo" },
+				name: { type: "string", example: "Indigo" },
+				hex: { type: "string", example: "#4C6EF5" },
+			},
+		},
 		icon: { type: "string", nullable: true, example: null },
 		createdAt: {
 			type: "string",
@@ -127,5 +142,14 @@ export const ColorResponseSchema: SchemaObject = {
 		id: { type: "string", example: "indigo" },
 		name: { type: "string", example: "Indigo" },
 		hex: { type: "string", example: "#4C6EF5" },
+	},
+};
+
+export const CurrencyResponseSchema: SchemaObject = {
+	type: "object",
+	properties: {
+		id: { type: "string", example: "BRL" },
+		code: { type: "string", example: "BRL" },
+		name: { type: "string", example: "Real Brasileiro" },
 	},
 };

@@ -4,9 +4,16 @@ import { DeleteBankAccountService } from "./application/delete-bank-account/dele
 import { ListAccountTypesService } from "./application/list-account-types/list-account-types.service";
 import { ListBankAccountsService } from "./application/list-bank-accounts/list-bank-accounts.service";
 import { UpdateBankAccountService } from "./application/update-bank-account/update-bank-account.service";
-import { AccountTypeRepository, BankAccountRepository } from "./domain";
+import {
+	AccountTypeRepository,
+	BankAccountRepository,
+	ColorRepository,
+	CurrencyRepository,
+} from "./domain";
 import { DrizzleAccountTypeRepository } from "./infra/persistence/drizzle-account-type.repository";
 import { DrizzleBankAccountRepository } from "./infra/persistence/drizzle-bank-account.repository";
+import { DrizzleColorRepository } from "./infra/persistence/drizzle-color.repository";
+import { DrizzleCurrencyRepository } from "./infra/persistence/drizzle-currency.repository";
 import { CreateBankAccountController } from "./presentation/create-bank-account.controller";
 import { DeleteBankAccountController } from "./presentation/delete-bank-account.controller";
 import { ListAccountTypesController } from "./presentation/list-account-types.controller";
@@ -29,6 +36,14 @@ import { UpdateBankAccountController } from "./presentation/update-bank-account.
 		{
 			provide: AccountTypeRepository,
 			useClass: DrizzleAccountTypeRepository,
+		},
+		{
+			provide: ColorRepository,
+			useClass: DrizzleColorRepository,
+		},
+		{
+			provide: CurrencyRepository,
+			useClass: DrizzleCurrencyRepository,
 		},
 		CreateBankAccountService,
 		ListBankAccountsService,

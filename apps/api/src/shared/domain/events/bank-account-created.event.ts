@@ -9,7 +9,7 @@ export class BankAccountCreatedEvent implements DomainEvent {
 		readonly aggregateId: Id,
 		readonly userId: string,
 		readonly initialBalance: number,
-		readonly currency: string,
+		readonly currencyId: string,
 	) {
 		this.occurredAt = new Date();
 	}
