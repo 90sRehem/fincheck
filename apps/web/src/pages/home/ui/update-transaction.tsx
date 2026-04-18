@@ -12,8 +12,6 @@ import { Suspense } from "react";
 import { Controller, useForm } from "react-hook-form";
 import { NumericFormat } from "react-number-format";
 import { useUser } from "@/entities/users";
-import { useTransaction } from "../api/use-transaction";
-import { useUpdateTransaction } from "../api/use-update-transactions";
 import type { CreateTransactionFormData } from "../model/create-transaction-schema";
 import {
 	type UpdateTransactionFormData,
@@ -21,6 +19,8 @@ import {
 } from "../model/update-transaction-schema";
 import { useCategoriesList } from "../model/use-categories-list";
 import { useListAccounts } from "../model/use-list-accounts";
+import { useTransaction } from "../model/use-transaction";
+import { useUpdateTransaction } from "../model/use-update-transaction";
 
 const CENTS_PER_UNIT = 100;
 

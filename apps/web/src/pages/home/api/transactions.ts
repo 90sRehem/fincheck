@@ -157,18 +157,13 @@ async function getTransaction({ id }: GetTransactionRequest) {
 
 export type RemoveTransactionRequest = {
 	transactionId: string;
-	userId: string;
 };
 
 export async function removeTransaction({
 	transactionId,
-	userId,
 }: RemoveTransactionRequest) {
 	const response = await apiClient.delete<Transaction>({
 		url: `/api/transactions/${transactionId}`,
-		headers: {
-			userId,
-		},
 	});
 	return response.data;
 }
