@@ -34,6 +34,29 @@ bun run --filter @fincheck/api db:studio       # Open Drizzle Studio
 - **NEVER import between apps:** Apps (`api`, `web`, `docs`) must not import from each other
 - **Path aliases:** Frontend/design-system use `@/*` → `src/*`; backend uses relative imports
 
+## Git Conventions
+
+- **Commits sempre em PT semântico:**
+
+  ```
+  feat(escopo): descrição em português
+  fix(escopo): descrição em português
+  refactor(escopo): descrição em português
+  ```
+
+  Exemplos corretos:
+  ```
+  feat(api): persiste cores e tipos de conta como lookup tables
+  fix(web): corrige redirecionamento após login
+  refactor(api): extrai lógica de seed para módulo separado
+  ```
+
+  Exemplos errados:
+  ```
+  feat(api): persist colors and account-types   ❌ inglês
+  added colors module                            ❌ sem tipo semântico
+  ```
+
 ## Code Conventions
 
 - **No TypeScript enums:** Never use `enum`. Use `as const` objects with derived union types instead:
@@ -78,6 +101,24 @@ O vault centralizado do projeto fica em `~/Documents/dev/projets-wiki/`.
 
 - `/resume` — ler logs recentes em `~/Documents/dev/projets-wiki/fincheck/logs/` + `architecture/decisions.md`, resumir estado atual
 - `/save` — criar log em `~/Documents/dev/projets-wiki/fincheck/logs/YYYY-MM-DD-descricao.md` com o que foi feito, decisões e pendências
+
+## API Versioning
+
+The API uses URI versioning: `/api/v1/...`, `/api/v2/...` for domain endpoints, while auth routes (`/api/auth/*`) remain version-neutral.
+
+**Frontend consumption:**
+- `VITE_API_URL` points to versioned API (e.g., `http://localhost:3333/api/v1`)
+- `VITE_API_BASE_URL` points to unversioned host for auth routes
+- Domain API paths are relative (`/transactions`, not `/api/transactions`)
+- Auth API paths are absolute (`/api/auth/sign-in/email`)
+
+**Backend:**
+- `enableVersioning({ type: VersioningType.URI, defaultVersion: "1" })` in `main.ts`
+- Default version `"1"` is applied automatically to all controllers without explicit `version`
+- Use `@Controller({ version: VERSION_NEUTRAL })` for health-check
+- Use `@Controller({ path: "resource", version: "2" })` to create v2 endpoints
+
+For complete details, see `apps/api/AGENTS.md` and `apps/web/AGENTS.md` sections on API Versioning.
 
 ## graphify
 

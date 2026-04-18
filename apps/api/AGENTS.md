@@ -202,6 +202,68 @@ Plus a second glob for module schemas: `./src/modules/*/infra/drizzle/schemas/*`
 13. Add schema to `schema-registry.ts`
 14. Import module in `app.module.ts`
 
+## API Versioning
+
+### Strategy: URI Versioning
+
+The API uses NestJS URI versioning with the format `/api/v{N}/...`. This enables safe evolution of the API without breaking existing clients.
+
+**Configuration:**
+- `enableVersioning({ type: VersioningType.URI, defaultVersion: "1" })` in `main.ts`
+- All controllers without explicit version annotation respond on `/api/v1/`
+- `AppController` marked with `VERSION_NEUTRAL` to serve `/api/health-check` (no version prefix)
+
+**URL structure:**
+```
+GET /api/health-check           # VERSION_NEUTRAL
+POST /api/auth/sign-in/email    # better-auth routes (no versioning)
+GET /api/v1/bank-accounts       # Domain routes (v1)
+GET /api/v1/transactions        # Domain routes (v1)
+```
+
+### Creating a v2 Endpoint
+
+When a breaking change is needed:
+
+1. Create new controller in `presentation/v2/`:
+```typescript
+// modules/transactions/presentation/v2/transactions.controller.ts
+@Controller({ path: "transactions", version: "2" })
+export class TransactionsControllerV2 {
+  // New implementation with different contract
+}
+```
+
+2. Register both v1 and v2 in the module:
+```typescript
+@Module({
+  controllers: [TransactionsController, TransactionsControllerV2],
+  // ...
+})
+```
+
+3. Update Swagger docs to show both versions if needed.
+
+### Deprecation Headers
+
+For versions being sunset, add deprecation headers:
+
+```typescript
+@Controller({ path: "transactions", version: "1" })
+export class TransactionsController {
+  @Get()
+  @Header("Deprecation", "true")
+  @Header("Sunset", "2027-01-01T00:00:00Z")
+  @Header("Link", '</api/v2/transactions>; rel="successor-version"')
+  list() { ... }
+}
+```
+
+**Lifecycle:**
+- **Active version:** Receives features and bug fixes
+- **Deprecated version:** Only critical bug fixes, deprecation headers added
+- **Sunset version:** Removed after announced date (minimum 3 months notice)
+
 ## Caveats
 
 - **Test files STALE:** `app.controller.spec.ts` expects `"Hello World!"` but service returns `"healthy"`. E2E tests expect `/` but app uses `/api` prefix.

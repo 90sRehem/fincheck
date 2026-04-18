@@ -50,6 +50,73 @@ src/
 - **Schemas:** `*-schema.ts` (e.g., `create-transaction-schema.ts`)
 - **Props:** Wrapped in `Readonly<>` (`props: Readonly<PropsWithChildren>`)
 
+## API Consumption
+
+### Environment Variables
+
+The frontend consumes two API base URLs:
+
+- **`VITE_API_BASE_URL`**: The API host without version (e.g., `http://localhost:3333`)
+- **`VITE_API_URL`**: The versioned API base (e.g., `http://localhost:3333/api/v1`)
+
+**Configuration:**
+```env
+VITE_API_BASE_URL=http://localhost:3333
+VITE_API_URL=http://localhost:3333/api/v1
+```
+
+These are validated via `envSchema` in `apps/web/src/shared/config/env.ts`.
+
+### API Clients
+
+**1. `apiClient` — Versioned API calls (domain endpoints)**
+
+Used for all domain API calls (bank-accounts, transactions, balances, colors, account_types).
+
+```typescript
+import { apiClient } from "@/shared/api";
+
+// baseURL is http://localhost:3333/api/v1 (from VITE_API_URL)
+// Paths should be relative: "/transactions", "/bank-accounts", etc.
+const response = await apiClient.get<Transaction[]>({
+  url: "/transactions",  // Full URL: http://localhost:3333/api/v1/transactions
+  params,
+});
+```
+
+**2. `authClient` — Non-versioned auth routes**
+
+Used for authentication endpoints only (sign-in, sign-up, get-session). These routes do NOT have version prefixes.
+
+```typescript
+import { authClient } from "@/shared/api";
+
+// baseURL is http://localhost:3333 (from VITE_API_BASE_URL)
+// Paths must include full auth prefix: "/api/auth/..."
+const response = await authClient.post<LoginResponse>({
+  url: "/api/auth/sign-in/email",  // Full URL: http://localhost:3333/api/auth/sign-in/email
+  body: { email, password },
+});
+```
+
+### Path Normalization Rules
+
+- **Domain API paths:** Remove `/api/` prefix and use relative paths
+  - Before: `"api/transactions"` or `"/api/transactions"`
+  - After: `"/transactions"` (baseURL adds `/api/v1`)
+
+- **Auth API paths:** Use full absolute paths with `/api/auth/` prefix
+  - Format: `"/api/auth/sign-in/email"`, `"/api/auth/sign-up/email"`, `"/api/auth/get-session"`
+  - baseURL is host-only, so full path is required
+
+### Migration to v2
+
+When the backend introduces a v2 API:
+
+1. Update `.env`: `VITE_API_URL=http://localhost:3333/api/v2`
+2. The change propagates to all domain API calls automatically
+3. Auth routes remain unchanged (version-neutral by design)
+
 ## Caveats
 
 - **Minimal tests:** Only 1 test file exists (create-store.test.ts)
