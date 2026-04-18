@@ -1,11 +1,11 @@
-import { Controller, Get } from "@nestjs/common";
+import { Controller, Get, VERSION_NEUTRAL } from "@nestjs/common";
 import { ApiOperation, ApiResponse, ApiTags } from "@nestjs/swagger";
 import { AllowAnonymous } from "@thallesp/nestjs-better-auth";
 // biome-ignore lint/style/useImportType: <explanation nestjs project>
 import { AppService } from "./app.service";
 
 @ApiTags("Health")
-@Controller()
+@Controller({ version: VERSION_NEUTRAL })
 export class AppController {
 	constructor(private readonly appService: AppService) {}
 

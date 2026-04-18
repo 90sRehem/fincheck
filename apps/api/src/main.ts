@@ -1,4 +1,6 @@
 /** biome-ignore-all lint/style/noMagicNumbers: <explanation> */
+
+import { VersioningType } from "@nestjs/common";
 import { NestFactory } from "@nestjs/core";
 import { NestExpressApplication } from "@nestjs/platform-express";
 import { DocumentBuilder, SwaggerModule } from "@nestjs/swagger";
@@ -17,6 +19,11 @@ async function bootstrap() {
 	app.set("x-powered-by", false);
 	app.setGlobalPrefix("api");
 
+	app.enableVersioning({
+		type: VersioningType.URI,
+		defaultVersion: "1",
+	});
+
 	const config = new DocumentBuilder()
 		.setTitle("Fincheck API")
 		.setDescription(
@@ -26,6 +33,9 @@ async function bootstrap() {
 		.addCookieAuth("better-auth.session_token")
 		.addTag("Health", "Status da API")
 		.addTag("Bank Accounts", "Gerenciamento de contas bancárias")
+		.addTag("Transactions", "Gerenciamento de transações")
+		.addTag("Balances", "Saldos do usuário")
+		.addTag("Colors", "Cores disponíveis")
 		.build();
 
 	const document = SwaggerModule.createDocument(app, config);
