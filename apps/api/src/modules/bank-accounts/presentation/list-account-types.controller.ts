@@ -9,20 +9,17 @@ import {
 	AccountTypeResponseSchema,
 	UnauthorizedErrorSchema,
 } from "@/shared/swagger/schemas";
-import { BANK_ACCOUNT_TYPE, type BankAccountType } from "../domain";
-
-const ACCOUNT_TYPE_LABELS: Record<BankAccountType, string> = {
-	checking: "Checking",
-	savings: "Savings",
-	credit_card: "Credit Card",
-	cash: "Cash",
-	investment: "Investment",
-};
+import { ListAccountTypesService } from "../application/list-account-types/list-account-types.service";
+import { AccountTypeMapper } from "../infra/mappers/account-type.mapper";
 
 @ApiTags("Bank Accounts")
 @ApiCookieAuth("better-auth.session_token")
 @Controller("account_types")
 export class ListAccountTypesController {
+	constructor(
+		private readonly listAccountTypesService: ListAccountTypesService,
+	) {}
+
 	@Get()
 	@ApiOperation({
 		summary: "List Account Types",
@@ -38,10 +35,11 @@ export class ListAccountTypesController {
 		description: "Não autenticado",
 		schema: UnauthorizedErrorSchema,
 	})
-	list() {
-		return Object.values(BANK_ACCOUNT_TYPE).map((type) => ({
-			id: type,
-			name: ACCOUNT_TYPE_LABELS[type],
-		}));
+	async list() {
+		const result = await this.listAccountTypesService.execute();
+		const accountTypes = result.value as Array<{ id: string; name: string }>;
+		return accountTypes.map((accountType) =>
+			AccountTypeMapper.toResponse(accountType),
+		);
 	}
 }

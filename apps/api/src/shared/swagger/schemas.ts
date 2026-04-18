@@ -120,3 +120,12 @@ export const AccountTypeResponseSchema: SchemaObject = {
 		name: { type: "string", example: "Checking" },
 	},
 };
+
+export const ColorResponseSchema: SchemaObject = {
+	type: "object",
+	properties: {
+		id: { type: "string", example: "indigo" },
+		name: { type: "string", example: "Indigo" },
+		hex: { type: "string", example: "#4C6EF5" },
+	},
+};

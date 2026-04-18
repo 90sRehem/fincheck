@@ -278,7 +278,7 @@
       "source_file": "apps/web/vite.config.ts",
       "source_location": "L1",
       "id": "apps_web_vite_config_ts",
-      "community": 194,
+      "community": 207,
       "norm_label": "vite.config.ts"
     },
     {
@@ -287,7 +287,7 @@
       "source_file": "apps/web/src/reportWebVitals.ts",
       "source_location": "L1",
       "id": "apps_web_src_reportwebvitals_ts",
-      "community": 104,
+      "community": 113,
       "norm_label": "reportwebvitals.ts"
     },
     {
@@ -296,7 +296,7 @@
       "source_file": "apps/web/src/reportWebVitals.ts",
       "source_location": "L1",
       "id": "reportwebvitals_reportwebvitals",
-      "community": 104,
+      "community": 113,
       "norm_label": "reportwebvitals()"
     },
     {
@@ -305,7 +305,7 @@
       "source_file": "apps/web/src/vite-env.d.ts",
       "source_location": "L1",
       "id": "apps_web_src_vite_env_d_ts",
-      "community": 195,
+      "community": 208,
       "norm_label": "vite-env.d.ts"
     },
     {
@@ -314,7 +314,7 @@
       "source_file": "apps/web/src/app/main.tsx",
       "source_location": "L1",
       "id": "apps_web_src_app_main_tsx",
-      "community": 196,
+      "community": 209,
       "norm_label": "main.tsx"
     },
     {
@@ -323,7 +323,7 @@
       "source_file": "apps/web/src/app/providers/app-provider.tsx",
       "source_location": "L1",
       "id": "apps_web_src_app_providers_app_provider_tsx",
-      "community": 105,
+      "community": 114,
       "norm_label": "app-provider.tsx"
     },
     {
@@ -332,7 +332,7 @@
       "source_file": "apps/web/src/app/providers/app-provider.tsx",
       "source_location": "L7",
       "id": "app_provider_appprovider",
-      "community": 105,
+      "community": 114,
       "norm_label": "appprovider()"
     },
     {
@@ -341,7 +341,7 @@
       "source_file": "apps/web/src/app/providers/index.ts",
       "source_location": "L1",
       "id": "apps_web_src_app_providers_index_ts",
-      "community": 197,
+      "community": 210,
       "norm_label": "index.ts"
     },
     {
@@ -350,7 +350,7 @@
       "source_file": "apps/web/src/app/routes/guards.ts",
       "source_location": "L1",
       "id": "apps_web_src_app_routes_guards_ts",
-      "community": 69,
+      "community": 77,
       "norm_label": "guards.ts"
     },
     {
@@ -359,7 +359,7 @@
       "source_file": "apps/web/src/app/routes/guards.ts",
       "source_location": "L11",
       "id": "guards_authguard",
-      "community": 69,
+      "community": 77,
       "norm_label": "authguard()"
     },
     {
@@ -368,7 +368,7 @@
       "source_file": "apps/web/src/app/routes/guards.ts",
       "source_location": "L24",
       "id": "guards_guestguard",
-      "community": 69,
+      "community": 77,
       "norm_label": "guestguard()"
     },
     {
@@ -377,7 +377,7 @@
       "source_file": "apps/web/src/app/routes/index.ts",
       "source_location": "L1",
       "id": "apps_web_src_app_routes_index_ts",
-      "community": 198,
+      "community": 211,
       "norm_label": "index.ts"
     },
     {
@@ -386,7 +386,7 @@
       "source_file": "apps/web/src/app/routes/root-route.tsx",
       "source_location": "L1",
       "id": "apps_web_src_app_routes_root_route_tsx",
-      "community": 106,
+      "community": 115,
       "norm_label": "root-route.tsx"
     },
     {
@@ -395,7 +395,7 @@
       "source_file": "apps/web/src/app/routes/root-route.tsx",
       "source_location": "L26",
       "id": "root_route_rootlayout",
-      "community": 106,
+      "community": 115,
       "norm_label": "rootlayout()"
     },
     {
@@ -404,7 +404,7 @@
       "source_file": "apps/web/src/app/routes/session-routes.tsx",
       "source_location": "L1",
       "id": "apps_web_src_app_routes_session_routes_tsx",
-      "community": 199,
+      "community": 212,
       "norm_label": "session-routes.tsx"
     },
     {
@@ -413,7 +413,7 @@
       "source_file": "apps/web/src/pages/home/index.ts",
       "source_location": "L1",
       "id": "apps_web_src_pages_home_index_ts",
-      "community": 200,
+      "community": 213,
       "norm_label": "index.ts"
     },
     {
@@ -422,7 +422,7 @@
       "source_file": "apps/web/src/pages/home/ui/header.tsx",
       "source_location": "L1",
       "id": "apps_web_src_pages_home_ui_header_tsx",
-      "community": 107,
+      "community": 116,
       "norm_label": "header.tsx"
     },
     {
@@ -431,7 +431,7 @@
       "source_file": "apps/web/src/pages/home/ui/header.tsx",
       "source_location": "L4",
       "id": "header_header",
-      "community": 107,
+      "community": 116,
       "norm_label": "header()"
     },
     {
@@ -440,7 +440,7 @@
       "source_file": "apps/web/src/pages/home/ui/home-page.tsx",
       "source_location": "L1",
       "id": "apps_web_src_pages_home_ui_home_page_tsx",
-      "community": 70,
+      "community": 78,
       "norm_label": "home-page.tsx"
     },
     {
@@ -449,7 +449,7 @@
       "source_file": "apps/web/src/pages/home/ui/home-page.tsx",
       "source_location": "L6",
       "id": "home_page_homepageerrorfallback",
-      "community": 70,
+      "community": 78,
       "norm_label": "homepageerrorfallback()"
     },
     {
@@ -458,7 +458,7 @@
       "source_file": "apps/web/src/pages/home/ui/home-page.tsx",
       "source_location": "L31",
       "id": "home_page_homepage",
-      "community": 70,
+      "community": 78,
       "norm_label": "homepage()"
     },
     {
@@ -467,7 +467,7 @@
       "source_file": "apps/web/src/pages/home/ui/home-skeleton.tsx",
       "source_location": "L1",
       "id": "apps_web_src_pages_home_ui_home_skeleton_tsx",
-      "community": 201,
+      "community": 214,
       "norm_label": "home-skeleton.tsx"
     },
     {
@@ -476,7 +476,7 @@
       "source_file": "apps/web/src/pages/home/ui/month-selector.tsx",
       "source_location": "L1",
       "id": "apps_web_src_pages_home_ui_month_selector_tsx",
-      "community": 108,
+      "community": 117,
       "norm_label": "month-selector.tsx"
     },
     {
@@ -485,7 +485,7 @@
       "source_file": "apps/web/src/pages/home/ui/month-selector.tsx",
       "source_location": "L4",
       "id": "month_selector_monthselector",
-      "community": 108,
+      "community": 117,
       "norm_label": "monthselector()"
     },
     {
@@ -494,7 +494,7 @@
       "source_file": "apps/web/src/pages/home/ui/remove-transaction.tsx",
       "source_location": "L1",
       "id": "apps_web_src_pages_home_ui_remove_transaction_tsx",
-      "community": 71,
+      "community": 79,
       "norm_label": "remove-transaction.tsx"
     },
     {
@@ -503,7 +503,7 @@
       "source_file": "apps/web/src/pages/home/ui/remove-transaction.tsx",
       "source_location": "L45",
       "id": "remove_transaction_handleclose",
-      "community": 71,
+      "community": 79,
       "norm_label": "handleclose()"
     },
     {
@@ -512,7 +512,7 @@
       "source_file": "apps/web/src/pages/home/ui/remove-transaction.tsx",
       "source_location": "L54",
       "id": "remove_transaction_handleremove",
-      "community": 71,
+      "community": 79,
       "norm_label": "handleremove()"
     },
     {
@@ -521,7 +521,7 @@
       "source_file": "apps/web/src/pages/home/ui/transaction.tsx",
       "source_location": "L1",
       "id": "apps_web_src_pages_home_ui_transaction_tsx",
-      "community": 202,
+      "community": 215,
       "norm_label": "transaction.tsx"
     },
     {
@@ -530,7 +530,7 @@
       "source_file": "apps/web/src/pages/home/ui/year-selector.tsx",
       "source_location": "L1",
       "id": "apps_web_src_pages_home_ui_year_selector_tsx",
-      "community": 109,
+      "community": 118,
       "norm_label": "year-selector.tsx"
     },
     {
@@ -539,7 +539,7 @@
       "source_file": "apps/web/src/pages/home/ui/year-selector.tsx",
       "source_location": "L9",
       "id": "year_selector_yearselector",
-      "community": 109,
+      "community": 118,
       "norm_label": "yearselector()"
     },
     {
@@ -548,7 +548,7 @@
       "source_file": "apps/web/src/pages/home/ui/acounts-list.tsx",
       "source_location": "L1",
       "id": "apps_web_src_pages_home_ui_acounts_list_tsx",
-      "community": 203,
+      "community": 216,
       "norm_label": "acounts-list.tsx"
     },
     {
@@ -593,7 +593,7 @@
       "source_file": "apps/web/src/pages/home/ui/add-expense.tsx",
       "source_location": "L1",
       "id": "apps_web_src_pages_home_ui_add_expense_tsx",
-      "community": 72,
+      "community": 80,
       "norm_label": "add-expense.tsx"
     },
     {
@@ -602,7 +602,7 @@
       "source_file": "apps/web/src/pages/home/ui/add-expense.tsx",
       "source_location": "L39",
       "id": "add_expense_handleclose",
-      "community": 72,
+      "community": 80,
       "norm_label": "handleclose()"
     },
     {
@@ -611,7 +611,7 @@
       "source_file": "apps/web/src/pages/home/ui/add-expense.tsx",
       "source_location": "L43",
       "id": "add_expense_handlesubmit",
-      "community": 72,
+      "community": 80,
       "norm_label": "handlesubmit()"
     },
     {
@@ -620,7 +620,7 @@
       "source_file": "apps/web/src/pages/home/ui/add-revenue.tsx",
       "source_location": "L1",
       "id": "apps_web_src_pages_home_ui_add_revenue_tsx",
-      "community": 73,
+      "community": 81,
       "norm_label": "add-revenue.tsx"
     },
     {
@@ -629,7 +629,7 @@
       "source_file": "apps/web/src/pages/home/ui/add-revenue.tsx",
       "source_location": "L39",
       "id": "add_revenue_handleclose",
-      "community": 73,
+      "community": 81,
       "norm_label": "handleclose()"
     },
     {
@@ -638,7 +638,7 @@
       "source_file": "apps/web/src/pages/home/ui/add-revenue.tsx",
       "source_location": "L43",
       "id": "add_revenue_handlesubmit",
-      "community": 73,
+      "community": 81,
       "norm_label": "handlesubmit()"
     },
     {
@@ -719,7 +719,7 @@
       "source_file": "apps/web/src/pages/home/ui/home.tsx",
       "source_location": "L1",
       "id": "apps_web_src_pages_home_ui_home_tsx",
-      "community": 110,
+      "community": 119,
       "norm_label": "home.tsx"
     },
     {
@@ -728,7 +728,7 @@
       "source_file": "apps/web/src/pages/home/ui/home.tsx",
       "source_location": "L8",
       "id": "home_home",
-      "community": 110,
+      "community": 119,
       "norm_label": "home()"
     },
     {
@@ -737,7 +737,7 @@
       "source_file": "apps/web/src/pages/home/ui/transactions-list.tsx",
       "source_location": "L1",
       "id": "apps_web_src_pages_home_ui_transactions_list_tsx",
-      "community": 204,
+      "community": 217,
       "norm_label": "transactions-list.tsx"
     },
     {
@@ -746,7 +746,7 @@
       "source_file": "apps/web/src/pages/home/api/account-types.ts",
       "source_location": "L1",
       "id": "apps_web_src_pages_home_api_account_types_ts",
-      "community": 111,
+      "community": 120,
       "norm_label": "account-types.ts"
     },
     {
@@ -755,7 +755,7 @@
       "source_file": "apps/web/src/pages/home/api/account-types.ts",
       "source_location": "L9",
       "id": "account_types_listaccounttypes",
-      "community": 111,
+      "community": 120,
       "norm_label": "listaccounttypes()"
     },
     {
@@ -764,7 +764,7 @@
       "source_file": "apps/web/src/pages/home/api/categories.ts",
       "source_location": "L1",
       "id": "apps_web_src_pages_home_api_categories_ts",
-      "community": 112,
+      "community": 121,
       "norm_label": "categories.ts"
     },
     {
@@ -773,7 +773,7 @@
       "source_file": "apps/web/src/pages/home/api/categories.ts",
       "source_location": "L9",
       "id": "categories_listcategories",
-      "community": 112,
+      "community": 121,
       "norm_label": "listcategories()"
     },
     {
@@ -782,7 +782,7 @@
       "source_file": "apps/web/src/pages/home/api/colors.ts",
       "source_location": "L1",
       "id": "apps_web_src_pages_home_api_colors_ts",
-      "community": 113,
+      "community": 122,
       "norm_label": "colors.ts"
     },
     {
@@ -791,7 +791,7 @@
       "source_file": "apps/web/src/pages/home/api/colors.ts",
       "source_location": "L9",
       "id": "colors_listcolors",
-      "community": 113,
+      "community": 122,
       "norm_label": "listcolors()"
     },
     {
@@ -854,7 +854,7 @@
       "source_file": "apps/web/src/pages/home/api/accounts.ts",
       "source_location": "L1",
       "id": "apps_web_src_pages_home_api_accounts_ts",
-      "community": 74,
+      "community": 82,
       "norm_label": "accounts.ts"
     },
     {
@@ -863,7 +863,7 @@
       "source_file": "apps/web/src/pages/home/api/accounts.ts",
       "source_location": "L13",
       "id": "accounts_createaccount",
-      "community": 74,
+      "community": 82,
       "norm_label": "createaccount()"
     },
     {
@@ -872,7 +872,7 @@
       "source_file": "apps/web/src/pages/home/api/accounts.ts",
       "source_location": "L35",
       "id": "accounts_listaccounts",
-      "community": 74,
+      "community": 82,
       "norm_label": "listaccounts()"
     },
     {
@@ -881,7 +881,7 @@
       "source_file": "apps/web/src/pages/home/model/add-account-schema.ts",
       "source_location": "L1",
       "id": "apps_web_src_pages_home_model_add_account_schema_ts",
-      "community": 205,
+      "community": 218,
       "norm_label": "add-account-schema.ts"
     },
     {
@@ -926,7 +926,7 @@
       "source_file": "apps/web/src/pages/home/model/create-transaction-schema.ts",
       "source_location": "L1",
       "id": "apps_web_src_pages_home_model_create_transaction_schema_ts",
-      "community": 206,
+      "community": 219,
       "norm_label": "create-transaction-schema.ts"
     },
     {
@@ -935,7 +935,7 @@
       "source_file": "apps/web/src/pages/home/model/month-selector-store.ts",
       "source_location": "L1",
       "id": "apps_web_src_pages_home_model_month_selector_store_ts",
-      "community": 207,
+      "community": 220,
       "norm_label": "month-selector-store.ts"
     },
     {
@@ -944,7 +944,7 @@
       "source_file": "apps/web/src/pages/home/model/period-selector-store.ts",
       "source_location": "L1",
       "id": "apps_web_src_pages_home_model_period_selector_store_ts",
-      "community": 114,
+      "community": 123,
       "norm_label": "period-selector-store.ts"
     },
     {
@@ -953,7 +953,7 @@
       "source_file": "apps/web/src/pages/home/model/period-selector-store.ts",
       "source_location": "L10",
       "id": "period_selector_store_createperiodselectorstore",
-      "community": 114,
+      "community": 123,
       "norm_label": "createperiodselectorstore()"
     },
     {
@@ -962,7 +962,7 @@
       "source_file": "apps/web/src/pages/home/model/period.ts",
       "source_location": "L1",
       "id": "apps_web_src_pages_home_model_period_ts",
-      "community": 208,
+      "community": 221,
       "norm_label": "period.ts"
     },
     {
@@ -971,7 +971,7 @@
       "source_file": "apps/web/src/pages/home/model/transactions-filters-store.ts",
       "source_location": "L1",
       "id": "apps_web_src_pages_home_model_transactions_filters_store_ts",
-      "community": 115,
+      "community": 124,
       "norm_label": "transactions-filters-store.ts"
     },
     {
@@ -980,7 +980,7 @@
       "source_file": "apps/web/src/pages/home/model/transactions-filters-store.ts",
       "source_location": "L12",
       "id": "transactions_filters_store_getinitialstate",
-      "community": 115,
+      "community": 124,
       "norm_label": "getinitialstate()"
     },
     {
@@ -989,7 +989,7 @@
       "source_file": "apps/web/src/pages/home/model/update-transaction-schema.ts",
       "source_location": "L1",
       "id": "apps_web_src_pages_home_model_update_transaction_schema_ts",
-      "community": 209,
+      "community": 222,
       "norm_label": "update-transaction-schema.ts"
     },
     {
@@ -998,7 +998,7 @@
       "source_file": "apps/web/src/pages/home/model/use-add-account.ts",
       "source_location": "L1",
       "id": "apps_web_src_pages_home_model_use_add_account_ts",
-      "community": 116,
+      "community": 125,
       "norm_label": "use-add-account.ts"
     },
     {
@@ -1007,7 +1007,7 @@
       "source_file": "apps/web/src/pages/home/model/use-add-account.ts",
       "source_location": "L5",
       "id": "use_add_account_useaddaccount",
-      "community": 116,
+      "community": 125,
       "norm_label": "useaddaccount()"
     },
     {
@@ -1016,7 +1016,7 @@
       "source_file": "apps/web/src/pages/home/model/use-categories-list.ts",
       "source_location": "L1",
       "id": "apps_web_src_pages_home_model_use_categories_list_ts",
-      "community": 117,
+      "community": 126,
       "norm_label": "use-categories-list.ts"
     },
     {
@@ -1025,7 +1025,7 @@
       "source_file": "apps/web/src/pages/home/model/use-categories-list.ts",
       "source_location": "L4",
       "id": "use_categories_list_usecategorieslist",
-      "community": 117,
+      "community": 126,
       "norm_label": "usecategorieslist()"
     },
     {
@@ -1034,7 +1034,7 @@
       "source_file": "apps/web/src/pages/home/model/use-create-transaction.ts",
       "source_location": "L1",
       "id": "apps_web_src_pages_home_model_use_create_transaction_ts",
-      "community": 118,
+      "community": 127,
       "norm_label": "use-create-transaction.ts"
     },
     {
@@ -1043,7 +1043,7 @@
       "source_file": "apps/web/src/pages/home/model/use-create-transaction.ts",
       "source_location": "L15",
       "id": "use_create_transaction_usecreatetransaction",
-      "community": 118,
+      "community": 127,
       "norm_label": "usecreatetransaction()"
     },
     {
@@ -1052,7 +1052,7 @@
       "source_file": "apps/web/src/pages/home/model/use-list-account-types.ts",
       "source_location": "L1",
       "id": "apps_web_src_pages_home_model_use_list_account_types_ts",
-      "community": 119,
+      "community": 128,
       "norm_label": "use-list-account-types.ts"
     },
     {
@@ -1061,7 +1061,7 @@
       "source_file": "apps/web/src/pages/home/model/use-list-account-types.ts",
       "source_location": "L4",
       "id": "use_list_account_types_uselistaccounttypes",
-      "community": 119,
+      "community": 128,
       "norm_label": "uselistaccounttypes()"
     },
     {
@@ -1070,7 +1070,7 @@
       "source_file": "apps/web/src/pages/home/model/use-list-colors.ts",
       "source_location": "L1",
       "id": "apps_web_src_pages_home_model_use_list_colors_ts",
-      "community": 120,
+      "community": 129,
       "norm_label": "use-list-colors.ts"
     },
     {
@@ -1079,7 +1079,7 @@
       "source_file": "apps/web/src/pages/home/model/use-list-colors.ts",
       "source_location": "L4",
       "id": "use_list_colors_uselistcolors",
-      "community": 120,
+      "community": 129,
       "norm_label": "uselistcolors()"
     },
     {
@@ -1088,7 +1088,7 @@
       "source_file": "apps/web/src/pages/home/model/use-month-selector.ts",
       "source_location": "L1",
       "id": "apps_web_src_pages_home_model_use_month_selector_ts",
-      "community": 121,
+      "community": 130,
       "norm_label": "use-month-selector.ts"
     },
     {
@@ -1097,7 +1097,7 @@
       "source_file": "apps/web/src/pages/home/model/use-month-selector.ts",
       "source_location": "L14",
       "id": "use_month_selector_usemonthselector",
-      "community": 121,
+      "community": 130,
       "norm_label": "usemonthselector()"
     },
     {
@@ -1106,7 +1106,7 @@
       "source_file": "apps/web/src/pages/home/model/use-transactions-filters.ts",
       "source_location": "L1",
       "id": "apps_web_src_pages_home_model_use_transactions_filters_ts",
-      "community": 122,
+      "community": 131,
       "norm_label": "use-transactions-filters.ts"
     },
     {
@@ -1115,7 +1115,7 @@
       "source_file": "apps/web/src/pages/home/model/use-transactions-filters.ts",
       "source_location": "L9",
       "id": "use_transactions_filters_usetransactionsfilters",
-      "community": 122,
+      "community": 131,
       "norm_label": "usetransactionsfilters()"
     },
     {
@@ -1124,7 +1124,7 @@
       "source_file": "apps/web/src/pages/home/model/use-transactions.ts",
       "source_location": "L1",
       "id": "apps_web_src_pages_home_model_use_transactions_ts",
-      "community": 123,
+      "community": 132,
       "norm_label": "use-transactions.ts"
     },
     {
@@ -1133,7 +1133,7 @@
       "source_file": "apps/web/src/pages/home/model/use-transactions.ts",
       "source_location": "L6",
       "id": "use_transactions_usetransactions",
-      "community": 123,
+      "community": 132,
       "norm_label": "usetransactions()"
     },
     {
@@ -1142,7 +1142,7 @@
       "source_file": "apps/web/src/pages/home/model/use-year-selector.ts",
       "source_location": "L1",
       "id": "apps_web_src_pages_home_model_use_year_selector_ts",
-      "community": 124,
+      "community": 133,
       "norm_label": "use-year-selector.ts"
     },
     {
@@ -1151,7 +1151,7 @@
       "source_file": "apps/web/src/pages/home/model/use-year-selector.ts",
       "source_location": "L19",
       "id": "use_year_selector_useyearselector",
-      "community": 124,
+      "community": 133,
       "norm_label": "useyearselector()"
     },
     {
@@ -1160,7 +1160,7 @@
       "source_file": "apps/web/src/pages/home/model/year-selector-store.ts",
       "source_location": "L1",
       "id": "apps_web_src_pages_home_model_year_selector_store_ts",
-      "community": 210,
+      "community": 223,
       "norm_label": "year-selector-store.ts"
     },
     {
@@ -1169,7 +1169,7 @@
       "source_file": "apps/web/src/pages/home/model/use-list-accounts.ts",
       "source_location": "L1",
       "id": "apps_web_src_pages_home_model_use_list_accounts_ts",
-      "community": 125,
+      "community": 134,
       "norm_label": "use-list-accounts.ts"
     },
     {
@@ -1178,7 +1178,7 @@
       "source_file": "apps/web/src/pages/home/model/use-list-accounts.ts",
       "source_location": "L4",
       "id": "use_list_accounts_uselistaccounts",
-      "community": 125,
+      "community": 134,
       "norm_label": "uselistaccounts()"
     },
     {
@@ -1187,7 +1187,7 @@
       "source_file": "apps/web/src/pages/home/model/use-update-transaction.ts",
       "source_location": "L1",
       "id": "apps_web_src_pages_home_model_use_update_transaction_ts",
-      "community": 126,
+      "community": 135,
       "norm_label": "use-update-transaction.ts"
     },
     {
@@ -1196,7 +1196,7 @@
       "source_file": "apps/web/src/pages/home/model/use-update-transaction.ts",
       "source_location": "L15",
       "id": "use_update_transaction_useupdatetransaction",
-      "community": 126,
+      "community": 135,
       "norm_label": "useupdatetransaction()"
     },
     {
@@ -1205,7 +1205,7 @@
       "source_file": "apps/web/src/pages/home/model/use-transaction.ts",
       "source_location": "L1",
       "id": "apps_web_src_pages_home_model_use_transaction_ts",
-      "community": 127,
+      "community": 136,
       "norm_label": "use-transaction.ts"
     },
     {
@@ -1214,7 +1214,7 @@
       "source_file": "apps/web/src/pages/home/model/use-transaction.ts",
       "source_location": "L7",
       "id": "use_transaction_usetransaction",
-      "community": 127,
+      "community": 136,
       "norm_label": "usetransaction()"
     },
     {
@@ -1223,7 +1223,7 @@
       "source_file": "apps/web/src/pages/home/model/use-remove-transaction.ts",
       "source_location": "L1",
       "id": "apps_web_src_pages_home_model_use_remove_transaction_ts",
-      "community": 128,
+      "community": 137,
       "norm_label": "use-remove-transaction.ts"
     },
     {
@@ -1232,7 +1232,7 @@
       "source_file": "apps/web/src/pages/home/model/use-remove-transaction.ts",
       "source_location": "L11",
       "id": "use_remove_transaction_useremovetransaction",
-      "community": 128,
+      "community": 137,
       "norm_label": "useremovetransaction()"
     },
     {
@@ -1241,7 +1241,7 @@
       "source_file": "apps/web/src/pages/home/lib/category-mapping.ts",
       "source_location": "L1",
       "id": "apps_web_src_pages_home_lib_category_mapping_ts",
-      "community": 129,
+      "community": 138,
       "norm_label": "category-mapping.ts"
     },
     {
@@ -1250,7 +1250,7 @@
       "source_file": "apps/web/src/pages/home/lib/category-mapping.ts",
       "source_location": "L49",
       "id": "category_mapping_getcategorymapping",
-      "community": 129,
+      "community": 138,
       "norm_label": "getcategorymapping()"
     },
     {
@@ -1259,7 +1259,7 @@
       "source_file": "apps/web/src/pages/home/lib/date-periods.ts",
       "source_location": "L1",
       "id": "apps_web_src_pages_home_lib_date_periods_ts",
-      "community": 75,
+      "community": 83,
       "norm_label": "date-periods.ts"
     },
     {
@@ -1268,7 +1268,7 @@
       "source_file": "apps/web/src/pages/home/lib/date-periods.ts",
       "source_location": "L3",
       "id": "date_periods_formatperiod",
-      "community": 75,
+      "community": 83,
       "norm_label": "formatperiod()"
     },
     {
@@ -1277,7 +1277,7 @@
       "source_file": "apps/web/src/pages/home/lib/date-periods.ts",
       "source_location": "L11",
       "id": "date_periods_getvisibleperiods",
-      "community": 75,
+      "community": 83,
       "norm_label": "getvisibleperiods()"
     },
     {
@@ -1286,7 +1286,7 @@
       "source_file": "apps/web/src/pages/home/lib/get-color-icon.ts",
       "source_location": "L1",
       "id": "apps_web_src_pages_home_lib_get_color_icon_ts",
-      "community": 130,
+      "community": 139,
       "norm_label": "get-color-icon.ts"
     },
     {
@@ -1295,7 +1295,7 @@
       "source_file": "apps/web/src/pages/home/lib/get-color-icon.ts",
       "source_location": "L3",
       "id": "get_color_icon_getcoloricon",
-      "community": 130,
+      "community": 139,
       "norm_label": "getcoloricon()"
     },
     {
@@ -1304,7 +1304,7 @@
       "source_file": "apps/web/src/pages/session/index.ts",
       "source_location": "L1",
       "id": "apps_web_src_pages_session_index_ts",
-      "community": 211,
+      "community": 224,
       "norm_label": "index.ts"
     },
     {
@@ -1313,7 +1313,7 @@
       "source_file": "apps/web/src/pages/session/model/use-login.ts",
       "source_location": "L1",
       "id": "apps_web_src_pages_session_model_use_login_ts",
-      "community": 131,
+      "community": 140,
       "norm_label": "use-login.ts"
     },
     {
@@ -1322,7 +1322,7 @@
       "source_file": "apps/web/src/pages/session/model/use-login.ts",
       "source_location": "L6",
       "id": "use_login_uselogin",
-      "community": 131,
+      "community": 140,
       "norm_label": "uselogin()"
     },
     {
@@ -1331,7 +1331,7 @@
       "source_file": "apps/web/src/pages/session/model/use-register.ts",
       "source_location": "L1",
       "id": "apps_web_src_pages_session_model_use_register_ts",
-      "community": 132,
+      "community": 141,
       "norm_label": "use-register.ts"
     },
     {
@@ -1340,7 +1340,7 @@
       "source_file": "apps/web/src/pages/session/model/use-register.ts",
       "source_location": "L5",
       "id": "use_register_useregistermutation",
-      "community": 132,
+      "community": 141,
       "norm_label": "useregistermutation()"
     },
     {
@@ -1349,7 +1349,7 @@
       "source_file": "apps/web/src/pages/session/ui/session-layout.tsx",
       "source_location": "L1",
       "id": "apps_web_src_pages_session_ui_session_layout_tsx",
-      "community": 133,
+      "community": 142,
       "norm_label": "session-layout.tsx"
     },
     {
@@ -1358,7 +1358,7 @@
       "source_file": "apps/web/src/pages/session/ui/session-layout.tsx",
       "source_location": "L4",
       "id": "session_layout_sessionlayout",
-      "community": 133,
+      "community": 142,
       "norm_label": "sessionlayout()"
     },
     {
@@ -1367,7 +1367,7 @@
       "source_file": "apps/web/src/pages/session/ui/register-page.tsx",
       "source_location": "L1",
       "id": "apps_web_src_pages_session_ui_register_page_tsx",
-      "community": 134,
+      "community": 143,
       "norm_label": "register-page.tsx"
     },
     {
@@ -1376,7 +1376,7 @@
       "source_file": "apps/web/src/pages/session/ui/register-page.tsx",
       "source_location": "L33",
       "id": "register_page_handlesubmit",
-      "community": 134,
+      "community": 143,
       "norm_label": "handlesubmit()"
     },
     {
@@ -1385,7 +1385,7 @@
       "source_file": "apps/web/src/pages/session/ui/login-page.tsx",
       "source_location": "L1",
       "id": "apps_web_src_pages_session_ui_login_page_tsx",
-      "community": 135,
+      "community": 144,
       "norm_label": "login-page.tsx"
     },
     {
@@ -1394,7 +1394,7 @@
       "source_file": "apps/web/src/pages/session/ui/login-page.tsx",
       "source_location": "L26",
       "id": "login_page_handlesubmit",
-      "community": 135,
+      "community": 144,
       "norm_label": "handlesubmit()"
     },
     {
@@ -1484,7 +1484,7 @@
       "source_file": "apps/web/src/shared/api/index.ts",
       "source_location": "L1",
       "id": "apps_web_src_shared_api_index_ts",
-      "community": 212,
+      "community": 225,
       "norm_label": "index.ts"
     },
     {
@@ -1493,7 +1493,7 @@
       "source_file": "apps/web/src/shared/api/api-client.ts",
       "source_location": "L1",
       "id": "apps_web_src_shared_api_api_client_ts",
-      "community": 213,
+      "community": 226,
       "norm_label": "api-client.ts"
     },
     {
@@ -1502,7 +1502,7 @@
       "source_file": "apps/web/src/shared/api/endpoints/login.ts",
       "source_location": "L1",
       "id": "apps_web_src_shared_api_endpoints_login_ts",
-      "community": 136,
+      "community": 145,
       "norm_label": "login.ts"
     },
     {
@@ -1511,7 +1511,7 @@
       "source_file": "apps/web/src/shared/api/endpoints/login.ts",
       "source_location": "L17",
       "id": "login_login",
-      "community": 136,
+      "community": 145,
       "norm_label": "login()"
     },
     {
@@ -1520,7 +1520,7 @@
       "source_file": "apps/web/src/shared/api/endpoints/register.ts",
       "source_location": "L1",
       "id": "apps_web_src_shared_api_endpoints_register_ts",
-      "community": 137,
+      "community": 146,
       "norm_label": "register.ts"
     },
     {
@@ -1529,7 +1529,7 @@
       "source_file": "apps/web/src/shared/api/endpoints/register.ts",
       "source_location": "L24",
       "id": "register_register",
-      "community": 137,
+      "community": 146,
       "norm_label": "register()"
     },
     {
@@ -1538,7 +1538,7 @@
       "source_file": "apps/web/src/shared/lib/currency.ts",
       "source_location": "L1",
       "id": "apps_web_src_shared_lib_currency_ts",
-      "community": 76,
+      "community": 84,
       "norm_label": "currency.ts"
     },
     {
@@ -1547,7 +1547,7 @@
       "source_file": "apps/web/src/shared/lib/currency.ts",
       "source_location": "L1",
       "id": "currency_formattobrlcurrency",
-      "community": 76,
+      "community": 84,
       "norm_label": "formattobrlcurrency()"
     },
     {
@@ -1556,7 +1556,7 @@
       "source_file": "apps/web/src/shared/lib/currency.ts",
       "source_location": "L12",
       "id": "currency_formatbrlfromcents",
-      "community": 76,
+      "community": 84,
       "norm_label": "formatbrlfromcents()"
     },
     {
@@ -1601,7 +1601,7 @@
       "source_file": "apps/web/src/shared/lib/index.ts",
       "source_location": "L1",
       "id": "apps_web_src_shared_lib_index_ts",
-      "community": 214,
+      "community": 227,
       "norm_label": "index.ts"
     },
     {
@@ -1610,7 +1610,7 @@
       "source_file": "apps/web/src/shared/lib/core/index.ts",
       "source_location": "L1",
       "id": "apps_web_src_shared_lib_core_index_ts",
-      "community": 215,
+      "community": 228,
       "norm_label": "index.ts"
     },
     {
@@ -1619,7 +1619,7 @@
       "source_file": "apps/web/src/shared/lib/core/http/create-api-client.ts",
       "source_location": "L1",
       "id": "apps_web_src_shared_lib_core_http_create_api_client_ts",
-      "community": 138,
+      "community": 147,
       "norm_label": "create-api-client.ts"
     },
     {
@@ -1628,7 +1628,7 @@
       "source_file": "apps/web/src/shared/lib/core/http/create-api-client.ts",
       "source_location": "L10",
       "id": "create_api_client_createapiclient",
-      "community": 138,
+      "community": 147,
       "norm_label": "createapiclient()"
     },
     {
@@ -1754,7 +1754,7 @@
       "source_file": "apps/web/src/shared/lib/core/http/http-client.ts",
       "source_location": "L1",
       "id": "apps_web_src_shared_lib_core_http_http_client_ts",
-      "community": 216,
+      "community": 229,
       "norm_label": "http-client.ts"
     },
     {
@@ -1763,7 +1763,7 @@
       "source_file": "apps/web/src/shared/lib/core/http/resolve-headers.ts",
       "source_location": "L1",
       "id": "apps_web_src_shared_lib_core_http_resolve_headers_ts",
-      "community": 139,
+      "community": 148,
       "norm_label": "resolve-headers.ts"
     },
     {
@@ -1772,7 +1772,7 @@
       "source_file": "apps/web/src/shared/lib/core/http/resolve-headers.ts",
       "source_location": "L3",
       "id": "resolve_headers_resolveheaders",
-      "community": 139,
+      "community": 148,
       "norm_label": "resolveheaders()"
     },
     {
@@ -1781,7 +1781,7 @@
       "source_file": "apps/web/src/shared/lib/core/store/create-store.test.ts",
       "source_location": "L1",
       "id": "apps_web_src_shared_lib_core_store_create_store_test_ts",
-      "community": 77,
+      "community": 85,
       "norm_label": "create-store.test.ts"
     },
     {
@@ -1790,7 +1790,7 @@
       "source_file": "apps/web/src/shared/lib/core/store/create-store.test.ts",
       "source_location": "L315",
       "id": "create_store_test_customequal",
-      "community": 77,
+      "community": 85,
       "norm_label": "customequal()"
     },
     {
@@ -1799,7 +1799,7 @@
       "source_file": "apps/web/src/shared/lib/core/store/create-store.test.ts",
       "source_location": "L377",
       "id": "create_store_test_throwingselector",
-      "community": 77,
+      "community": 85,
       "norm_label": "throwingselector()"
     },
     {
@@ -1808,7 +1808,7 @@
       "source_file": "apps/web/src/shared/lib/core/store/create-store.ts",
       "source_location": "L1",
       "id": "apps_web_src_shared_lib_core_store_create_store_ts",
-      "community": 140,
+      "community": 149,
       "norm_label": "create-store.ts"
     },
     {
@@ -1817,7 +1817,7 @@
       "source_file": "apps/web/src/shared/lib/core/store/create-store.ts",
       "source_location": "L26",
       "id": "create_store_createstore",
-      "community": 140,
+      "community": 149,
       "norm_label": "createstore()"
     },
     {
@@ -1826,7 +1826,7 @@
       "source_file": "apps/web/src/shared/lib/core/store/use-store.ts",
       "source_location": "L1",
       "id": "apps_web_src_shared_lib_core_store_use_store_ts",
-      "community": 141,
+      "community": 150,
       "norm_label": "use-store.ts"
     },
     {
@@ -1835,7 +1835,7 @@
       "source_file": "apps/web/src/shared/lib/core/store/use-store.ts",
       "source_location": "L4",
       "id": "use_store_usestore",
-      "community": 141,
+      "community": 150,
       "norm_label": "usestore()"
     },
     {
@@ -1844,7 +1844,7 @@
       "source_file": "apps/web/src/shared/lib/core/error/error-reporter.ts",
       "source_location": "L1",
       "id": "apps_web_src_shared_lib_core_error_error_reporter_ts",
-      "community": 142,
+      "community": 151,
       "norm_label": "error-reporter.ts"
     },
     {
@@ -1853,7 +1853,7 @@
       "source_file": "apps/web/src/shared/lib/core/error/error-reporter.ts",
       "source_location": "L9",
       "id": "error_reporter_reporterror",
-      "community": 142,
+      "community": 151,
       "norm_label": "reporterror()"
     },
     {
@@ -1862,7 +1862,7 @@
       "source_file": "apps/web/src/shared/lib/core/error/network-error.ts",
       "source_location": "L1",
       "id": "apps_web_src_shared_lib_core_error_network_error_ts",
-      "community": 78,
+      "community": 86,
       "norm_label": "network-error.ts"
     },
     {
@@ -1871,7 +1871,7 @@
       "source_file": "apps/web/src/shared/lib/core/error/network-error.ts",
       "source_location": "L3",
       "id": "network_error_networkerror",
-      "community": 78,
+      "community": 86,
       "norm_label": "networkerror"
     },
     {
@@ -1880,7 +1880,7 @@
       "source_file": "apps/web/src/shared/lib/core/error/network-error.ts",
       "source_location": "L4",
       "id": "network_error_networkerror_constructor",
-      "community": 78,
+      "community": 86,
       "norm_label": ".constructor()"
     },
     {
@@ -1889,7 +1889,7 @@
       "source_file": "apps/web/src/shared/lib/react-query/index.ts",
       "source_location": "L1",
       "id": "apps_web_src_shared_lib_react_query_index_ts",
-      "community": 217,
+      "community": 230,
       "norm_label": "index.ts"
     },
     {
@@ -1898,7 +1898,7 @@
       "source_file": "apps/web/src/shared/lib/react-query/query-client.ts",
       "source_location": "L1",
       "id": "apps_web_src_shared_lib_react_query_query_client_ts",
-      "community": 218,
+      "community": 231,
       "norm_label": "query-client.ts"
     },
     {
@@ -1907,7 +1907,7 @@
       "source_file": "apps/web/src/shared/lib/storage/index.ts",
       "source_location": "L1",
       "id": "apps_web_src_shared_lib_storage_index_ts",
-      "community": 219,
+      "community": 232,
       "norm_label": "index.ts"
     },
     {
@@ -2024,7 +2024,7 @@
       "source_file": "apps/web/src/shared/ui/global-error-boundary.tsx",
       "source_location": "L1",
       "id": "apps_web_src_shared_ui_global_error_boundary_tsx",
-      "community": 220,
+      "community": 233,
       "norm_label": "global-error-boundary.tsx"
     },
     {
@@ -2033,7 +2033,7 @@
       "source_file": "apps/web/src/shared/ui/index.ts",
       "source_location": "L1",
       "id": "apps_web_src_shared_ui_index_ts",
-      "community": 221,
+      "community": 234,
       "norm_label": "index.ts"
     },
     {
@@ -2042,7 +2042,7 @@
       "source_file": "apps/web/src/shared/ui/logo.tsx",
       "source_location": "L1",
       "id": "apps_web_src_shared_ui_logo_tsx",
-      "community": 222,
+      "community": 235,
       "norm_label": "logo.tsx"
     },
     {
@@ -2051,7 +2051,7 @@
       "source_file": "apps/web/src/shared/ui/not-found.tsx",
       "source_location": "L1",
       "id": "apps_web_src_shared_ui_not_found_tsx",
-      "community": 143,
+      "community": 152,
       "norm_label": "not-found.tsx"
     },
     {
@@ -2060,7 +2060,7 @@
       "source_file": "apps/web/src/shared/ui/not-found.tsx",
       "source_location": "L1",
       "id": "not_found_notfound",
-      "community": 143,
+      "community": 152,
       "norm_label": "notfound()"
     },
     {
@@ -2069,7 +2069,7 @@
       "source_file": "apps/web/src/shared/ui/splash-screen.tsx",
       "source_location": "L1",
       "id": "apps_web_src_shared_ui_splash_screen_tsx",
-      "community": 144,
+      "community": 153,
       "norm_label": "splash-screen.tsx"
     },
     {
@@ -2078,7 +2078,7 @@
       "source_file": "apps/web/src/shared/ui/splash-screen.tsx",
       "source_location": "L3",
       "id": "splash_screen_splashscreen",
-      "community": 144,
+      "community": 153,
       "norm_label": "splashscreen()"
     },
     {
@@ -2087,7 +2087,7 @@
       "source_file": "apps/web/src/shared/config/constants.ts",
       "source_location": "L1",
       "id": "apps_web_src_shared_config_constants_ts",
-      "community": 223,
+      "community": 236,
       "norm_label": "constants.ts"
     },
     {
@@ -2096,7 +2096,7 @@
       "source_file": "apps/web/src/shared/config/index.ts",
       "source_location": "L1",
       "id": "apps_web_src_shared_config_index_ts",
-      "community": 224,
+      "community": 237,
       "norm_label": "index.ts"
     },
     {
@@ -2105,7 +2105,7 @@
       "source_file": "apps/web/src/shared/config/env.ts",
       "source_location": "L1",
       "id": "apps_web_src_shared_config_env_ts",
-      "community": 225,
+      "community": 238,
       "norm_label": "env.ts"
     },
     {
@@ -2114,7 +2114,7 @@
       "source_file": "apps/web/src/entities/users/index.ts",
       "source_location": "L1",
       "id": "apps_web_src_entities_users_index_ts",
-      "community": 226,
+      "community": 239,
       "norm_label": "index.ts"
     },
     {
@@ -2123,7 +2123,7 @@
       "source_file": "apps/web/src/entities/users/api/get-user.ts",
       "source_location": "L1",
       "id": "apps_web_src_entities_users_api_get_user_ts",
-      "community": 145,
+      "community": 154,
       "norm_label": "get-user.ts"
     },
     {
@@ -2132,7 +2132,7 @@
       "source_file": "apps/web/src/entities/users/api/get-user.ts",
       "source_location": "L18",
       "id": "get_user_getuser",
-      "community": 145,
+      "community": 154,
       "norm_label": "getuser()"
     },
     {
@@ -2141,7 +2141,7 @@
       "source_file": "apps/web/src/entities/users/api/user-query.ts",
       "source_location": "L1",
       "id": "apps_web_src_entities_users_api_user_query_ts",
-      "community": 227,
+      "community": 240,
       "norm_label": "user-query.ts"
     },
     {
@@ -2150,7 +2150,7 @@
       "source_file": "apps/web/src/entities/users/model/use-user.ts",
       "source_location": "L1",
       "id": "apps_web_src_entities_users_model_use_user_ts",
-      "community": 146,
+      "community": 155,
       "norm_label": "use-user.ts"
     },
     {
@@ -2159,7 +2159,7 @@
       "source_file": "apps/web/src/entities/users/model/use-user.ts",
       "source_location": "L4",
       "id": "use_user_useuser",
-      "community": 146,
+      "community": 155,
       "norm_label": "useuser()"
     },
     {
@@ -2213,7 +2213,7 @@
       "source_file": "apps/web/src/entities/balance/index.ts",
       "source_location": "L1",
       "id": "apps_web_src_entities_balance_index_ts",
-      "community": 228,
+      "community": 241,
       "norm_label": "index.ts"
     },
     {
@@ -2222,7 +2222,7 @@
       "source_file": "apps/web/src/entities/balance/api/balance-query-factory.ts",
       "source_location": "L1",
       "id": "apps_web_src_entities_balance_api_balance_query_factory_ts",
-      "community": 229,
+      "community": 242,
       "norm_label": "balance-query-factory.ts"
     },
     {
@@ -2231,7 +2231,7 @@
       "source_file": "apps/web/src/entities/balance/api/get-balance.ts",
       "source_location": "L1",
       "id": "apps_web_src_entities_balance_api_get_balance_ts",
-      "community": 147,
+      "community": 156,
       "norm_label": "get-balance.ts"
     },
     {
@@ -2240,7 +2240,7 @@
       "source_file": "apps/web/src/entities/balance/api/get-balance.ts",
       "source_location": "L13",
       "id": "get_balance_getbalance",
-      "community": 147,
+      "community": 156,
       "norm_label": "getbalance()"
     },
     {
@@ -2249,7 +2249,7 @@
       "source_file": "apps/web/src/entities/balance/model/use-balance.ts",
       "source_location": "L1",
       "id": "apps_web_src_entities_balance_model_use_balance_ts",
-      "community": 148,
+      "community": 157,
       "norm_label": "use-balance.ts"
     },
     {
@@ -2258,7 +2258,7 @@
       "source_file": "apps/web/src/entities/balance/model/use-balance.ts",
       "source_location": "L5",
       "id": "use_balance_usebalance",
-      "community": 148,
+      "community": 157,
       "norm_label": "usebalance()"
     },
     {
@@ -2303,7 +2303,7 @@
       "source_file": "apps/web/src/entities/session/index.ts",
       "source_location": "L1",
       "id": "apps_web_src_entities_session_index_ts",
-      "community": 230,
+      "community": 243,
       "norm_label": "index.ts"
     },
     {
@@ -2312,7 +2312,7 @@
       "source_file": "apps/web/src/entities/session/model/session-store.ts",
       "source_location": "L1",
       "id": "apps_web_src_entities_session_model_session_store_ts",
-      "community": 79,
+      "community": 87,
       "norm_label": "session-store.ts"
     },
     {
@@ -2321,7 +2321,7 @@
       "source_file": "apps/web/src/entities/session/model/session-store.ts",
       "source_location": "L36",
       "id": "session_store_userisauthenticated",
-      "community": 79,
+      "community": 87,
       "norm_label": "userisauthenticated()"
     },
     {
@@ -2330,7 +2330,7 @@
       "source_file": "apps/web/src/entities/session/model/session-store.ts",
       "source_location": "L40",
       "id": "session_store_getinitialstate",
-      "community": 79,
+      "community": 87,
       "norm_label": "getinitialstate()"
     },
     {
@@ -2339,7 +2339,7 @@
       "source_file": "apps/docs/eslint.config.js",
       "source_location": "L1",
       "id": "apps_docs_eslint_config_js",
-      "community": 231,
+      "community": 244,
       "norm_label": "eslint.config.js"
     },
     {
@@ -2348,7 +2348,7 @@
       "source_file": "apps/docs/vite.config.ts",
       "source_location": "L1",
       "id": "apps_docs_vite_config_ts",
-      "community": 232,
+      "community": 245,
       "norm_label": "vite.config.ts"
     },
     {
@@ -2357,7 +2357,7 @@
       "source_file": "apps/docs/vitest.shims.d.ts",
       "source_location": "L1",
       "id": "apps_docs_vitest_shims_d_ts",
-      "community": 233,
+      "community": 246,
       "norm_label": "vitest.shims.d.ts"
     },
     {
@@ -2366,7 +2366,7 @@
       "source_file": "apps/docs/src/App.tsx",
       "source_location": "L1",
       "id": "apps_docs_src_app_tsx",
-      "community": 80,
+      "community": 88,
       "norm_label": "app.tsx"
     },
     {
@@ -2375,7 +2375,7 @@
       "source_file": "apps/docs/src/App.tsx",
       "source_location": "L6",
       "id": "app_app",
-      "community": 80,
+      "community": 88,
       "norm_label": "app()"
     },
     {
@@ -2384,7 +2384,7 @@
       "source_file": "apps/docs/src/main.tsx",
       "source_location": "L1",
       "id": "apps_docs_src_main_tsx",
-      "community": 80,
+      "community": 88,
       "norm_label": "main.tsx"
     },
     {
@@ -2393,7 +2393,7 @@
       "source_file": "apps/docs/src/stories/Button.stories.ts",
       "source_location": "L1",
       "id": "apps_docs_src_stories_button_stories_ts",
-      "community": 234,
+      "community": 247,
       "norm_label": "button.stories.ts"
     },
     {
@@ -2402,7 +2402,7 @@
       "source_file": "apps/docs/src/stories/Button.tsx",
       "source_location": "L1",
       "id": "apps_docs_src_stories_button_tsx",
-      "community": 81,
+      "community": 89,
       "norm_label": "button.tsx"
     },
     {
@@ -2411,7 +2411,7 @@
       "source_file": "packages/design-system/src/components/ui/button.tsx",
       "source_location": "L88",
       "id": "button_button",
-      "community": 81,
+      "community": 89,
       "norm_label": "button()"
     },
     {
@@ -2420,7 +2420,7 @@
       "source_file": "apps/docs/src/stories/Header.stories.ts",
       "source_location": "L1",
       "id": "apps_docs_src_stories_header_stories_ts",
-      "community": 235,
+      "community": 248,
       "norm_label": "header.stories.ts"
     },
     {
@@ -2429,7 +2429,7 @@
       "source_file": "apps/docs/src/stories/Header.tsx",
       "source_location": "L1",
       "id": "apps_docs_src_stories_header_tsx",
-      "community": 236,
+      "community": 249,
       "norm_label": "header.tsx"
     },
     {
@@ -2438,7 +2438,7 @@
       "source_file": "apps/docs/src/stories/Page.stories.ts",
       "source_location": "L1",
       "id": "apps_docs_src_stories_page_stories_ts",
-      "community": 237,
+      "community": 250,
       "norm_label": "page.stories.ts"
     },
     {
@@ -2447,7 +2447,7 @@
       "source_file": "apps/docs/src/stories/Page.tsx",
       "source_location": "L1",
       "id": "apps_docs_src_stories_page_tsx",
-      "community": 238,
+      "community": 251,
       "norm_label": "page.tsx"
     },
     {
@@ -2456,7 +2456,7 @@
       "source_file": "apps/docs/src/stories/utils.ts",
       "source_location": "L1",
       "id": "apps_docs_src_stories_utils_ts",
-      "community": 149,
+      "community": 158,
       "norm_label": "utils.ts"
     },
     {
@@ -2465,7 +2465,7 @@
       "source_file": "apps/docs/src/stories/utils.ts",
       "source_location": "L1",
       "id": "utils_formatbrl",
-      "community": 149,
+      "community": 158,
       "norm_label": "formatbrl()"
     },
     {
@@ -2474,7 +2474,7 @@
       "source_file": "apps/docs/src/stories/ui/amount.stories.tsx",
       "source_location": "L1",
       "id": "apps_docs_src_stories_ui_amount_stories_tsx",
-      "community": 150,
+      "community": 159,
       "norm_label": "amount.stories.tsx"
     },
     {
@@ -2483,7 +2483,7 @@
       "source_file": "apps/docs/src/stories/ui/amount.stories.tsx",
       "source_location": "L6",
       "id": "amount_stories_amount",
-      "community": 150,
+      "community": 159,
       "norm_label": "amount()"
     },
     {
@@ -2492,7 +2492,7 @@
       "source_file": "apps/docs/src/stories/ui/avatar.stories.tsx",
       "source_location": "L1",
       "id": "apps_docs_src_stories_ui_avatar_stories_tsx",
-      "community": 151,
+      "community": 160,
       "norm_label": "avatar.stories.tsx"
     },
     {
@@ -2501,7 +2501,7 @@
       "source_file": "apps/docs/src/stories/ui/avatar.stories.tsx",
       "source_location": "L10",
       "id": "avatar_stories_avatardemo",
-      "community": 151,
+      "community": 160,
       "norm_label": "avatardemo()"
     },
     {
@@ -2510,7 +2510,7 @@
       "source_file": "apps/docs/src/stories/ui/currency-input.stories.tsx",
       "source_location": "L1",
       "id": "apps_docs_src_stories_ui_currency_input_stories_tsx",
-      "community": 239,
+      "community": 252,
       "norm_label": "currency-input.stories.tsx"
     },
     {
@@ -2519,7 +2519,7 @@
       "source_file": "apps/docs/src/stories/ui/fab.stories.tsx",
       "source_location": "L1",
       "id": "apps_docs_src_stories_ui_fab_stories_tsx",
-      "community": 152,
+      "community": 161,
       "norm_label": "fab.stories.tsx"
     },
     {
@@ -2528,7 +2528,7 @@
       "source_file": "apps/docs/src/stories/ui/fab.stories.tsx",
       "source_location": "L4",
       "id": "fab_stories_fab",
-      "community": 152,
+      "community": 161,
       "norm_label": "fab()"
     },
     {
@@ -2537,7 +2537,7 @@
       "source_file": "apps/docs/src/stories/ui/icon-button.stories.tsx",
       "source_location": "L1",
       "id": "apps_docs_src_stories_ui_icon_button_stories_tsx",
-      "community": 153,
+      "community": 162,
       "norm_label": "icon-button.stories.tsx"
     },
     {
@@ -2546,7 +2546,7 @@
       "source_file": "apps/docs/src/stories/ui/icon-button.stories.tsx",
       "source_location": "L5",
       "id": "icon_button_stories_iconbuttondemo",
-      "community": 153,
+      "community": 162,
       "norm_label": "iconbuttondemo()"
     },
     {
@@ -2600,7 +2600,7 @@
       "source_file": "apps/docs/src/stories/ui/pill.stories.tsx",
       "source_location": "L1",
       "id": "apps_docs_src_stories_ui_pill_stories_tsx",
-      "community": 240,
+      "community": 253,
       "norm_label": "pill.stories.tsx"
     },
     {
@@ -2609,7 +2609,7 @@
       "source_file": "apps/docs/src/stories/ui/select.stories.tsx",
       "source_location": "L1",
       "id": "apps_docs_src_stories_ui_select_stories_tsx",
-      "community": 154,
+      "community": 163,
       "norm_label": "select.stories.tsx"
     },
     {
@@ -2618,7 +2618,7 @@
       "source_file": "apps/docs/src/stories/ui/select.stories.tsx",
       "source_location": "L4",
       "id": "select_stories_select",
-      "community": 154,
+      "community": 163,
       "norm_label": "select()"
     },
     {
@@ -2627,7 +2627,7 @@
       "source_file": "apps/docs/src/stories/ui/tab.stories.tsx",
       "source_location": "L1",
       "id": "apps_docs_src_stories_ui_tab_stories_tsx",
-      "community": 155,
+      "community": 164,
       "norm_label": "tab.stories.tsx"
     },
     {
@@ -2636,7 +2636,7 @@
       "source_file": "apps/docs/src/stories/ui/tab.stories.tsx",
       "source_location": "L5",
       "id": "tab_stories_tab",
-      "community": 155,
+      "community": 164,
       "norm_label": "tab()"
     },
     {
@@ -2645,7 +2645,7 @@
       "source_file": "apps/docs/src/stories/patterns/card-large.stories.tsx",
       "source_location": "L1",
       "id": "apps_docs_src_stories_patterns_card_large_stories_tsx",
-      "community": 156,
+      "community": 165,
       "norm_label": "card-large.stories.tsx"
     },
     {
@@ -2654,7 +2654,7 @@
       "source_file": "apps/docs/src/stories/patterns/card-large.stories.tsx",
       "source_location": "L11",
       "id": "card_large_stories_cardlarge",
-      "community": 156,
+      "community": 165,
       "norm_label": "cardlarge()"
     },
     {
@@ -2663,7 +2663,7 @@
       "source_file": "apps/docs/src/stories/patterns/card-small.stories.tsx",
       "source_location": "L1",
       "id": "apps_docs_src_stories_patterns_card_small_stories_tsx",
-      "community": 157,
+      "community": 166,
       "norm_label": "card-small.stories.tsx"
     },
     {
@@ -2672,7 +2672,7 @@
       "source_file": "apps/docs/src/stories/patterns/card-small.stories.tsx",
       "source_location": "L12",
       "id": "card_small_stories_cardsmall",
-      "community": 157,
+      "community": 166,
       "norm_label": "cardsmall()"
     },
     {
@@ -2681,7 +2681,7 @@
       "source_file": "apps/docs/src/stories/patterns/date-picker.stories.tsx",
       "source_location": "L1",
       "id": "apps_docs_src_stories_patterns_date_picker_stories_tsx",
-      "community": 241,
+      "community": 254,
       "norm_label": "date-picker.stories.tsx"
     },
     {
@@ -2690,7 +2690,7 @@
       "source_file": "apps/docs/src/stories/patterns/tabs.stories.tsx",
       "source_location": "L1",
       "id": "apps_docs_src_stories_patterns_tabs_stories_tsx",
-      "community": 158,
+      "community": 167,
       "norm_label": "tabs.stories.tsx"
     },
     {
@@ -2699,7 +2699,7 @@
       "source_file": "apps/docs/src/stories/patterns/tabs.stories.tsx",
       "source_location": "L4",
       "id": "tabs_stories_tabs",
-      "community": 158,
+      "community": 167,
       "norm_label": "tabs()"
     },
     {
@@ -2708,7 +2708,7 @@
       "source_file": "apps/api/auth-schema.ts",
       "source_location": "L1",
       "id": "apps_api_auth_schema_ts",
-      "community": 242,
+      "community": 255,
       "norm_label": "auth-schema.ts"
     },
     {
@@ -2717,7 +2717,7 @@
       "source_file": "apps/api/drizzle.config.ts",
       "source_location": "L1",
       "id": "apps_api_drizzle_config_ts",
-      "community": 243,
+      "community": 256,
       "norm_label": "drizzle.config.ts"
     },
     {
@@ -2726,7 +2726,7 @@
       "source_file": "apps/api/vitest.config.ts",
       "source_location": "L1",
       "id": "apps_api_vitest_config_ts",
-      "community": 244,
+      "community": 257,
       "norm_label": "vitest.config.ts"
     },
     {
@@ -2735,7 +2735,7 @@
       "source_file": "apps/api/vitest.config.e2e.ts",
       "source_location": "L1",
       "id": "apps_api_vitest_config_e2e_ts",
-      "community": 245,
+      "community": 258,
       "norm_label": "vitest.config.e2e.ts"
     },
     {
@@ -2744,7 +2744,7 @@
       "source_file": "apps/api/src/app.controller.spec.ts",
       "source_location": "L1",
       "id": "apps_api_src_app_controller_spec_ts",
-      "community": 246,
+      "community": 259,
       "norm_label": "app.controller.spec.ts"
     },
     {
@@ -2753,7 +2753,7 @@
       "source_file": "apps/api/src/app.service.ts",
       "source_location": "L1",
       "id": "apps_api_src_app_service_ts",
-      "community": 82,
+      "community": 90,
       "norm_label": "app.service.ts"
     },
     {
@@ -2762,7 +2762,7 @@
       "source_file": "apps/api/src/app.service.ts",
       "source_location": "L4",
       "id": "app_service_appservice",
-      "community": 82,
+      "community": 90,
       "norm_label": "appservice"
     },
     {
@@ -2771,7 +2771,7 @@
       "source_file": "apps/api/src/app.service.ts",
       "source_location": "L5",
       "id": "app_service_appservice_healthcheck",
-      "community": 82,
+      "community": 90,
       "norm_label": ".healthcheck()"
     },
     {
@@ -2816,7 +2816,7 @@
       "source_file": "apps/api/src/main.ts",
       "source_location": "L1",
       "id": "apps_api_src_main_ts",
-      "community": 159,
+      "community": 168,
       "norm_label": "main.ts"
     },
     {
@@ -2825,7 +2825,7 @@
       "source_file": "apps/api/src/main.ts",
       "source_location": "L10",
       "id": "main_bootstrap",
-      "community": 159,
+      "community": 168,
       "norm_label": "bootstrap()"
     },
     {
@@ -2834,16 +2834,16 @@
       "source_file": "apps/api/src/app.module.ts",
       "source_location": "L1",
       "id": "apps_api_src_app_module_ts",
-      "community": 160,
+      "community": 169,
       "norm_label": "app.module.ts"
     },
     {
       "label": "AppModule",
       "file_type": "code",
       "source_file": "apps/api/src/app.module.ts",
-      "source_location": "L30",
+      "source_location": "L32",
       "id": "app_module_appmodule",
-      "community": 160,
+      "community": 169,
       "norm_label": "appmodule"
     },
     {
@@ -2852,7 +2852,7 @@
       "source_file": "apps/api/src/core/database/connection.ts",
       "source_location": "L1",
       "id": "apps_api_src_core_database_connection_ts",
-      "community": 161,
+      "community": 170,
       "norm_label": "connection.ts"
     },
     {
@@ -2861,7 +2861,7 @@
       "source_file": "apps/api/src/core/database/connection.ts",
       "source_location": "L5",
       "id": "connection_createdrizzleconnection",
-      "community": 161,
+      "community": 170,
       "norm_label": "createdrizzleconnection()"
     },
     {
@@ -2870,7 +2870,7 @@
       "source_file": "apps/api/src/core/database/constants.ts",
       "source_location": "L1",
       "id": "apps_api_src_core_database_constants_ts",
-      "community": 247,
+      "community": 260,
       "norm_label": "constants.ts"
     },
     {
@@ -2879,7 +2879,7 @@
       "source_file": "apps/api/src/core/database/database.module.ts",
       "source_location": "L1",
       "id": "apps_api_src_core_database_database_module_ts",
-      "community": 162,
+      "community": 171,
       "norm_label": "database.module.ts"
     },
     {
@@ -2888,7 +2888,7 @@
       "source_file": "apps/api/src/core/database/database.module.ts",
       "source_location": "L21",
       "id": "database_module_databasemodule",
-      "community": 162,
+      "community": 171,
       "norm_label": "databasemodule"
     },
     {
@@ -2897,8 +2897,26 @@
       "source_file": "apps/api/src/core/database/index.ts",
       "source_location": "L1",
       "id": "apps_api_src_core_database_index_ts",
-      "community": 248,
+      "community": 261,
       "norm_label": "index.ts"
+    },
+    {
+      "label": "seed.ts",
+      "file_type": "code",
+      "source_file": "apps/api/src/core/database/seed.ts",
+      "source_location": "L1",
+      "id": "apps_api_src_core_database_seed_ts",
+      "community": 172,
+      "norm_label": "seed.ts"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "apps/api/src/core/database/seed.ts",
+      "source_location": "L33",
+      "id": "seed_main",
+      "community": 172,
+      "norm_label": "main()"
     },
     {
       "label": "schema-registry.ts",
@@ -2906,7 +2924,7 @@
       "source_file": "apps/api/src/core/database/drizzle/schema-registry.ts",
       "source_location": "L1",
       "id": "apps_api_src_core_database_drizzle_schema_registry_ts",
-      "community": 249,
+      "community": 262,
       "norm_label": "schema-registry.ts"
     },
     {
@@ -2915,7 +2933,7 @@
       "source_file": "apps/api/src/core/database/drizzle/schemas/auth-schema.ts",
       "source_location": "L1",
       "id": "apps_api_src_core_database_drizzle_schemas_auth_schema_ts",
-      "community": 250,
+      "community": 263,
       "norm_label": "auth-schema.ts"
     },
     {
@@ -2924,7 +2942,7 @@
       "source_file": "apps/api/src/core/auth/auth.provider.ts",
       "source_location": "L1",
       "id": "apps_api_src_core_auth_auth_provider_ts",
-      "community": 251,
+      "community": 264,
       "norm_label": "auth.provider.ts"
     },
     {
@@ -2933,7 +2951,7 @@
       "source_file": "apps/api/src/core/auth/auth.ts",
       "source_location": "L1",
       "id": "apps_api_src_core_auth_auth_ts",
-      "community": 252,
+      "community": 265,
       "norm_label": "auth.ts"
     },
     {
@@ -2942,7 +2960,7 @@
       "source_file": "apps/api/src/core/auth/index.ts",
       "source_location": "L1",
       "id": "apps_api_src_core_auth_index_ts",
-      "community": 253,
+      "community": 266,
       "norm_label": "index.ts"
     },
     {
@@ -2951,7 +2969,7 @@
       "source_file": "apps/api/src/core/auth/auth.module.ts",
       "source_location": "L1",
       "id": "apps_api_src_core_auth_auth_module_ts",
-      "community": 163,
+      "community": 173,
       "norm_label": "auth.module.ts"
     },
     {
@@ -2960,7 +2978,7 @@
       "source_file": "apps/api/src/core/auth/auth.module.ts",
       "source_location": "L13",
       "id": "auth_module_authmodule",
-      "community": 163,
+      "community": 173,
       "norm_label": "authmodule"
     },
     {
@@ -2969,7 +2987,7 @@
       "source_file": "apps/api/src/core/auth/auth.config.ts",
       "source_location": "L1",
       "id": "apps_api_src_core_auth_auth_config_ts",
-      "community": 164,
+      "community": 174,
       "norm_label": "auth.config.ts"
     },
     {
@@ -2978,7 +2996,7 @@
       "source_file": "apps/api/src/core/auth/auth.config.ts",
       "source_location": "L8",
       "id": "auth_config_createauthconfig",
-      "community": 164,
+      "community": 174,
       "norm_label": "createauthconfig()"
     },
     {
@@ -3032,7 +3050,7 @@
       "source_file": "apps/api/src/core/events/events.module.ts",
       "source_location": "L1",
       "id": "apps_api_src_core_events_events_module_ts",
-      "community": 165,
+      "community": 175,
       "norm_label": "events.module.ts"
     },
     {
@@ -3041,7 +3059,7 @@
       "source_file": "apps/api/src/core/events/events.module.ts",
       "source_location": "L22",
       "id": "events_module_eventsmodule",
-      "community": 165,
+      "community": 175,
       "norm_label": "eventsmodule"
     },
     {
@@ -3050,7 +3068,7 @@
       "source_file": "apps/api/src/core/events/index.ts",
       "source_location": "L1",
       "id": "apps_api_src_core_events_index_ts",
-      "community": 254,
+      "community": 267,
       "norm_label": "index.ts"
     },
     {
@@ -3059,16 +3077,16 @@
       "source_file": "apps/api/src/modules/bank-accounts/bank-accounts.module.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_bank_accounts_bank_accounts_module_ts",
-      "community": 166,
+      "community": 176,
       "norm_label": "bank-accounts.module.ts"
     },
     {
       "label": "BankAccountsModule",
       "file_type": "code",
       "source_file": "apps/api/src/modules/bank-accounts/bank-accounts.module.ts",
-      "source_location": "L34",
+      "source_location": "L41",
       "id": "bank_accounts_module_bankaccountsmodule",
-      "community": 166,
+      "community": 176,
       "norm_label": "bankaccountsmodule"
     },
     {
@@ -3077,7 +3095,7 @@
       "source_file": "apps/api/src/modules/bank-accounts/domain/index.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_bank_accounts_domain_index_ts",
-      "community": 255,
+      "community": 268,
       "norm_label": "index.ts"
     },
     {
@@ -3086,8 +3104,17 @@
       "source_file": "apps/api/src/modules/bank-accounts/domain/repositories/bank-account.repository.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_bank_accounts_domain_repositories_bank_account_repository_ts",
-      "community": 256,
+      "community": 269,
       "norm_label": "bank-account.repository.ts"
+    },
+    {
+      "label": "account-type.repository.ts",
+      "file_type": "code",
+      "source_file": "apps/api/src/modules/bank-accounts/domain/repositories/account-type.repository.ts",
+      "source_location": "L1",
+      "id": "apps_api_src_modules_bank_accounts_domain_repositories_account_type_repository_ts",
+      "community": 270,
+      "norm_label": "account-type.repository.ts"
     },
     {
       "label": "bank-account.entity.ts",
@@ -3198,12 +3225,39 @@
       "norm_label": ".update()"
     },
     {
+      "label": "account-type.entity.ts",
+      "file_type": "code",
+      "source_file": "apps/api/src/modules/bank-accounts/domain/entities/account-type.entity.ts",
+      "source_location": "L1",
+      "id": "apps_api_src_modules_bank_accounts_domain_entities_account_type_entity_ts",
+      "community": 91,
+      "norm_label": "account-type.entity.ts"
+    },
+    {
+      "label": "AccountType",
+      "file_type": "code",
+      "source_file": "apps/api/src/modules/bank-accounts/domain/entities/account-type.entity.ts",
+      "source_location": "L1",
+      "id": "account_type_entity_accounttype",
+      "community": 91,
+      "norm_label": "accounttype"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "apps/api/src/modules/bank-accounts/domain/entities/account-type.entity.ts",
+      "source_location": "L2",
+      "id": "account_type_entity_accounttype_constructor",
+      "community": 91,
+      "norm_label": ".constructor()"
+    },
+    {
       "label": "bank-account.validator.ts",
       "file_type": "code",
       "source_file": "apps/api/src/modules/bank-accounts/domain/validators/bank-account.validator.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_bank_accounts_domain_validators_bank_account_validator_ts",
-      "community": 83,
+      "community": 92,
       "norm_label": "bank-account.validator.ts"
     },
     {
@@ -3212,7 +3266,7 @@
       "source_file": "apps/api/src/modules/bank-accounts/domain/validators/bank-account.validator.ts",
       "source_location": "L21",
       "id": "bank_account_validator_bankaccountvalidator",
-      "community": 83,
+      "community": 92,
       "norm_label": "bankaccountvalidator"
     },
     {
@@ -3221,7 +3275,7 @@
       "source_file": "apps/api/src/modules/bank-accounts/domain/validators/bank-account.validator.ts",
       "source_location": "L22",
       "id": "bank_account_validator_bankaccountvalidator_constructor",
-      "community": 83,
+      "community": 92,
       "norm_label": ".constructor()"
     },
     {
@@ -3230,7 +3284,7 @@
       "source_file": "apps/api/src/modules/bank-accounts/domain/value-objects/bank-account-type.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_bank_accounts_domain_value_objects_bank_account_type_ts",
-      "community": 257,
+      "community": 271,
       "norm_label": "bank-account-type.ts"
     },
     {
@@ -3378,6 +3432,42 @@
       "norm_label": ".execute()"
     },
     {
+      "label": "list-account-types.use-case.ts",
+      "file_type": "code",
+      "source_file": "apps/api/src/modules/bank-accounts/domain/use-cases/list-account-types.use-case.ts",
+      "source_location": "L1",
+      "id": "apps_api_src_modules_bank_accounts_domain_use_cases_list_account_types_use_case_ts",
+      "community": 52,
+      "norm_label": "list-account-types.use-case.ts"
+    },
+    {
+      "label": "ListAccountTypesUseCase",
+      "file_type": "code",
+      "source_file": "apps/api/src/modules/bank-accounts/domain/use-cases/list-account-types.use-case.ts",
+      "source_location": "L7",
+      "id": "list_account_types_use_case_listaccounttypesusecase",
+      "community": 52,
+      "norm_label": "listaccounttypesusecase"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "apps/api/src/modules/bank-accounts/domain/use-cases/list-account-types.use-case.ts",
+      "source_location": "L8",
+      "id": "list_account_types_use_case_listaccounttypesusecase_constructor",
+      "community": 52,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": ".execute()",
+      "file_type": "code",
+      "source_file": "apps/api/src/modules/bank-accounts/domain/use-cases/list-account-types.use-case.ts",
+      "source_location": "L10",
+      "id": "list_account_types_use_case_listaccounttypesusecase_execute",
+      "community": 52,
+      "norm_label": ".execute()"
+    },
+    {
       "label": "drizzle-bank-account.repository.ts",
       "file_type": "code",
       "source_file": "apps/api/src/modules/bank-accounts/infra/persistence/drizzle-bank-account.repository.ts",
@@ -3450,6 +3540,42 @@
       "norm_label": ".delete()"
     },
     {
+      "label": "drizzle-account-type.repository.ts",
+      "file_type": "code",
+      "source_file": "apps/api/src/modules/bank-accounts/infra/persistence/drizzle-account-type.repository.ts",
+      "source_location": "L1",
+      "id": "apps_api_src_modules_bank_accounts_infra_persistence_drizzle_account_type_repository_ts",
+      "community": 53,
+      "norm_label": "drizzle-account-type.repository.ts"
+    },
+    {
+      "label": "DrizzleAccountTypeRepository",
+      "file_type": "code",
+      "source_file": "apps/api/src/modules/bank-accounts/infra/persistence/drizzle-account-type.repository.ts",
+      "source_location": "L9",
+      "id": "drizzle_account_type_repository_drizzleaccounttyperepository",
+      "community": 53,
+      "norm_label": "drizzleaccounttyperepository"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "apps/api/src/modules/bank-accounts/infra/persistence/drizzle-account-type.repository.ts",
+      "source_location": "L10",
+      "id": "drizzle_account_type_repository_drizzleaccounttyperepository_constructor",
+      "community": 53,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": ".findAll()",
+      "file_type": "code",
+      "source_file": "apps/api/src/modules/bank-accounts/infra/persistence/drizzle-account-type.repository.ts",
+      "source_location": "L14",
+      "id": "drizzle_account_type_repository_drizzleaccounttyperepository_findall",
+      "community": 53,
+      "norm_label": ".findall()"
+    },
+    {
       "label": "bank-account.mapper.ts",
       "file_type": "code",
       "source_file": "apps/api/src/modules/bank-accounts/infra/mappers/bank-account.mapper.ts",
@@ -3495,13 +3621,58 @@
       "norm_label": ".toresponse()"
     },
     {
+      "label": "account-type.mapper.ts",
+      "file_type": "code",
+      "source_file": "apps/api/src/modules/bank-accounts/infra/mappers/account-type.mapper.ts",
+      "source_location": "L1",
+      "id": "apps_api_src_modules_bank_accounts_infra_mappers_account_type_mapper_ts",
+      "community": 54,
+      "norm_label": "account-type.mapper.ts"
+    },
+    {
+      "label": "AccountTypeMapper",
+      "file_type": "code",
+      "source_file": "apps/api/src/modules/bank-accounts/infra/mappers/account-type.mapper.ts",
+      "source_location": "L4",
+      "id": "account_type_mapper_accounttypemapper",
+      "community": 54,
+      "norm_label": "accounttypemapper"
+    },
+    {
+      "label": ".toDomain()",
+      "file_type": "code",
+      "source_file": "apps/api/src/modules/bank-accounts/infra/mappers/account-type.mapper.ts",
+      "source_location": "L5",
+      "id": "account_type_mapper_accounttypemapper_todomain",
+      "community": 54,
+      "norm_label": ".todomain()"
+    },
+    {
+      "label": ".toResponse()",
+      "file_type": "code",
+      "source_file": "apps/api/src/modules/bank-accounts/infra/mappers/account-type.mapper.ts",
+      "source_location": "L9",
+      "id": "account_type_mapper_accounttypemapper_toresponse",
+      "community": 54,
+      "norm_label": ".toresponse()"
+    },
+    {
       "label": "bank-account-schema.ts",
       "file_type": "code",
       "source_file": "apps/api/src/modules/bank-accounts/infra/drizzle/schemas/bank-account-schema.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_bank_accounts_infra_drizzle_schemas_bank_account_schema_ts",
-      "community": 258,
+      "community": 272,
       "norm_label": "bank-account-schema.ts"
+    },
+    {
+      "label": "account-type-schema.ts",
+      "file_type": "code",
+      "source_file": "apps/api/src/modules/bank-accounts/infra/drizzle/schemas/account-type-schema.ts",
+      "source_location": "L1",
+      "id": "apps_api_src_modules_bank_accounts_infra_drizzle_schemas_account_type_schema_ts",
+      "community": 273,
+      "norm_label": "account-type-schema.ts"
     },
     {
       "label": "create-bank-account.dto.ts",
@@ -3509,7 +3680,7 @@
       "source_file": "apps/api/src/modules/bank-accounts/application/create-bank-account/create-bank-account.dto.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_bank_accounts_application_create_bank_account_create_bank_account_dto_ts",
-      "community": 259,
+      "community": 274,
       "norm_label": "create-bank-account.dto.ts"
     },
     {
@@ -3518,7 +3689,7 @@
       "source_file": "apps/api/src/modules/bank-accounts/application/create-bank-account/create-bank-account.service.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_bank_accounts_application_create_bank_account_create_bank_account_service_ts",
-      "community": 52,
+      "community": 55,
       "norm_label": "create-bank-account.service.ts"
     },
     {
@@ -3527,7 +3698,7 @@
       "source_file": "apps/api/src/modules/bank-accounts/application/create-bank-account/create-bank-account.service.ts",
       "source_location": "L10",
       "id": "create_bank_account_service_createbankaccountservice",
-      "community": 52,
+      "community": 55,
       "norm_label": "createbankaccountservice"
     },
     {
@@ -3536,7 +3707,7 @@
       "source_file": "apps/api/src/modules/bank-accounts/application/create-bank-account/create-bank-account.service.ts",
       "source_location": "L13",
       "id": "create_bank_account_service_createbankaccountservice_constructor",
-      "community": 52,
+      "community": 55,
       "norm_label": ".constructor()"
     },
     {
@@ -3545,7 +3716,7 @@
       "source_file": "apps/api/src/modules/bank-accounts/application/create-bank-account/create-bank-account.service.ts",
       "source_location": "L21",
       "id": "create_bank_account_service_createbankaccountservice_execute",
-      "community": 52,
+      "community": 55,
       "norm_label": ".execute()"
     },
     {
@@ -3554,7 +3725,7 @@
       "source_file": "apps/api/src/modules/bank-accounts/application/update-bank-account/update-bank-account.dto.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_bank_accounts_application_update_bank_account_update_bank_account_dto_ts",
-      "community": 260,
+      "community": 275,
       "norm_label": "update-bank-account.dto.ts"
     },
     {
@@ -3563,7 +3734,7 @@
       "source_file": "apps/api/src/modules/bank-accounts/application/update-bank-account/update-bank-account.service.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_bank_accounts_application_update_bank_account_update_bank_account_service_ts",
-      "community": 84,
+      "community": 93,
       "norm_label": "update-bank-account.service.ts"
     },
     {
@@ -3572,7 +3743,7 @@
       "source_file": "apps/api/src/modules/bank-accounts/application/update-bank-account/update-bank-account.service.ts",
       "source_location": "L8",
       "id": "update_bank_account_service_updatebankaccountservice",
-      "community": 84,
+      "community": 93,
       "norm_label": "updatebankaccountservice"
     },
     {
@@ -3581,7 +3752,7 @@
       "source_file": "apps/api/src/modules/bank-accounts/application/update-bank-account/update-bank-account.service.ts",
       "source_location": "L9",
       "id": "update_bank_account_service_updatebankaccountservice_constructor",
-      "community": 84,
+      "community": 93,
       "norm_label": ".constructor()"
     },
     {
@@ -3590,7 +3761,7 @@
       "source_file": "apps/api/src/modules/bank-accounts/application/list-bank-accounts/list-bank-accounts.service.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_bank_accounts_application_list_bank_accounts_list_bank_accounts_service_ts",
-      "community": 85,
+      "community": 94,
       "norm_label": "list-bank-accounts.service.ts"
     },
     {
@@ -3599,7 +3770,7 @@
       "source_file": "apps/api/src/modules/bank-accounts/application/list-bank-accounts/list-bank-accounts.service.ts",
       "source_location": "L8",
       "id": "list_bank_accounts_service_listbankaccountsservice",
-      "community": 85,
+      "community": 94,
       "norm_label": "listbankaccountsservice"
     },
     {
@@ -3608,7 +3779,7 @@
       "source_file": "apps/api/src/modules/bank-accounts/application/list-bank-accounts/list-bank-accounts.service.ts",
       "source_location": "L9",
       "id": "list_bank_accounts_service_listbankaccountsservice_constructor",
-      "community": 85,
+      "community": 94,
       "norm_label": ".constructor()"
     },
     {
@@ -3617,7 +3788,7 @@
       "source_file": "apps/api/src/modules/bank-accounts/application/delete-bank-account/delete-bank-account.service.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_bank_accounts_application_delete_bank_account_delete_bank_account_service_ts",
-      "community": 86,
+      "community": 95,
       "norm_label": "delete-bank-account.service.ts"
     },
     {
@@ -3626,7 +3797,7 @@
       "source_file": "apps/api/src/modules/bank-accounts/application/delete-bank-account/delete-bank-account.service.ts",
       "source_location": "L8",
       "id": "delete_bank_account_service_deletebankaccountservice",
-      "community": 86,
+      "community": 95,
       "norm_label": "deletebankaccountservice"
     },
     {
@@ -3635,8 +3806,26 @@
       "source_file": "apps/api/src/modules/bank-accounts/application/delete-bank-account/delete-bank-account.service.ts",
       "source_location": "L9",
       "id": "delete_bank_account_service_deletebankaccountservice_constructor",
-      "community": 86,
+      "community": 95,
       "norm_label": ".constructor()"
+    },
+    {
+      "label": "list-account-types.service.ts",
+      "file_type": "code",
+      "source_file": "apps/api/src/modules/bank-accounts/application/list-account-types/list-account-types.service.ts",
+      "source_location": "L1",
+      "id": "apps_api_src_modules_bank_accounts_application_list_account_types_list_account_types_service_ts",
+      "community": 177,
+      "norm_label": "list-account-types.service.ts"
+    },
+    {
+      "label": "ListAccountTypesService",
+      "file_type": "code",
+      "source_file": "apps/api/src/modules/bank-accounts/application/list-account-types/list-account-types.service.ts",
+      "source_location": "L5",
+      "id": "list_account_types_service_listaccounttypesservice",
+      "community": 177,
+      "norm_label": "listaccounttypesservice"
     },
     {
       "label": "list-bank-accounts.controller.ts",
@@ -3644,7 +3833,7 @@
       "source_file": "apps/api/src/modules/bank-accounts/presentation/list-bank-accounts.controller.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_bank_accounts_presentation_list_bank_accounts_controller_ts",
-      "community": 53,
+      "community": 56,
       "norm_label": "list-bank-accounts.controller.ts"
     },
     {
@@ -3653,7 +3842,7 @@
       "source_file": "apps/api/src/modules/bank-accounts/presentation/list-bank-accounts.controller.ts",
       "source_location": "L20",
       "id": "list_bank_accounts_controller_listbankaccountscontroller",
-      "community": 53,
+      "community": 56,
       "norm_label": "listbankaccountscontroller"
     },
     {
@@ -3662,7 +3851,7 @@
       "source_file": "apps/api/src/modules/bank-accounts/presentation/list-bank-accounts.controller.ts",
       "source_location": "L21",
       "id": "list_bank_accounts_controller_listbankaccountscontroller_constructor",
-      "community": 53,
+      "community": 56,
       "norm_label": ".constructor()"
     },
     {
@@ -3671,7 +3860,7 @@
       "source_file": "apps/api/src/modules/bank-accounts/presentation/list-bank-accounts.controller.ts",
       "source_location": "L40",
       "id": "list_bank_accounts_controller_listbankaccountscontroller_list",
-      "community": 53,
+      "community": 56,
       "norm_label": ".list()"
     },
     {
@@ -3680,7 +3869,7 @@
       "source_file": "apps/api/src/modules/bank-accounts/presentation/update-bank-account.controller.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_bank_accounts_presentation_update_bank_account_controller_ts",
-      "community": 54,
+      "community": 57,
       "norm_label": "update-bank-account.controller.ts"
     },
     {
@@ -3689,7 +3878,7 @@
       "source_file": "apps/api/src/modules/bank-accounts/presentation/update-bank-account.controller.ts",
       "source_location": "L36",
       "id": "update_bank_account_controller_updatebankaccountcontroller",
-      "community": 54,
+      "community": 57,
       "norm_label": "updatebankaccountcontroller"
     },
     {
@@ -3698,7 +3887,7 @@
       "source_file": "apps/api/src/modules/bank-accounts/presentation/update-bank-account.controller.ts",
       "source_location": "L37",
       "id": "update_bank_account_controller_updatebankaccountcontroller_constructor",
-      "community": 54,
+      "community": 57,
       "norm_label": ".constructor()"
     },
     {
@@ -3707,7 +3896,7 @@
       "source_file": "apps/api/src/modules/bank-accounts/presentation/update-bank-account.controller.ts",
       "source_location": "L100",
       "id": "update_bank_account_controller_updatebankaccountcontroller_update",
-      "community": 54,
+      "community": 57,
       "norm_label": ".update()"
     },
     {
@@ -3716,7 +3905,7 @@
       "source_file": "apps/api/src/modules/bank-accounts/presentation/delete-bank-account.controller.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_bank_accounts_presentation_delete_bank_account_controller_ts",
-      "community": 55,
+      "community": 58,
       "norm_label": "delete-bank-account.controller.ts"
     },
     {
@@ -3725,7 +3914,7 @@
       "source_file": "apps/api/src/modules/bank-accounts/presentation/delete-bank-account.controller.ts",
       "source_location": "L29",
       "id": "delete_bank_account_controller_deletebankaccountcontroller",
-      "community": 55,
+      "community": 58,
       "norm_label": "deletebankaccountcontroller"
     },
     {
@@ -3734,7 +3923,7 @@
       "source_file": "apps/api/src/modules/bank-accounts/presentation/delete-bank-account.controller.ts",
       "source_location": "L30",
       "id": "delete_bank_account_controller_deletebankaccountcontroller_constructor",
-      "community": 55,
+      "community": 58,
       "norm_label": ".constructor()"
     },
     {
@@ -3743,7 +3932,7 @@
       "source_file": "apps/api/src/modules/bank-accounts/presentation/delete-bank-account.controller.ts",
       "source_location": "L60",
       "id": "delete_bank_account_controller_deletebankaccountcontroller_delete",
-      "community": 55,
+      "community": 58,
       "norm_label": ".delete()"
     },
     {
@@ -3752,7 +3941,7 @@
       "source_file": "apps/api/src/modules/bank-accounts/presentation/create-bank-account.controller.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_bank_accounts_presentation_create_bank_account_controller_ts",
-      "community": 56,
+      "community": 59,
       "norm_label": "create-bank-account.controller.ts"
     },
     {
@@ -3761,7 +3950,7 @@
       "source_file": "apps/api/src/modules/bank-accounts/presentation/create-bank-account.controller.ts",
       "source_location": "L30",
       "id": "create_bank_account_controller_createbankaccountcontroller",
-      "community": 56,
+      "community": 59,
       "norm_label": "createbankaccountcontroller"
     },
     {
@@ -3770,7 +3959,7 @@
       "source_file": "apps/api/src/modules/bank-accounts/presentation/create-bank-account.controller.ts",
       "source_location": "L31",
       "id": "create_bank_account_controller_createbankaccountcontroller_constructor",
-      "community": 56,
+      "community": 59,
       "norm_label": ".constructor()"
     },
     {
@@ -3779,7 +3968,7 @@
       "source_file": "apps/api/src/modules/bank-accounts/presentation/create-bank-account.controller.ts",
       "source_location": "L85",
       "id": "create_bank_account_controller_createbankaccountcontroller_create",
-      "community": 56,
+      "community": 59,
       "norm_label": ".create()"
     },
     {
@@ -3788,25 +3977,34 @@
       "source_file": "apps/api/src/modules/bank-accounts/presentation/list-account-types.controller.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_bank_accounts_presentation_list_account_types_controller_ts",
-      "community": 87,
+      "community": 60,
       "norm_label": "list-account-types.controller.ts"
     },
     {
       "label": "ListAccountTypesController",
       "file_type": "code",
       "source_file": "apps/api/src/modules/bank-accounts/presentation/list-account-types.controller.ts",
-      "source_location": "L25",
+      "source_location": "L18",
       "id": "list_account_types_controller_listaccounttypescontroller",
-      "community": 87,
+      "community": 60,
       "norm_label": "listaccounttypescontroller"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "apps/api/src/modules/bank-accounts/presentation/list-account-types.controller.ts",
+      "source_location": "L19",
+      "id": "list_account_types_controller_listaccounttypescontroller_constructor",
+      "community": 60,
+      "norm_label": ".constructor()"
     },
     {
       "label": ".list()",
       "file_type": "code",
       "source_file": "apps/api/src/modules/bank-accounts/presentation/list-account-types.controller.ts",
-      "source_location": "L41",
+      "source_location": "L38",
       "id": "list_account_types_controller_listaccounttypescontroller_list",
-      "community": 87,
+      "community": 60,
       "norm_label": ".list()"
     },
     {
@@ -3815,7 +4013,7 @@
       "source_file": "apps/api/src/modules/balances/balances.module.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_balances_balances_module_ts",
-      "community": 167,
+      "community": 178,
       "norm_label": "balances.module.ts"
     },
     {
@@ -3824,7 +4022,7 @@
       "source_file": "apps/api/src/modules/balances/balances.module.ts",
       "source_location": "L16",
       "id": "balances_module_balancesmodule",
-      "community": 167,
+      "community": 178,
       "norm_label": "balancesmodule"
     },
     {
@@ -3833,7 +4031,7 @@
       "source_file": "apps/api/src/modules/balances/domain/index.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_balances_domain_index_ts",
-      "community": 261,
+      "community": 276,
       "norm_label": "index.ts"
     },
     {
@@ -3923,7 +4121,7 @@
       "source_file": "apps/api/src/modules/balances/domain/repositories/balance.repository.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_balances_domain_repositories_balance_repository_ts",
-      "community": 262,
+      "community": 277,
       "norm_label": "balance.repository.ts"
     },
     {
@@ -3932,7 +4130,7 @@
       "source_file": "apps/api/src/modules/balances/domain/use-cases/get-user-balances.use-case.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_balances_domain_use_cases_get_user_balances_use_case_ts",
-      "community": 57,
+      "community": 61,
       "norm_label": "get-user-balances.use-case.ts"
     },
     {
@@ -3941,7 +4139,7 @@
       "source_file": "apps/api/src/modules/balances/domain/use-cases/get-user-balances.use-case.ts",
       "source_location": "L14",
       "id": "get_user_balances_use_case_getuserbalancesusecase",
-      "community": 57,
+      "community": 61,
       "norm_label": "getuserbalancesusecase"
     },
     {
@@ -3950,7 +4148,7 @@
       "source_file": "apps/api/src/modules/balances/domain/use-cases/get-user-balances.use-case.ts",
       "source_location": "L17",
       "id": "get_user_balances_use_case_getuserbalancesusecase_constructor",
-      "community": 57,
+      "community": 61,
       "norm_label": ".constructor()"
     },
     {
@@ -3959,7 +4157,7 @@
       "source_file": "apps/api/src/modules/balances/domain/use-cases/get-user-balances.use-case.ts",
       "source_location": "L19",
       "id": "get_user_balances_use_case_getuserbalancesusecase_execute",
-      "community": 57,
+      "community": 61,
       "norm_label": ".execute()"
     },
     {
@@ -3968,7 +4166,7 @@
       "source_file": "apps/api/src/modules/balances/domain/validators/balance.validator.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_balances_domain_validators_balance_validator_ts",
-      "community": 88,
+      "community": 96,
       "norm_label": "balance.validator.ts"
     },
     {
@@ -3977,7 +4175,7 @@
       "source_file": "apps/api/src/modules/balances/domain/validators/balance.validator.ts",
       "source_location": "L7",
       "id": "balance_validator_balancevalidator",
-      "community": 88,
+      "community": 96,
       "norm_label": "balancevalidator"
     },
     {
@@ -3986,7 +4184,7 @@
       "source_file": "apps/api/src/modules/balances/domain/validators/balance.validator.ts",
       "source_location": "L8",
       "id": "balance_validator_balancevalidator_constructor",
-      "community": 88,
+      "community": 96,
       "norm_label": ".constructor()"
     },
     {
@@ -3995,7 +4193,7 @@
       "source_file": "apps/api/src/modules/balances/application/get-user-balances/get-user-balances.service.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_balances_application_get_user_balances_get_user_balances_service_ts",
-      "community": 89,
+      "community": 97,
       "norm_label": "get-user-balances.service.ts"
     },
     {
@@ -4004,7 +4202,7 @@
       "source_file": "apps/api/src/modules/balances/application/get-user-balances/get-user-balances.service.ts",
       "source_location": "L5",
       "id": "get_user_balances_service_getuserbalancesservice",
-      "community": 89,
+      "community": 97,
       "norm_label": "getuserbalancesservice"
     },
     {
@@ -4013,7 +4211,7 @@
       "source_file": "apps/api/src/modules/balances/application/get-user-balances/get-user-balances.service.ts",
       "source_location": "L6",
       "id": "get_user_balances_service_getuserbalancesservice_constructor",
-      "community": 89,
+      "community": 97,
       "norm_label": ".constructor()"
     },
     {
@@ -4022,7 +4220,7 @@
       "source_file": "apps/api/src/modules/balances/application/on-bank-account-created/on-bank-account-created.listener.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_balances_application_on_bank_account_created_on_bank_account_created_listener_ts",
-      "community": 58,
+      "community": 62,
       "norm_label": "on-bank-account-created.listener.ts"
     },
     {
@@ -4031,7 +4229,7 @@
       "source_file": "apps/api/src/modules/balances/application/on-bank-account-created/on-bank-account-created.listener.ts",
       "source_location": "L7",
       "id": "on_bank_account_created_listener_onbankaccountcreatedlistener",
-      "community": 58,
+      "community": 62,
       "norm_label": "onbankaccountcreatedlistener"
     },
     {
@@ -4040,7 +4238,7 @@
       "source_file": "apps/api/src/modules/balances/application/on-bank-account-created/on-bank-account-created.listener.ts",
       "source_location": "L10",
       "id": "on_bank_account_created_listener_onbankaccountcreatedlistener_constructor",
-      "community": 58,
+      "community": 62,
       "norm_label": ".constructor()"
     },
     {
@@ -4049,7 +4247,7 @@
       "source_file": "apps/api/src/modules/balances/application/on-bank-account-created/on-bank-account-created.listener.ts",
       "source_location": "L13",
       "id": "on_bank_account_created_listener_onbankaccountcreatedlistener_handle",
-      "community": 58,
+      "community": 62,
       "norm_label": ".handle()"
     },
     {
@@ -4058,7 +4256,7 @@
       "source_file": "apps/api/src/modules/balances/presentation/get-user-balances.controller.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_balances_presentation_get_user_balances_controller_ts",
-      "community": 59,
+      "community": 63,
       "norm_label": "get-user-balances.controller.ts"
     },
     {
@@ -4067,7 +4265,7 @@
       "source_file": "apps/api/src/modules/balances/presentation/get-user-balances.controller.ts",
       "source_location": "L15",
       "id": "get_user_balances_controller_getuserbalancescontroller",
-      "community": 59,
+      "community": 63,
       "norm_label": "getuserbalancescontroller"
     },
     {
@@ -4076,7 +4274,7 @@
       "source_file": "apps/api/src/modules/balances/presentation/get-user-balances.controller.ts",
       "source_location": "L16",
       "id": "get_user_balances_controller_getuserbalancescontroller_constructor",
-      "community": 59,
+      "community": 63,
       "norm_label": ".constructor()"
     },
     {
@@ -4085,7 +4283,7 @@
       "source_file": "apps/api/src/modules/balances/presentation/get-user-balances.controller.ts",
       "source_location": "L45",
       "id": "get_user_balances_controller_getuserbalancescontroller_getbalances",
-      "community": 59,
+      "community": 63,
       "norm_label": ".getbalances()"
     },
     {
@@ -4094,7 +4292,7 @@
       "source_file": "apps/api/src/modules/balances/infra/drizzle/schemas/balance-schema.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_balances_infra_drizzle_schemas_balance_schema_ts",
-      "community": 263,
+      "community": 278,
       "norm_label": "balance-schema.ts"
     },
     {
@@ -4148,7 +4346,7 @@
       "source_file": "apps/api/src/modules/balances/infra/mappers/balance.mapper.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_balances_infra_mappers_balance_mapper_ts",
-      "community": 60,
+      "community": 64,
       "norm_label": "balance.mapper.ts"
     },
     {
@@ -4157,7 +4355,7 @@
       "source_file": "apps/api/src/modules/balances/infra/mappers/balance.mapper.ts",
       "source_location": "L13",
       "id": "balance_mapper_balancemapper",
-      "community": 60,
+      "community": 64,
       "norm_label": "balancemapper"
     },
     {
@@ -4166,7 +4364,7 @@
       "source_file": "apps/api/src/modules/balances/infra/mappers/balance.mapper.ts",
       "source_location": "L14",
       "id": "balance_mapper_balancemapper_todomain",
-      "community": 60,
+      "community": 64,
       "norm_label": ".todomain()"
     },
     {
@@ -4175,7 +4373,7 @@
       "source_file": "apps/api/src/modules/balances/infra/mappers/balance.mapper.ts",
       "source_location": "L28",
       "id": "balance_mapper_balancemapper_topersistence",
-      "community": 60,
+      "community": 64,
       "norm_label": ".topersistence()"
     },
     {
@@ -4184,7 +4382,7 @@
       "source_file": "apps/api/src/modules/transactions/transactions.module.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_transactions_transactions_module_ts",
-      "community": 168,
+      "community": 179,
       "norm_label": "transactions.module.ts"
     },
     {
@@ -4193,7 +4391,7 @@
       "source_file": "apps/api/src/modules/transactions/transactions.module.ts",
       "source_location": "L26",
       "id": "transactions_module_transactionsmodule",
-      "community": 168,
+      "community": 179,
       "norm_label": "transactionsmodule"
     },
     {
@@ -4202,7 +4400,7 @@
       "source_file": "apps/api/src/modules/transactions/domain/index.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_transactions_domain_index_ts",
-      "community": 264,
+      "community": 279,
       "norm_label": "index.ts"
     },
     {
@@ -4211,7 +4409,7 @@
       "source_file": "apps/api/src/modules/transactions/domain/value-objects/transaction-type.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_transactions_domain_value_objects_transaction_type_ts",
-      "community": 265,
+      "community": 280,
       "norm_label": "transaction-type.ts"
     },
     {
@@ -4220,7 +4418,7 @@
       "source_file": "apps/api/src/modules/transactions/domain/validators/transaction.validator.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_transactions_domain_validators_transaction_validator_ts",
-      "community": 90,
+      "community": 98,
       "norm_label": "transaction.validator.ts"
     },
     {
@@ -4229,7 +4427,7 @@
       "source_file": "apps/api/src/modules/transactions/domain/validators/transaction.validator.ts",
       "source_location": "L21",
       "id": "transaction_validator_transactionvalidator",
-      "community": 90,
+      "community": 98,
       "norm_label": "transactionvalidator"
     },
     {
@@ -4238,7 +4436,7 @@
       "source_file": "apps/api/src/modules/transactions/domain/validators/transaction.validator.ts",
       "source_location": "L22",
       "id": "transaction_validator_transactionvalidator_constructor",
-      "community": 90,
+      "community": 98,
       "norm_label": ".constructor()"
     },
     {
@@ -4382,7 +4580,7 @@
       "source_file": "apps/api/src/modules/transactions/domain/repositories/transaction.repository.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_transactions_domain_repositories_transaction_repository_ts",
-      "community": 266,
+      "community": 281,
       "norm_label": "transaction.repository.ts"
     },
     {
@@ -4391,7 +4589,7 @@
       "source_file": "apps/api/src/modules/transactions/domain/use-cases/create-transaction.use-case.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_transactions_domain_use_cases_create_transaction_use_case_ts",
-      "community": 61,
+      "community": 65,
       "norm_label": "create-transaction.use-case.ts"
     },
     {
@@ -4400,7 +4598,7 @@
       "source_file": "apps/api/src/modules/transactions/domain/use-cases/create-transaction.use-case.ts",
       "source_location": "L12",
       "id": "create_transaction_use_case_createtransactionusecase",
-      "community": 61,
+      "community": 65,
       "norm_label": "createtransactionusecase"
     },
     {
@@ -4409,7 +4607,7 @@
       "source_file": "apps/api/src/modules/transactions/domain/use-cases/create-transaction.use-case.ts",
       "source_location": "L15",
       "id": "create_transaction_use_case_createtransactionusecase_constructor",
-      "community": 61,
+      "community": 65,
       "norm_label": ".constructor()"
     },
     {
@@ -4418,7 +4616,7 @@
       "source_file": "apps/api/src/modules/transactions/domain/use-cases/create-transaction.use-case.ts",
       "source_location": "L17",
       "id": "create_transaction_use_case_createtransactionusecase_execute",
-      "community": 61,
+      "community": 65,
       "norm_label": ".execute()"
     },
     {
@@ -4427,7 +4625,7 @@
       "source_file": "apps/api/src/modules/transactions/domain/use-cases/get-transaction.use-case.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_transactions_domain_use_cases_get_transaction_use_case_ts",
-      "community": 62,
+      "community": 66,
       "norm_label": "get-transaction.use-case.ts"
     },
     {
@@ -4436,7 +4634,7 @@
       "source_file": "apps/api/src/modules/transactions/domain/use-cases/get-transaction.use-case.ts",
       "source_location": "L12",
       "id": "get_transaction_use_case_gettransactionusecase",
-      "community": 62,
+      "community": 66,
       "norm_label": "gettransactionusecase"
     },
     {
@@ -4445,7 +4643,7 @@
       "source_file": "apps/api/src/modules/transactions/domain/use-cases/get-transaction.use-case.ts",
       "source_location": "L15",
       "id": "get_transaction_use_case_gettransactionusecase_constructor",
-      "community": 62,
+      "community": 66,
       "norm_label": ".constructor()"
     },
     {
@@ -4454,7 +4652,7 @@
       "source_file": "apps/api/src/modules/transactions/domain/use-cases/get-transaction.use-case.ts",
       "source_location": "L17",
       "id": "get_transaction_use_case_gettransactionusecase_execute",
-      "community": 62,
+      "community": 66,
       "norm_label": ".execute()"
     },
     {
@@ -4463,7 +4661,7 @@
       "source_file": "apps/api/src/modules/transactions/domain/use-cases/list-transactions.use-case.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_transactions_domain_use_cases_list_transactions_use_case_ts",
-      "community": 63,
+      "community": 67,
       "norm_label": "list-transactions.use-case.ts"
     },
     {
@@ -4472,7 +4670,7 @@
       "source_file": "apps/api/src/modules/transactions/domain/use-cases/list-transactions.use-case.ts",
       "source_location": "L19",
       "id": "list_transactions_use_case_listtransactionsusecase",
-      "community": 63,
+      "community": 67,
       "norm_label": "listtransactionsusecase"
     },
     {
@@ -4481,7 +4679,7 @@
       "source_file": "apps/api/src/modules/transactions/domain/use-cases/list-transactions.use-case.ts",
       "source_location": "L22",
       "id": "list_transactions_use_case_listtransactionsusecase_constructor",
-      "community": 63,
+      "community": 67,
       "norm_label": ".constructor()"
     },
     {
@@ -4490,7 +4688,7 @@
       "source_file": "apps/api/src/modules/transactions/domain/use-cases/list-transactions.use-case.ts",
       "source_location": "L24",
       "id": "list_transactions_use_case_listtransactionsusecase_execute",
-      "community": 63,
+      "community": 67,
       "norm_label": ".execute()"
     },
     {
@@ -4499,7 +4697,7 @@
       "source_file": "apps/api/src/modules/transactions/domain/use-cases/update-transaction.use-case.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_transactions_domain_use_cases_update_transaction_use_case_ts",
-      "community": 64,
+      "community": 68,
       "norm_label": "update-transaction.use-case.ts"
     },
     {
@@ -4508,7 +4706,7 @@
       "source_file": "apps/api/src/modules/transactions/domain/use-cases/update-transaction.use-case.ts",
       "source_location": "L14",
       "id": "update_transaction_use_case_updatetransactionusecase",
-      "community": 64,
+      "community": 68,
       "norm_label": "updatetransactionusecase"
     },
     {
@@ -4517,7 +4715,7 @@
       "source_file": "apps/api/src/modules/transactions/domain/use-cases/update-transaction.use-case.ts",
       "source_location": "L17",
       "id": "update_transaction_use_case_updatetransactionusecase_constructor",
-      "community": 64,
+      "community": 68,
       "norm_label": ".constructor()"
     },
     {
@@ -4526,7 +4724,7 @@
       "source_file": "apps/api/src/modules/transactions/domain/use-cases/update-transaction.use-case.ts",
       "source_location": "L19",
       "id": "update_transaction_use_case_updatetransactionusecase_execute",
-      "community": 64,
+      "community": 68,
       "norm_label": ".execute()"
     },
     {
@@ -4535,7 +4733,7 @@
       "source_file": "apps/api/src/modules/transactions/domain/use-cases/remove-transaction.use-case.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_transactions_domain_use_cases_remove_transaction_use_case_ts",
-      "community": 65,
+      "community": 69,
       "norm_label": "remove-transaction.use-case.ts"
     },
     {
@@ -4544,7 +4742,7 @@
       "source_file": "apps/api/src/modules/transactions/domain/use-cases/remove-transaction.use-case.ts",
       "source_location": "L11",
       "id": "remove_transaction_use_case_removetransactionusecase",
-      "community": 65,
+      "community": 69,
       "norm_label": "removetransactionusecase"
     },
     {
@@ -4553,7 +4751,7 @@
       "source_file": "apps/api/src/modules/transactions/domain/use-cases/remove-transaction.use-case.ts",
       "source_location": "L14",
       "id": "remove_transaction_use_case_removetransactionusecase_constructor",
-      "community": 65,
+      "community": 69,
       "norm_label": ".constructor()"
     },
     {
@@ -4562,7 +4760,7 @@
       "source_file": "apps/api/src/modules/transactions/domain/use-cases/remove-transaction.use-case.ts",
       "source_location": "L16",
       "id": "remove_transaction_use_case_removetransactionusecase_execute",
-      "community": 65,
+      "community": 69,
       "norm_label": ".execute()"
     },
     {
@@ -4571,7 +4769,7 @@
       "source_file": "apps/api/src/modules/transactions/infra/drizzle/schemas/transaction-schema.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_transactions_infra_drizzle_schemas_transaction_schema_ts",
-      "community": 267,
+      "community": 282,
       "norm_label": "transaction-schema.ts"
     },
     {
@@ -4697,7 +4895,7 @@
       "source_file": "apps/api/src/modules/transactions/application/create-transaction/create-transaction.service.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_transactions_application_create_transaction_create_transaction_service_ts",
-      "community": 169,
+      "community": 180,
       "norm_label": "create-transaction.service.ts"
     },
     {
@@ -4706,7 +4904,7 @@
       "source_file": "apps/api/src/modules/transactions/application/create-transaction/create-transaction.service.ts",
       "source_location": "L5",
       "id": "create_transaction_service_createtransactionservice",
-      "community": 169,
+      "community": 180,
       "norm_label": "createtransactionservice"
     },
     {
@@ -4715,7 +4913,7 @@
       "source_file": "apps/api/src/modules/transactions/application/create-transaction/create-transaction.dto.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_transactions_application_create_transaction_create_transaction_dto_ts",
-      "community": 268,
+      "community": 283,
       "norm_label": "create-transaction.dto.ts"
     },
     {
@@ -4724,7 +4922,7 @@
       "source_file": "apps/api/src/modules/transactions/application/get-transaction/get-transaction.service.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_transactions_application_get_transaction_get_transaction_service_ts",
-      "community": 170,
+      "community": 181,
       "norm_label": "get-transaction.service.ts"
     },
     {
@@ -4733,7 +4931,7 @@
       "source_file": "apps/api/src/modules/transactions/application/get-transaction/get-transaction.service.ts",
       "source_location": "L5",
       "id": "get_transaction_service_gettransactionservice",
-      "community": 170,
+      "community": 181,
       "norm_label": "gettransactionservice"
     },
     {
@@ -4742,7 +4940,7 @@
       "source_file": "apps/api/src/modules/transactions/application/list-transactions/list-transactions.service.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_transactions_application_list_transactions_list_transactions_service_ts",
-      "community": 171,
+      "community": 182,
       "norm_label": "list-transactions.service.ts"
     },
     {
@@ -4751,7 +4949,7 @@
       "source_file": "apps/api/src/modules/transactions/application/list-transactions/list-transactions.service.ts",
       "source_location": "L5",
       "id": "list_transactions_service_listtransactionsservice",
-      "community": 171,
+      "community": 182,
       "norm_label": "listtransactionsservice"
     },
     {
@@ -4760,7 +4958,7 @@
       "source_file": "apps/api/src/modules/transactions/application/list-transactions/list-transactions.dto.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_transactions_application_list_transactions_list_transactions_dto_ts",
-      "community": 269,
+      "community": 284,
       "norm_label": "list-transactions.dto.ts"
     },
     {
@@ -4769,7 +4967,7 @@
       "source_file": "apps/api/src/modules/transactions/application/update-transaction/update-transaction.service.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_transactions_application_update_transaction_update_transaction_service_ts",
-      "community": 172,
+      "community": 183,
       "norm_label": "update-transaction.service.ts"
     },
     {
@@ -4778,7 +4976,7 @@
       "source_file": "apps/api/src/modules/transactions/application/update-transaction/update-transaction.service.ts",
       "source_location": "L5",
       "id": "update_transaction_service_updatetransactionservice",
-      "community": 172,
+      "community": 183,
       "norm_label": "updatetransactionservice"
     },
     {
@@ -4787,7 +4985,7 @@
       "source_file": "apps/api/src/modules/transactions/application/update-transaction/update-transaction.dto.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_transactions_application_update_transaction_update_transaction_dto_ts",
-      "community": 270,
+      "community": 285,
       "norm_label": "update-transaction.dto.ts"
     },
     {
@@ -4796,7 +4994,7 @@
       "source_file": "apps/api/src/modules/transactions/application/remove-transaction/remove-transaction.service.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_transactions_application_remove_transaction_remove_transaction_service_ts",
-      "community": 173,
+      "community": 184,
       "norm_label": "remove-transaction.service.ts"
     },
     {
@@ -4805,7 +5003,7 @@
       "source_file": "apps/api/src/modules/transactions/application/remove-transaction/remove-transaction.service.ts",
       "source_location": "L5",
       "id": "remove_transaction_service_removetransactionservice",
-      "community": 173,
+      "community": 184,
       "norm_label": "removetransactionservice"
     },
     {
@@ -4881,12 +5079,246 @@
       "norm_label": ".delete()"
     },
     {
+      "label": "colors.module.ts",
+      "file_type": "code",
+      "source_file": "apps/api/src/modules/colors/colors.module.ts",
+      "source_location": "L1",
+      "id": "apps_api_src_modules_colors_colors_module_ts",
+      "community": 185,
+      "norm_label": "colors.module.ts"
+    },
+    {
+      "label": "ColorsModule",
+      "file_type": "code",
+      "source_file": "apps/api/src/modules/colors/colors.module.ts",
+      "source_location": "L14",
+      "id": "colors_module_colorsmodule",
+      "community": 185,
+      "norm_label": "colorsmodule"
+    },
+    {
+      "label": "color-schema.ts",
+      "file_type": "code",
+      "source_file": "apps/api/src/modules/colors/infra/drizzle/schemas/color-schema.ts",
+      "source_location": "L1",
+      "id": "apps_api_src_modules_colors_infra_drizzle_schemas_color_schema_ts",
+      "community": 286,
+      "norm_label": "color-schema.ts"
+    },
+    {
+      "label": "color.mapper.ts",
+      "file_type": "code",
+      "source_file": "apps/api/src/modules/colors/infra/mappers/color.mapper.ts",
+      "source_location": "L1",
+      "id": "apps_api_src_modules_colors_infra_mappers_color_mapper_ts",
+      "community": 70,
+      "norm_label": "color.mapper.ts"
+    },
+    {
+      "label": "ColorMapper",
+      "file_type": "code",
+      "source_file": "apps/api/src/modules/colors/infra/mappers/color.mapper.ts",
+      "source_location": "L4",
+      "id": "color_mapper_colormapper",
+      "community": 70,
+      "norm_label": "colormapper"
+    },
+    {
+      "label": ".toDomain()",
+      "file_type": "code",
+      "source_file": "apps/api/src/modules/colors/infra/mappers/color.mapper.ts",
+      "source_location": "L5",
+      "id": "color_mapper_colormapper_todomain",
+      "community": 70,
+      "norm_label": ".todomain()"
+    },
+    {
+      "label": ".toResponse()",
+      "file_type": "code",
+      "source_file": "apps/api/src/modules/colors/infra/mappers/color.mapper.ts",
+      "source_location": "L9",
+      "id": "color_mapper_colormapper_toresponse",
+      "community": 70,
+      "norm_label": ".toresponse()"
+    },
+    {
+      "label": "drizzle-color.repository.ts",
+      "file_type": "code",
+      "source_file": "apps/api/src/modules/colors/infra/persistence/drizzle-color.repository.ts",
+      "source_location": "L1",
+      "id": "apps_api_src_modules_colors_infra_persistence_drizzle_color_repository_ts",
+      "community": 71,
+      "norm_label": "drizzle-color.repository.ts"
+    },
+    {
+      "label": "DrizzleColorRepository",
+      "file_type": "code",
+      "source_file": "apps/api/src/modules/colors/infra/persistence/drizzle-color.repository.ts",
+      "source_location": "L9",
+      "id": "drizzle_color_repository_drizzlecolorrepository",
+      "community": 71,
+      "norm_label": "drizzlecolorrepository"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "apps/api/src/modules/colors/infra/persistence/drizzle-color.repository.ts",
+      "source_location": "L10",
+      "id": "drizzle_color_repository_drizzlecolorrepository_constructor",
+      "community": 71,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": ".findAll()",
+      "file_type": "code",
+      "source_file": "apps/api/src/modules/colors/infra/persistence/drizzle-color.repository.ts",
+      "source_location": "L14",
+      "id": "drizzle_color_repository_drizzlecolorrepository_findall",
+      "community": 71,
+      "norm_label": ".findall()"
+    },
+    {
+      "label": "index.ts",
+      "file_type": "code",
+      "source_file": "apps/api/src/modules/colors/domain/index.ts",
+      "source_location": "L1",
+      "id": "apps_api_src_modules_colors_domain_index_ts",
+      "community": 287,
+      "norm_label": "index.ts"
+    },
+    {
+      "label": "color.entity.ts",
+      "file_type": "code",
+      "source_file": "apps/api/src/modules/colors/domain/entities/color.entity.ts",
+      "source_location": "L1",
+      "id": "apps_api_src_modules_colors_domain_entities_color_entity_ts",
+      "community": 99,
+      "norm_label": "color.entity.ts"
+    },
+    {
+      "label": "Color",
+      "file_type": "code",
+      "source_file": "apps/api/src/modules/colors/domain/entities/color.entity.ts",
+      "source_location": "L1",
+      "id": "color_entity_color",
+      "community": 99,
+      "norm_label": "color"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "apps/api/src/modules/colors/domain/entities/color.entity.ts",
+      "source_location": "L2",
+      "id": "color_entity_color_constructor",
+      "community": 99,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": "color.repository.ts",
+      "file_type": "code",
+      "source_file": "apps/api/src/modules/colors/domain/repositories/color.repository.ts",
+      "source_location": "L1",
+      "id": "apps_api_src_modules_colors_domain_repositories_color_repository_ts",
+      "community": 288,
+      "norm_label": "color.repository.ts"
+    },
+    {
+      "label": "list-colors.use-case.ts",
+      "file_type": "code",
+      "source_file": "apps/api/src/modules/colors/domain/use-cases/list-colors.use-case.ts",
+      "source_location": "L1",
+      "id": "apps_api_src_modules_colors_domain_use_cases_list_colors_use_case_ts",
+      "community": 72,
+      "norm_label": "list-colors.use-case.ts"
+    },
+    {
+      "label": "ListColorsUseCase",
+      "file_type": "code",
+      "source_file": "apps/api/src/modules/colors/domain/use-cases/list-colors.use-case.ts",
+      "source_location": "L7",
+      "id": "list_colors_use_case_listcolorsusecase",
+      "community": 72,
+      "norm_label": "listcolorsusecase"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "apps/api/src/modules/colors/domain/use-cases/list-colors.use-case.ts",
+      "source_location": "L8",
+      "id": "list_colors_use_case_listcolorsusecase_constructor",
+      "community": 72,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": ".execute()",
+      "file_type": "code",
+      "source_file": "apps/api/src/modules/colors/domain/use-cases/list-colors.use-case.ts",
+      "source_location": "L10",
+      "id": "list_colors_use_case_listcolorsusecase_execute",
+      "community": 72,
+      "norm_label": ".execute()"
+    },
+    {
+      "label": "list-colors.service.ts",
+      "file_type": "code",
+      "source_file": "apps/api/src/modules/colors/application/list-colors/list-colors.service.ts",
+      "source_location": "L1",
+      "id": "apps_api_src_modules_colors_application_list_colors_list_colors_service_ts",
+      "community": 186,
+      "norm_label": "list-colors.service.ts"
+    },
+    {
+      "label": "ListColorsService",
+      "file_type": "code",
+      "source_file": "apps/api/src/modules/colors/application/list-colors/list-colors.service.ts",
+      "source_location": "L5",
+      "id": "list_colors_service_listcolorsservice",
+      "community": 186,
+      "norm_label": "listcolorsservice"
+    },
+    {
+      "label": "list-colors.controller.ts",
+      "file_type": "code",
+      "source_file": "apps/api/src/modules/colors/presentation/list-colors.controller.ts",
+      "source_location": "L1",
+      "id": "apps_api_src_modules_colors_presentation_list_colors_controller_ts",
+      "community": 73,
+      "norm_label": "list-colors.controller.ts"
+    },
+    {
+      "label": "ListColorsController",
+      "file_type": "code",
+      "source_file": "apps/api/src/modules/colors/presentation/list-colors.controller.ts",
+      "source_location": "L15",
+      "id": "list_colors_controller_listcolorscontroller",
+      "community": 73,
+      "norm_label": "listcolorscontroller"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "apps/api/src/modules/colors/presentation/list-colors.controller.ts",
+      "source_location": "L16",
+      "id": "list_colors_controller_listcolorscontroller_constructor",
+      "community": 73,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": ".list()",
+      "file_type": "code",
+      "source_file": "apps/api/src/modules/colors/presentation/list-colors.controller.ts",
+      "source_location": "L43",
+      "id": "list_colors_controller_listcolorscontroller_list",
+      "community": 73,
+      "norm_label": ".list()"
+    },
+    {
       "label": "index.ts",
       "file_type": "code",
       "source_file": "apps/api/src/shared/domain/index.ts",
       "source_location": "L1",
       "id": "apps_api_src_shared_domain_index_ts",
-      "community": 271,
+      "community": 289,
       "norm_label": "index.ts"
     },
     {
@@ -5084,7 +5516,7 @@
       "source_file": "apps/api/src/shared/domain/entities/index.ts",
       "source_location": "L1",
       "id": "apps_api_src_shared_domain_entities_index_ts",
-      "community": 272,
+      "community": 290,
       "norm_label": "index.ts"
     },
     {
@@ -5093,7 +5525,7 @@
       "source_file": "apps/api/src/shared/domain/value-objects/value-object.ts",
       "source_location": "L1",
       "id": "apps_api_src_shared_domain_value_objects_value_object_ts",
-      "community": 66,
+      "community": 74,
       "norm_label": "value-object.ts"
     },
     {
@@ -5102,7 +5534,7 @@
       "source_file": "apps/api/src/shared/domain/value-objects/value-object.ts",
       "source_location": "L4",
       "id": "value_object_constructor",
-      "community": 66,
+      "community": 74,
       "norm_label": "constructor()"
     },
     {
@@ -5111,7 +5543,7 @@
       "source_file": "apps/api/src/shared/domain/value-objects/value-object.ts",
       "source_location": "L8",
       "id": "value_object_equals",
-      "community": 66,
+      "community": 74,
       "norm_label": "equals()"
     },
     {
@@ -5120,7 +5552,7 @@
       "source_file": "apps/api/src/shared/domain/value-objects/value-object.ts",
       "source_location": "L15",
       "id": "value_object_tostring",
-      "community": 66,
+      "community": 74,
       "norm_label": "tostring()"
     },
     {
@@ -5183,7 +5615,7 @@
       "source_file": "apps/api/src/shared/domain/value-objects/index.ts",
       "source_location": "L1",
       "id": "apps_api_src_shared_domain_value_objects_index_ts",
-      "community": 273,
+      "community": 291,
       "norm_label": "index.ts"
     },
     {
@@ -5291,7 +5723,7 @@
       "source_file": "apps/api/src/shared/domain/types/use-case.ts",
       "source_location": "L1",
       "id": "apps_api_src_shared_domain_types_use_case_ts",
-      "community": 274,
+      "community": 292,
       "norm_label": "use-case.ts"
     },
     {
@@ -5300,7 +5732,7 @@
       "source_file": "apps/api/src/shared/domain/types/optional.ts",
       "source_location": "L1",
       "id": "apps_api_src_shared_domain_types_optional_ts",
-      "community": 275,
+      "community": 293,
       "norm_label": "optional.ts"
     },
     {
@@ -5309,7 +5741,7 @@
       "source_file": "apps/api/src/shared/domain/types/pagination.ts",
       "source_location": "L1",
       "id": "apps_api_src_shared_domain_types_pagination_ts",
-      "community": 276,
+      "community": 294,
       "norm_label": "pagination.ts"
     },
     {
@@ -5318,7 +5750,7 @@
       "source_file": "apps/api/src/shared/domain/types/index.ts",
       "source_location": "L1",
       "id": "apps_api_src_shared_domain_types_index_ts",
-      "community": 277,
+      "community": 295,
       "norm_label": "index.ts"
     },
     {
@@ -5327,7 +5759,7 @@
       "source_file": "apps/api/src/shared/domain/events/domain-event.ts",
       "source_location": "L1",
       "id": "apps_api_src_shared_domain_events_domain_event_ts",
-      "community": 278,
+      "community": 296,
       "norm_label": "domain-event.ts"
     },
     {
@@ -5336,7 +5768,7 @@
       "source_file": "apps/api/src/shared/domain/events/domain-event-dispatcher.ts",
       "source_location": "L1",
       "id": "apps_api_src_shared_domain_events_domain_event_dispatcher_ts",
-      "community": 279,
+      "community": 297,
       "norm_label": "domain-event-dispatcher.ts"
     },
     {
@@ -5345,7 +5777,7 @@
       "source_file": "apps/api/src/shared/domain/events/bank-account-created.event.ts",
       "source_location": "L1",
       "id": "apps_api_src_shared_domain_events_bank_account_created_event_ts",
-      "community": 67,
+      "community": 75,
       "norm_label": "bank-account-created.event.ts"
     },
     {
@@ -5354,7 +5786,7 @@
       "source_file": "apps/api/src/shared/domain/events/bank-account-created.event.ts",
       "source_location": "L4",
       "id": "bank_account_created_event_bankaccountcreatedevent",
-      "community": 67,
+      "community": 75,
       "norm_label": "bankaccountcreatedevent"
     },
     {
@@ -5363,7 +5795,7 @@
       "source_file": "apps/api/src/shared/domain/events/bank-account-created.event.ts",
       "source_location": "L8",
       "id": "bank_account_created_event_bankaccountcreatedevent_constructor",
-      "community": 67,
+      "community": 75,
       "norm_label": ".constructor()"
     },
     {
@@ -5372,7 +5804,7 @@
       "source_file": "apps/api/src/shared/domain/events/bank-account-created.event.ts",
       "source_location": "L17",
       "id": "bank_account_created_event_bankaccountcreatedevent_getaggregateid",
-      "community": 67,
+      "community": 75,
       "norm_label": ".getaggregateid()"
     },
     {
@@ -5381,7 +5813,7 @@
       "source_file": "apps/api/src/shared/domain/events/index.ts",
       "source_location": "L1",
       "id": "apps_api_src_shared_domain_events_index_ts",
-      "community": 280,
+      "community": 298,
       "norm_label": "index.ts"
     },
     {
@@ -5390,7 +5822,7 @@
       "source_file": "apps/api/src/shared/domain/validators/validation-fields-error.ts",
       "source_location": "L1",
       "id": "apps_api_src_shared_domain_validators_validation_fields_error_ts",
-      "community": 91,
+      "community": 100,
       "norm_label": "validation-fields-error.ts"
     },
     {
@@ -5399,7 +5831,7 @@
       "source_file": "apps/api/src/shared/domain/validators/validation-fields-error.ts",
       "source_location": "L6",
       "id": "validation_fields_error_validationfieldserror",
-      "community": 91,
+      "community": 100,
       "norm_label": "validationfieldserror"
     },
     {
@@ -5408,7 +5840,7 @@
       "source_file": "apps/api/src/shared/domain/validators/validation-fields-error.ts",
       "source_location": "L7",
       "id": "validation_fields_error_validationfieldserror_constructor",
-      "community": 91,
+      "community": 100,
       "norm_label": ".constructor()"
     },
     {
@@ -5417,7 +5849,7 @@
       "source_file": "apps/api/src/shared/domain/validators/zod-validation-strategy.ts",
       "source_location": "L1",
       "id": "apps_api_src_shared_domain_validators_zod_validation_strategy_ts",
-      "community": 68,
+      "community": 76,
       "norm_label": "zod-validation-strategy.ts"
     },
     {
@@ -5426,7 +5858,7 @@
       "source_file": "apps/api/src/shared/domain/validators/zod-validation-strategy.ts",
       "source_location": "L9",
       "id": "zod_validation_strategy_zodvalidationstrategy",
-      "community": 68,
+      "community": 76,
       "norm_label": "zodvalidationstrategy"
     },
     {
@@ -5435,7 +5867,7 @@
       "source_file": "apps/api/src/shared/domain/validators/zod-validation-strategy.ts",
       "source_location": "L10",
       "id": "zod_validation_strategy_zodvalidationstrategy_constructor",
-      "community": 68,
+      "community": 76,
       "norm_label": ".constructor()"
     },
     {
@@ -5444,7 +5876,7 @@
       "source_file": "apps/api/src/shared/domain/validators/zod-validation-strategy.ts",
       "source_location": "L12",
       "id": "zod_validation_strategy_zodvalidationstrategy_validate",
-      "community": 68,
+      "community": 76,
       "norm_label": ".validate()"
     },
     {
@@ -5453,7 +5885,7 @@
       "source_file": "apps/api/src/shared/domain/validators/index.ts",
       "source_location": "L1",
       "id": "apps_api_src_shared_domain_validators_index_ts",
-      "community": 281,
+      "community": 299,
       "norm_label": "index.ts"
     },
     {
@@ -5462,7 +5894,7 @@
       "source_file": "apps/api/src/shared/domain/validators/validation-strategy.ts",
       "source_location": "L1",
       "id": "apps_api_src_shared_domain_validators_validation_strategy_ts",
-      "community": 282,
+      "community": 300,
       "norm_label": "validation-strategy.ts"
     },
     {
@@ -5471,7 +5903,7 @@
       "source_file": "apps/api/src/shared/domain/errors/use-case-error.ts",
       "source_location": "L1",
       "id": "apps_api_src_shared_domain_errors_use_case_error_ts",
-      "community": 283,
+      "community": 301,
       "norm_label": "use-case-error.ts"
     },
     {
@@ -5480,7 +5912,7 @@
       "source_file": "apps/api/src/shared/domain/errors/not-found.ts",
       "source_location": "L1",
       "id": "apps_api_src_shared_domain_errors_not_found_ts",
-      "community": 92,
+      "community": 101,
       "norm_label": "not-found.ts"
     },
     {
@@ -5489,7 +5921,7 @@
       "source_file": "apps/api/src/shared/domain/errors/not-found.ts",
       "source_location": "L3",
       "id": "not_found_notfounderror",
-      "community": 92,
+      "community": 101,
       "norm_label": "notfounderror"
     },
     {
@@ -5498,7 +5930,7 @@
       "source_file": "apps/api/src/shared/domain/errors/not-found.ts",
       "source_location": "L4",
       "id": "not_found_notfounderror_constructor",
-      "community": 92,
+      "community": 101,
       "norm_label": ".constructor()"
     },
     {
@@ -5507,7 +5939,7 @@
       "source_file": "apps/api/src/shared/domain/errors/not-allowed.ts",
       "source_location": "L1",
       "id": "apps_api_src_shared_domain_errors_not_allowed_ts",
-      "community": 93,
+      "community": 102,
       "norm_label": "not-allowed.ts"
     },
     {
@@ -5516,7 +5948,7 @@
       "source_file": "apps/api/src/shared/domain/errors/not-allowed.ts",
       "source_location": "L3",
       "id": "not_allowed_notallowederror",
-      "community": 93,
+      "community": 102,
       "norm_label": "notallowederror"
     },
     {
@@ -5525,7 +5957,7 @@
       "source_file": "apps/api/src/shared/domain/errors/not-allowed.ts",
       "source_location": "L4",
       "id": "not_allowed_notallowederror_constructor",
-      "community": 93,
+      "community": 102,
       "norm_label": ".constructor()"
     },
     {
@@ -5579,7 +6011,7 @@
       "source_file": "apps/api/src/shared/domain/errors/index.ts",
       "source_location": "L1",
       "id": "apps_api_src_shared_domain_errors_index_ts",
-      "community": 284,
+      "community": 302,
       "norm_label": "index.ts"
     },
     {
@@ -5588,7 +6020,7 @@
       "source_file": "apps/api/src/shared/swagger/schemas.ts",
       "source_location": "L1",
       "id": "apps_api_src_shared_swagger_schemas_ts",
-      "community": 285,
+      "community": 303,
       "norm_label": "schemas.ts"
     },
     {
@@ -5597,7 +6029,7 @@
       "source_file": "apps/api/test/app.e2e-spec.ts",
       "source_location": "L1",
       "id": "apps_api_test_app_e2e_spec_ts",
-      "community": 286,
+      "community": 304,
       "norm_label": "app.e2e-spec.ts"
     },
     {
@@ -5606,7 +6038,7 @@
       "source_file": "apps/api/test/setup.e2e.ts",
       "source_location": "L1",
       "id": "apps_api_test_setup_e2e_ts",
-      "community": 287,
+      "community": 305,
       "norm_label": "setup.e2e.ts"
     },
     {
@@ -5615,7 +6047,7 @@
       "source_file": "packages/design-system/vite.config.ts",
       "source_location": "L1",
       "id": "packages_design_system_vite_config_ts",
-      "community": 288,
+      "community": 306,
       "norm_label": "vite.config.ts"
     },
     {
@@ -5624,7 +6056,7 @@
       "source_file": "packages/design-system/src/index.ts",
       "source_location": "L1",
       "id": "packages_design_system_src_index_ts",
-      "community": 289,
+      "community": 307,
       "norm_label": "index.ts"
     },
     {
@@ -5633,7 +6065,7 @@
       "source_file": "packages/design-system/src/components/patterns/balance.tsx",
       "source_location": "L1",
       "id": "packages_design_system_src_components_patterns_balance_tsx",
-      "community": 94,
+      "community": 103,
       "norm_label": "balance.tsx"
     },
     {
@@ -5642,7 +6074,7 @@
       "source_file": "packages/design-system/src/components/patterns/balance.tsx",
       "source_location": "L18",
       "id": "balance_formatbrl",
-      "community": 94,
+      "community": 103,
       "norm_label": "formatbrl()"
     },
     {
@@ -5651,7 +6083,7 @@
       "source_file": "packages/design-system/src/components/patterns/balance.tsx",
       "source_location": "L26",
       "id": "balance_balance",
-      "community": 94,
+      "community": 103,
       "norm_label": "balance()"
     },
     {
@@ -5660,7 +6092,7 @@
       "source_file": "packages/design-system/src/components/patterns/field-input.tsx",
       "source_location": "L1",
       "id": "packages_design_system_src_components_patterns_field_input_tsx",
-      "community": 174,
+      "community": 187,
       "norm_label": "field-input.tsx"
     },
     {
@@ -5669,7 +6101,7 @@
       "source_file": "packages/design-system/src/components/patterns/field-input.tsx",
       "source_location": "L4",
       "id": "field_input_fieldinput",
-      "community": 174,
+      "community": 187,
       "norm_label": "fieldinput()"
     },
     {
@@ -5750,7 +6182,7 @@
       "source_file": "packages/design-system/src/components/patterns/icon-button.tsx",
       "source_location": "L1",
       "id": "packages_design_system_src_components_patterns_icon_button_tsx",
-      "community": 175,
+      "community": 188,
       "norm_label": "icon-button.tsx"
     },
     {
@@ -5759,7 +6191,7 @@
       "source_file": "packages/design-system/src/components/patterns/icon-button.tsx",
       "source_location": "L29",
       "id": "icon_button_iconbutton",
-      "community": 175,
+      "community": 188,
       "norm_label": "iconbutton()"
     },
     {
@@ -5939,7 +6371,7 @@
       "source_file": "packages/design-system/src/components/patterns/date-picker.tsx",
       "source_location": "L1",
       "id": "packages_design_system_src_components_patterns_date_picker_tsx",
-      "community": 176,
+      "community": 189,
       "norm_label": "date-picker.tsx"
     },
     {
@@ -5948,7 +6380,7 @@
       "source_file": "packages/design-system/src/components/patterns/date-picker.tsx",
       "source_location": "L13",
       "id": "date_picker_datepicker",
-      "community": 176,
+      "community": 189,
       "norm_label": "datepicker()"
     },
     {
@@ -5957,7 +6389,7 @@
       "source_file": "packages/design-system/src/components/patterns/index.ts",
       "source_location": "L1",
       "id": "packages_design_system_src_components_patterns_index_ts",
-      "community": 290,
+      "community": 308,
       "norm_label": "index.ts"
     },
     {
@@ -6065,7 +6497,7 @@
       "source_file": "packages/design-system/src/components/patterns/card/icons.tsx",
       "source_location": "L1",
       "id": "packages_design_system_src_components_patterns_card_icons_tsx",
-      "community": 291,
+      "community": 309,
       "norm_label": "icons.tsx"
     },
     {
@@ -6074,7 +6506,7 @@
       "source_file": "packages/design-system/src/components/patterns/card/index.ts",
       "source_location": "L1",
       "id": "packages_design_system_src_components_patterns_card_index_ts",
-      "community": 292,
+      "community": 310,
       "norm_label": "index.ts"
     },
     {
@@ -6146,7 +6578,7 @@
       "source_file": "packages/design-system/src/components/ui/field.tsx",
       "source_location": "L1",
       "id": "packages_design_system_src_components_ui_field_tsx",
-      "community": 177,
+      "community": 190,
       "norm_label": "field.tsx"
     },
     {
@@ -6155,7 +6587,7 @@
       "source_file": "packages/design-system/src/components/ui/field.tsx",
       "source_location": "L12",
       "id": "field_cn",
-      "community": 177,
+      "community": 190,
       "norm_label": "cn()"
     },
     {
@@ -6218,7 +6650,7 @@
       "source_file": "packages/design-system/src/components/ui/input.tsx",
       "source_location": "L1",
       "id": "packages_design_system_src_components_ui_input_tsx",
-      "community": 178,
+      "community": 191,
       "norm_label": "input.tsx"
     },
     {
@@ -6227,7 +6659,7 @@
       "source_file": "packages/design-system/src/components/ui/input.tsx",
       "source_location": "L5",
       "id": "input_input",
-      "community": 178,
+      "community": 191,
       "norm_label": "input()"
     },
     {
@@ -6236,7 +6668,7 @@
       "source_file": "packages/design-system/src/components/ui/label.tsx",
       "source_location": "L1",
       "id": "packages_design_system_src_components_ui_label_tsx",
-      "community": 179,
+      "community": 192,
       "norm_label": "label.tsx"
     },
     {
@@ -6245,7 +6677,7 @@
       "source_file": "packages/design-system/src/components/ui/label.tsx",
       "source_location": "L6",
       "id": "label_label",
-      "community": 179,
+      "community": 192,
       "norm_label": "label()"
     },
     {
@@ -6254,7 +6686,7 @@
       "source_file": "packages/design-system/src/components/ui/popover.tsx",
       "source_location": "L1",
       "id": "packages_design_system_src_components_ui_popover_tsx",
-      "community": 95,
+      "community": 104,
       "norm_label": "popover.tsx"
     },
     {
@@ -6263,7 +6695,7 @@
       "source_file": "packages/design-system/src/components/ui/popover.tsx",
       "source_location": "L6",
       "id": "popover_popover",
-      "community": 95,
+      "community": 104,
       "norm_label": "popover()"
     },
     {
@@ -6272,7 +6704,7 @@
       "source_file": "packages/design-system/src/components/ui/popover.tsx",
       "source_location": "L12",
       "id": "popover_popovertrigger",
-      "community": 95,
+      "community": 104,
       "norm_label": "popovertrigger()"
     },
     {
@@ -6281,7 +6713,7 @@
       "source_file": "packages/design-system/src/components/ui/separator.tsx",
       "source_location": "L1",
       "id": "packages_design_system_src_components_ui_separator_tsx",
-      "community": 180,
+      "community": 193,
       "norm_label": "separator.tsx"
     },
     {
@@ -6290,7 +6722,7 @@
       "source_file": "packages/design-system/src/components/ui/separator.tsx",
       "source_location": "L8",
       "id": "separator_separator",
-      "community": 180,
+      "community": 193,
       "norm_label": "separator()"
     },
     {
@@ -6299,7 +6731,7 @@
       "source_file": "packages/design-system/src/components/ui/tab.tsx",
       "source_location": "L1",
       "id": "packages_design_system_src_components_ui_tab_tsx",
-      "community": 181,
+      "community": 194,
       "norm_label": "tab.tsx"
     },
     {
@@ -6308,7 +6740,7 @@
       "source_file": "packages/design-system/src/components/ui/tab.tsx",
       "source_location": "L8",
       "id": "tab_tab",
-      "community": 181,
+      "community": 194,
       "norm_label": "tab()"
     },
     {
@@ -6317,7 +6749,7 @@
       "source_file": "packages/design-system/src/components/ui/amount.tsx",
       "source_location": "L1",
       "id": "packages_design_system_src_components_ui_amount_tsx",
-      "community": 182,
+      "community": 195,
       "norm_label": "amount.tsx"
     },
     {
@@ -6326,7 +6758,7 @@
       "source_file": "packages/design-system/src/components/ui/amount.tsx",
       "source_location": "L26",
       "id": "amount_amount",
-      "community": 182,
+      "community": 195,
       "norm_label": "amount()"
     },
     {
@@ -6335,7 +6767,7 @@
       "source_file": "packages/design-system/src/components/ui/avatar.tsx",
       "source_location": "L1",
       "id": "packages_design_system_src_components_ui_avatar_tsx",
-      "community": 96,
+      "community": 105,
       "norm_label": "avatar.tsx"
     },
     {
@@ -6344,7 +6776,7 @@
       "source_file": "packages/design-system/src/components/ui/avatar.tsx",
       "source_location": "L9",
       "id": "avatar_avatarroot",
-      "community": 96,
+      "community": 105,
       "norm_label": "avatarroot()"
     },
     {
@@ -6353,7 +6785,7 @@
       "source_file": "packages/design-system/src/components/ui/avatar.tsx",
       "source_location": "L35",
       "id": "avatar_avatarfallback",
-      "community": 96,
+      "community": 105,
       "norm_label": "avatarfallback()"
     },
     {
@@ -6362,7 +6794,7 @@
       "source_file": "packages/design-system/src/components/ui/currency-input.tsx",
       "source_location": "L1",
       "id": "packages_design_system_src_components_ui_currency_input_tsx",
-      "community": 293,
+      "community": 311,
       "norm_label": "currency-input.tsx"
     },
     {
@@ -6371,7 +6803,7 @@
       "source_file": "packages/design-system/src/components/ui/dialog.tsx",
       "source_location": "L1",
       "id": "packages_design_system_src_components_ui_dialog_tsx",
-      "community": 183,
+      "community": 196,
       "norm_label": "dialog.tsx"
     },
     {
@@ -6380,7 +6812,7 @@
       "source_file": "packages/design-system/src/components/ui/dialog.tsx",
       "source_location": "L61",
       "id": "dialog_cn",
-      "community": 183,
+      "community": 196,
       "norm_label": "cn()"
     },
     {
@@ -6569,7 +7001,7 @@
       "source_file": "packages/design-system/src/components/ui/scroll-area.tsx",
       "source_location": "L1",
       "id": "packages_design_system_src_components_ui_scroll_area_tsx",
-      "community": 97,
+      "community": 106,
       "norm_label": "scroll-area.tsx"
     },
     {
@@ -6578,7 +7010,7 @@
       "source_file": "packages/design-system/src/components/ui/scroll-area.tsx",
       "source_location": "L6",
       "id": "scroll_area_scrollarea",
-      "community": 97,
+      "community": 106,
       "norm_label": "scrollarea()"
     },
     {
@@ -6587,7 +7019,7 @@
       "source_file": "packages/design-system/src/components/ui/scroll-area.tsx",
       "source_location": "L29",
       "id": "scroll_area_scrollbar",
-      "community": 97,
+      "community": 106,
       "norm_label": "scrollbar()"
     },
     {
@@ -6596,7 +7028,7 @@
       "source_file": "packages/design-system/src/components/ui/calendar.tsx",
       "source_location": "L1",
       "id": "packages_design_system_src_components_ui_calendar_tsx",
-      "community": 184,
+      "community": 197,
       "norm_label": "calendar.tsx"
     },
     {
@@ -6605,7 +7037,7 @@
       "source_file": "packages/design-system/src/components/ui/calendar.tsx",
       "source_location": "L208",
       "id": "calendar_cn",
-      "community": 184,
+      "community": 197,
       "norm_label": "cn()"
     },
     {
@@ -6614,7 +7046,7 @@
       "source_file": "packages/design-system/src/components/ui/spinner.tsx",
       "source_location": "L1",
       "id": "packages_design_system_src_components_ui_spinner_tsx",
-      "community": 185,
+      "community": 198,
       "norm_label": "spinner.tsx"
     },
     {
@@ -6623,7 +7055,7 @@
       "source_file": "packages/design-system/src/components/ui/spinner.tsx",
       "source_location": "L5",
       "id": "spinner_spinner",
-      "community": 185,
+      "community": 198,
       "norm_label": "spinner()"
     },
     {
@@ -6632,7 +7064,7 @@
       "source_file": "packages/design-system/src/components/ui/index.ts",
       "source_location": "L1",
       "id": "packages_design_system_src_components_ui_index_ts",
-      "community": 294,
+      "community": 312,
       "norm_label": "index.ts"
     },
     {
@@ -6641,7 +7073,7 @@
       "source_file": "packages/design-system/src/components/ui/button.tsx",
       "source_location": "L1",
       "id": "packages_design_system_src_components_ui_button_tsx",
-      "community": 81,
+      "community": 89,
       "norm_label": "button.tsx"
     },
     {
@@ -6650,7 +7082,7 @@
       "source_file": "packages/design-system/src/components/ui/icons/types.ts",
       "source_location": "L1",
       "id": "packages_design_system_src_components_ui_icons_types_ts",
-      "community": 295,
+      "community": 313,
       "norm_label": "types.ts"
     },
     {
@@ -6659,7 +7091,7 @@
       "source_file": "packages/design-system/src/components/ui/icons/revenue.tsx",
       "source_location": "L1",
       "id": "packages_design_system_src_components_ui_icons_revenue_tsx",
-      "community": 98,
+      "community": 107,
       "norm_label": "revenue.tsx"
     },
     {
@@ -6668,7 +7100,7 @@
       "source_file": "packages/design-system/src/components/ui/icons/revenue.tsx",
       "source_location": "L4",
       "id": "revenue_currentaccount",
-      "community": 98,
+      "community": 107,
       "norm_label": "currentaccount()"
     },
     {
@@ -6677,7 +7109,7 @@
       "source_file": "packages/design-system/src/components/ui/icons/account.tsx",
       "source_location": "L1",
       "id": "packages_design_system_src_components_ui_icons_account_tsx",
-      "community": 99,
+      "community": 108,
       "norm_label": "account.tsx"
     },
     {
@@ -6686,7 +7118,7 @@
       "source_file": "packages/design-system/src/components/ui/icons/account.tsx",
       "source_location": "L4",
       "id": "account_currentaccount",
-      "community": 99,
+      "community": 108,
       "norm_label": "currentaccount()"
     },
     {
@@ -6695,7 +7127,7 @@
       "source_file": "packages/design-system/src/components/ui/icons/colors.tsx",
       "source_location": "L1",
       "id": "packages_design_system_src_components_ui_icons_colors_tsx",
-      "community": 100,
+      "community": 109,
       "norm_label": "colors.tsx"
     },
     {
@@ -6704,7 +7136,7 @@
       "source_file": "packages/design-system/src/components/ui/icons/colors.tsx",
       "source_location": "L3",
       "id": "colors_gray",
-      "community": 100,
+      "community": 109,
       "norm_label": "gray()"
     },
     {
@@ -6713,7 +7145,7 @@
       "source_file": "packages/design-system/src/components/ui/icons/expense.tsx",
       "source_location": "L1",
       "id": "packages_design_system_src_components_ui_icons_expense_tsx",
-      "community": 186,
+      "community": 199,
       "norm_label": "expense.tsx"
     },
     {
@@ -6722,7 +7154,7 @@
       "source_file": "packages/design-system/src/components/ui/icons/index.ts",
       "source_location": "L1",
       "id": "packages_design_system_src_components_ui_icons_index_ts",
-      "community": 296,
+      "community": 314,
       "norm_label": "index.ts"
     },
     {
@@ -6731,7 +7163,7 @@
       "source_file": "packages/design-system/src/components/ui/icons/icons.tsx",
       "source_location": "L1",
       "id": "packages_design_system_src_components_ui_icons_icons_tsx",
-      "community": 297,
+      "community": 315,
       "norm_label": "icons.tsx"
     },
     {
@@ -6740,7 +7172,7 @@
       "source_file": "packages/design-system/src/components/ui/icons/general.tsx",
       "source_location": "L1",
       "id": "packages_design_system_src_components_ui_icons_general_tsx",
-      "community": 101,
+      "community": 110,
       "norm_label": "general.tsx"
     },
     {
@@ -6749,7 +7181,7 @@
       "source_file": "packages/design-system/src/components/ui/icons/general.tsx",
       "source_location": "L4",
       "id": "general_transactions",
-      "community": 101,
+      "community": 110,
       "norm_label": "transactions()"
     },
     {
@@ -6758,7 +7190,7 @@
       "source_file": "packages/design-system/src/components/ui/icons/general.ts",
       "source_location": "L1",
       "id": "packages_design_system_src_components_ui_icons_general_ts",
-      "community": 101,
+      "community": 110,
       "norm_label": "general.ts"
     },
     {
@@ -6767,7 +7199,7 @@
       "source_file": "packages/design-system/src/components/ui/icons/expense.ts",
       "source_location": "L1",
       "id": "packages_design_system_src_components_ui_icons_expense_ts",
-      "community": 186,
+      "community": 199,
       "norm_label": "expense.ts"
     },
     {
@@ -6776,7 +7208,7 @@
       "source_file": "packages/design-system/src/components/ui/icons/revenue.ts",
       "source_location": "L1",
       "id": "packages_design_system_src_components_ui_icons_revenue_ts",
-      "community": 98,
+      "community": 107,
       "norm_label": "revenue.ts"
     },
     {
@@ -6785,7 +7217,7 @@
       "source_file": "packages/design-system/src/components/ui/icons/account.ts",
       "source_location": "L1",
       "id": "packages_design_system_src_components_ui_icons_account_ts",
-      "community": 99,
+      "community": 108,
       "norm_label": "account.ts"
     },
     {
@@ -6794,7 +7226,7 @@
       "source_file": "packages/design-system/src/components/ui/icons/colors.ts",
       "source_location": "L1",
       "id": "packages_design_system_src_components_ui_icons_colors_ts",
-      "community": 100,
+      "community": 109,
       "norm_label": "colors.ts"
     },
     {
@@ -6803,7 +7235,7 @@
       "source_file": "packages/design-system/src/components/ui/icons/base/current-account-base.tsx",
       "source_location": "L1",
       "id": "packages_design_system_src_components_ui_icons_base_current_account_base_tsx",
-      "community": 298,
+      "community": 316,
       "norm_label": "current-account-base.tsx"
     },
     {
@@ -6812,7 +7244,7 @@
       "source_file": "packages/design-system/src/components/ui/icons/base/money-base.tsx",
       "source_location": "L1",
       "id": "packages_design_system_src_components_ui_icons_base_money_base_tsx",
-      "community": 299,
+      "community": 317,
       "norm_label": "money-base.tsx"
     },
     {
@@ -6821,7 +7253,7 @@
       "source_file": "packages/design-system/src/components/ui/icons/base/investments-base.tsx",
       "source_location": "L1",
       "id": "packages_design_system_src_components_ui_icons_base_investments_base_tsx",
-      "community": 300,
+      "community": 318,
       "norm_label": "investments-base.tsx"
     },
     {
@@ -6830,7 +7262,7 @@
       "source_file": "packages/design-system/src/components/ui/icons/base/index.ts",
       "source_location": "L1",
       "id": "packages_design_system_src_components_ui_icons_base_index_ts",
-      "community": 301,
+      "community": 319,
       "norm_label": "index.ts"
     },
     {
@@ -6839,7 +7271,7 @@
       "source_file": "packages/design-system/src/lib/utils.ts",
       "source_location": "L1",
       "id": "packages_design_system_src_lib_utils_ts",
-      "community": 187,
+      "community": 200,
       "norm_label": "utils.ts"
     },
     {
@@ -6848,7 +7280,7 @@
       "source_file": "packages/design-system/src/lib/utils.ts",
       "source_location": "L4",
       "id": "utils_cn",
-      "community": 187,
+      "community": 200,
       "norm_label": "cn()"
     },
     {
@@ -6857,7 +7289,7 @@
       "source_file": "infra/docker/api/health-check.js",
       "source_location": "L1",
       "id": "infra_docker_api_health_check_js",
-      "community": 302,
+      "community": 320,
       "norm_label": "health-check.js"
     },
     {
@@ -6947,7 +7379,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 303,
+      "community": 321,
       "norm_label": "apps/web readme \u2014 tanstack app",
       "id": "readme_apps_web"
     },
@@ -6960,7 +7392,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 304,
+      "community": 322,
       "norm_label": "apps/api readme \u2014 nestjs starter",
       "id": "readme_apps_api"
     },
@@ -6973,7 +7405,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 305,
+      "community": 323,
       "norm_label": "apps/docs readme \u2014 react+vite template",
       "id": "readme_apps_docs"
     },
@@ -6986,7 +7418,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 306,
+      "community": 324,
       "norm_label": "packages/ts-config readme",
       "id": "readme_ts_config"
     },
@@ -8195,7 +8627,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 188,
+      "community": 203,
       "norm_label": "task: create bank account use case",
       "id": "bank_accounts_tasks_CreateUseCase"
     },
@@ -8208,7 +8640,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 190,
+      "community": 201,
       "norm_label": "task: list bank accounts use case",
       "id": "bank_accounts_tasks_ListUseCase"
     },
@@ -8221,7 +8653,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 191,
+      "community": 204,
       "norm_label": "task: update bank account use case",
       "id": "bank_accounts_tasks_UpdateUseCase"
     },
@@ -8234,7 +8666,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 189,
+      "community": 202,
       "norm_label": "task: delete bank account use case",
       "id": "bank_accounts_tasks_DeleteUseCase"
     },
@@ -8260,7 +8692,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 307,
+      "community": 325,
       "norm_label": "task: verification type check and lint",
       "id": "bank_accounts_tasks_Verification"
     },
@@ -8273,7 +8705,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 308,
+      "community": 326,
       "norm_label": "auth module better-auth implementation",
       "id": "learnings_infra_AuthModule"
     },
@@ -8286,7 +8718,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 309,
+      "community": 327,
       "norm_label": "database module drizzle global module",
       "id": "learnings_infra_DatabaseModule"
     },
@@ -8299,7 +8731,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 310,
+      "community": 328,
       "norm_label": "env module zod validated schema",
       "id": "learnings_infra_EnvModule"
     },
@@ -8351,7 +8783,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 311,
+      "community": 329,
       "norm_label": "session decorator usersession type",
       "id": "learnings_infra_SessionDecorator"
     },
@@ -8468,7 +8900,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 312,
+      "community": 330,
       "norm_label": "api endpoints post get put delete bank-accounts",
       "id": "learnings_impl_APIEndpoints"
     },
@@ -8572,7 +9004,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 313,
+      "community": 331,
       "norm_label": "valueobject immutable value equality",
       "id": "learnings_ddd_ValueObject"
     },
@@ -8598,7 +9030,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 314,
+      "community": 332,
       "norm_label": "usecase interface execute input output",
       "id": "learnings_ddd_UseCaseInterface"
     },
@@ -8650,7 +9082,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 188,
+      "community": 203,
       "norm_label": "requirement: user can create a bank account",
       "id": "spec_crud_CreateBankAccount"
     },
@@ -8663,7 +9095,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 190,
+      "community": 201,
       "norm_label": "requirement: user can list their bank accounts",
       "id": "spec_crud_ListBankAccounts"
     },
@@ -8676,7 +9108,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 191,
+      "community": 204,
       "norm_label": "requirement: user can update a bank account",
       "id": "spec_crud_UpdateBankAccount"
     },
@@ -8689,7 +9121,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 189,
+      "community": 202,
       "norm_label": "requirement: user can delete a bank account",
       "id": "spec_crud_DeleteBankAccount"
     },
@@ -8806,7 +9238,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 192,
+      "community": 205,
       "norm_label": "rf04 relatorios e dashboards functional requirement",
       "id": "docs_requisitos_RF04"
     },
@@ -8819,7 +9251,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 193,
+      "community": 206,
       "norm_label": "rf07 autenticacao functional requirement",
       "id": "docs_requisitos_RF07"
     },
@@ -8858,7 +9290,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 315,
+      "community": 333,
       "norm_label": "reports and analytics supporting subdomain",
       "id": "docs_dominios_ReportsAnalytics"
     },
@@ -8871,7 +9303,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 193,
+      "community": 206,
       "norm_label": "authentication and users generic subdomain",
       "id": "docs_dominios_AuthUsers"
     },
@@ -9040,7 +9472,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 316,
+      "community": 334,
       "norm_label": "roadmap phase 4 user profile settings",
       "id": "docs_roadmap_Phase4"
     },
@@ -9079,7 +9511,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 192,
+      "community": 205,
       "norm_label": "roadmap phase 7 reports dashboards rf04",
       "id": "docs_roadmap_Phase7"
     },
@@ -9105,7 +9537,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 317,
+      "community": 335,
       "norm_label": "roadmap phase 9 data import rf06 future",
       "id": "docs_roadmap_Phase9"
     },
@@ -9144,7 +9576,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 318,
+      "community": 336,
       "norm_label": "graph report 252 communities detected",
       "id": "graph_report_Communities"
     },
@@ -9183,7 +9615,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 319,
+      "community": 337,
       "norm_label": "assets screenshot",
       "id": "assets_png"
     },
@@ -9209,7 +9641,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 102,
+      "community": 111,
       "norm_label": "discord icon (svg)",
       "id": "discord_svg"
     },
@@ -9235,7 +9667,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 103,
+      "community": 112,
       "norm_label": "figma plugin screenshot",
       "id": "figma_plugin_png"
     },
@@ -9248,7 +9680,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 102,
+      "community": 111,
       "norm_label": "github icon (svg)",
       "id": "github_svg"
     },
@@ -9274,7 +9706,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 103,
+      "community": 112,
       "norm_label": "styling screenshot",
       "id": "styling_png"
     },
@@ -9300,7 +9732,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 103,
+      "community": 112,
       "norm_label": "theming screenshot",
       "id": "theming_png"
     },
@@ -9326,7 +9758,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 102,
+      "community": 111,
       "norm_label": "youtube icon (svg)",
       "id": "youtube_svg"
     },
@@ -11341,7 +11773,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "apps/api/src/app.module.ts",
-      "source_location": "L30",
+      "source_location": "L32",
       "weight": 1.0,
       "_src": "apps_api_src_app_module_ts",
       "_tgt": "app_module_appmodule",
@@ -11371,6 +11803,18 @@
       "_tgt": "database_module_databasemodule",
       "source": "apps_api_src_core_database_database_module_ts",
       "target": "database_module_databasemodule",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "apps/api/src/core/database/seed.ts",
+      "source_location": "L33",
+      "weight": 1.0,
+      "_src": "apps_api_src_core_database_seed_ts",
+      "_tgt": "seed_main",
+      "source": "apps_api_src_core_database_seed_ts",
+      "target": "seed_main",
       "confidence_score": 1.0
     },
     {
@@ -11473,7 +11917,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "apps/api/src/modules/bank-accounts/bank-accounts.module.ts",
-      "source_location": "L34",
+      "source_location": "L41",
       "weight": 1.0,
       "_src": "apps_api_src_modules_bank_accounts_bank_accounts_module_ts",
       "_tgt": "bank_accounts_module_bankaccountsmodule",
@@ -11611,6 +12055,30 @@
       "_tgt": "bank_account_entity_bankaccount_update",
       "source": "bank_account_entity_bankaccount",
       "target": "bank_account_entity_bankaccount_update",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "apps/api/src/modules/bank-accounts/domain/entities/account-type.entity.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_src": "apps_api_src_modules_bank_accounts_domain_entities_account_type_entity_ts",
+      "_tgt": "account_type_entity_accounttype",
+      "source": "apps_api_src_modules_bank_accounts_domain_entities_account_type_entity_ts",
+      "target": "account_type_entity_accounttype",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "apps/api/src/modules/bank-accounts/domain/entities/account-type.entity.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_src": "account_type_entity_accounttype",
+      "_tgt": "account_type_entity_accounttype_constructor",
+      "source": "account_type_entity_accounttype",
+      "target": "account_type_entity_accounttype_constructor",
       "confidence_score": 1.0
     },
     {
@@ -11784,6 +12252,42 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "apps/api/src/modules/bank-accounts/domain/use-cases/list-account-types.use-case.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_src": "apps_api_src_modules_bank_accounts_domain_use_cases_list_account_types_use_case_ts",
+      "_tgt": "list_account_types_use_case_listaccounttypesusecase",
+      "source": "apps_api_src_modules_bank_accounts_domain_use_cases_list_account_types_use_case_ts",
+      "target": "list_account_types_use_case_listaccounttypesusecase",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "apps/api/src/modules/bank-accounts/domain/use-cases/list-account-types.use-case.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_src": "list_account_types_use_case_listaccounttypesusecase",
+      "_tgt": "list_account_types_use_case_listaccounttypesusecase_constructor",
+      "source": "list_account_types_use_case_listaccounttypesusecase",
+      "target": "list_account_types_use_case_listaccounttypesusecase_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "apps/api/src/modules/bank-accounts/domain/use-cases/list-account-types.use-case.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_src": "list_account_types_use_case_listaccounttypesusecase",
+      "_tgt": "list_account_types_use_case_listaccounttypesusecase_execute",
+      "source": "list_account_types_use_case_listaccounttypesusecase",
+      "target": "list_account_types_use_case_listaccounttypesusecase_execute",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "apps/api/src/modules/bank-accounts/infra/persistence/drizzle-bank-account.repository.ts",
       "source_location": "L10",
       "weight": 1.0,
@@ -11868,6 +12372,42 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "apps/api/src/modules/bank-accounts/infra/persistence/drizzle-account-type.repository.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_src": "apps_api_src_modules_bank_accounts_infra_persistence_drizzle_account_type_repository_ts",
+      "_tgt": "drizzle_account_type_repository_drizzleaccounttyperepository",
+      "source": "apps_api_src_modules_bank_accounts_infra_persistence_drizzle_account_type_repository_ts",
+      "target": "drizzle_account_type_repository_drizzleaccounttyperepository",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "apps/api/src/modules/bank-accounts/infra/persistence/drizzle-account-type.repository.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_src": "drizzle_account_type_repository_drizzleaccounttyperepository",
+      "_tgt": "drizzle_account_type_repository_drizzleaccounttyperepository_constructor",
+      "source": "drizzle_account_type_repository_drizzleaccounttyperepository",
+      "target": "drizzle_account_type_repository_drizzleaccounttyperepository_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "apps/api/src/modules/bank-accounts/infra/persistence/drizzle-account-type.repository.ts",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_src": "drizzle_account_type_repository_drizzleaccounttyperepository",
+      "_tgt": "drizzle_account_type_repository_drizzleaccounttyperepository_findall",
+      "source": "drizzle_account_type_repository_drizzleaccounttyperepository",
+      "target": "drizzle_account_type_repository_drizzleaccounttyperepository_findall",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "apps/api/src/modules/bank-accounts/infra/mappers/bank-account.mapper.ts",
       "source_location": "L17",
       "weight": 1.0,
@@ -11911,6 +12451,42 @@
       "_tgt": "bank_account_mapper_bankaccountmapper_toresponse",
       "source": "bank_account_mapper_bankaccountmapper",
       "target": "bank_account_mapper_bankaccountmapper_toresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "apps/api/src/modules/bank-accounts/infra/mappers/account-type.mapper.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_src": "apps_api_src_modules_bank_accounts_infra_mappers_account_type_mapper_ts",
+      "_tgt": "account_type_mapper_accounttypemapper",
+      "source": "apps_api_src_modules_bank_accounts_infra_mappers_account_type_mapper_ts",
+      "target": "account_type_mapper_accounttypemapper",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "apps/api/src/modules/bank-accounts/infra/mappers/account-type.mapper.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_src": "account_type_mapper_accounttypemapper",
+      "_tgt": "account_type_mapper_accounttypemapper_todomain",
+      "source": "account_type_mapper_accounttypemapper",
+      "target": "account_type_mapper_accounttypemapper_todomain",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "apps/api/src/modules/bank-accounts/infra/mappers/account-type.mapper.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_src": "account_type_mapper_accounttypemapper",
+      "_tgt": "account_type_mapper_accounttypemapper_toresponse",
+      "source": "account_type_mapper_accounttypemapper",
+      "target": "account_type_mapper_accounttypemapper_toresponse",
       "confidence_score": 1.0
     },
     {
@@ -12019,6 +12595,18 @@
       "_tgt": "delete_bank_account_service_deletebankaccountservice_constructor",
       "source": "delete_bank_account_service_deletebankaccountservice",
       "target": "delete_bank_account_service_deletebankaccountservice_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "apps/api/src/modules/bank-accounts/application/list-account-types/list-account-types.service.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_src": "apps_api_src_modules_bank_accounts_application_list_account_types_list_account_types_service_ts",
+      "_tgt": "list_account_types_service_listaccounttypesservice",
+      "source": "apps_api_src_modules_bank_accounts_application_list_account_types_list_account_types_service_ts",
+      "target": "list_account_types_service_listaccounttypesservice",
       "confidence_score": 1.0
     },
     {
@@ -12169,7 +12757,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "apps/api/src/modules/bank-accounts/presentation/list-account-types.controller.ts",
-      "source_location": "L25",
+      "source_location": "L18",
       "weight": 1.0,
       "_src": "apps_api_src_modules_bank_accounts_presentation_list_account_types_controller_ts",
       "_tgt": "list_account_types_controller_listaccounttypescontroller",
@@ -12181,7 +12769,19 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "apps/api/src/modules/bank-accounts/presentation/list-account-types.controller.ts",
-      "source_location": "L41",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_src": "list_account_types_controller_listaccounttypescontroller",
+      "_tgt": "list_account_types_controller_listaccounttypescontroller_constructor",
+      "source": "list_account_types_controller_listaccounttypescontroller",
+      "target": "list_account_types_controller_listaccounttypescontroller_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "apps/api/src/modules/bank-accounts/presentation/list-account-types.controller.ts",
+      "source_location": "L38",
       "weight": 1.0,
       "_src": "list_account_types_controller_listaccounttypescontroller",
       "_tgt": "list_account_types_controller_listaccounttypescontroller_list",
@@ -13195,6 +13795,198 @@
       "_tgt": "transactions_controller_transactionscontroller_delete",
       "source": "transactions_controller_transactionscontroller",
       "target": "transactions_controller_transactionscontroller_delete",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "apps/api/src/modules/colors/colors.module.ts",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_src": "apps_api_src_modules_colors_colors_module_ts",
+      "_tgt": "colors_module_colorsmodule",
+      "source": "apps_api_src_modules_colors_colors_module_ts",
+      "target": "colors_module_colorsmodule",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "apps/api/src/modules/colors/infra/mappers/color.mapper.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_src": "apps_api_src_modules_colors_infra_mappers_color_mapper_ts",
+      "_tgt": "color_mapper_colormapper",
+      "source": "apps_api_src_modules_colors_infra_mappers_color_mapper_ts",
+      "target": "color_mapper_colormapper",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "apps/api/src/modules/colors/infra/mappers/color.mapper.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_src": "color_mapper_colormapper",
+      "_tgt": "color_mapper_colormapper_todomain",
+      "source": "color_mapper_colormapper",
+      "target": "color_mapper_colormapper_todomain",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "apps/api/src/modules/colors/infra/mappers/color.mapper.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_src": "color_mapper_colormapper",
+      "_tgt": "color_mapper_colormapper_toresponse",
+      "source": "color_mapper_colormapper",
+      "target": "color_mapper_colormapper_toresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "apps/api/src/modules/colors/infra/persistence/drizzle-color.repository.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_src": "apps_api_src_modules_colors_infra_persistence_drizzle_color_repository_ts",
+      "_tgt": "drizzle_color_repository_drizzlecolorrepository",
+      "source": "apps_api_src_modules_colors_infra_persistence_drizzle_color_repository_ts",
+      "target": "drizzle_color_repository_drizzlecolorrepository",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "apps/api/src/modules/colors/infra/persistence/drizzle-color.repository.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_src": "drizzle_color_repository_drizzlecolorrepository",
+      "_tgt": "drizzle_color_repository_drizzlecolorrepository_constructor",
+      "source": "drizzle_color_repository_drizzlecolorrepository",
+      "target": "drizzle_color_repository_drizzlecolorrepository_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "apps/api/src/modules/colors/infra/persistence/drizzle-color.repository.ts",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_src": "drizzle_color_repository_drizzlecolorrepository",
+      "_tgt": "drizzle_color_repository_drizzlecolorrepository_findall",
+      "source": "drizzle_color_repository_drizzlecolorrepository",
+      "target": "drizzle_color_repository_drizzlecolorrepository_findall",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "apps/api/src/modules/colors/domain/entities/color.entity.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_src": "apps_api_src_modules_colors_domain_entities_color_entity_ts",
+      "_tgt": "color_entity_color",
+      "source": "apps_api_src_modules_colors_domain_entities_color_entity_ts",
+      "target": "color_entity_color",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "apps/api/src/modules/colors/domain/entities/color.entity.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_src": "color_entity_color",
+      "_tgt": "color_entity_color_constructor",
+      "source": "color_entity_color",
+      "target": "color_entity_color_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "apps/api/src/modules/colors/domain/use-cases/list-colors.use-case.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_src": "apps_api_src_modules_colors_domain_use_cases_list_colors_use_case_ts",
+      "_tgt": "list_colors_use_case_listcolorsusecase",
+      "source": "apps_api_src_modules_colors_domain_use_cases_list_colors_use_case_ts",
+      "target": "list_colors_use_case_listcolorsusecase",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "apps/api/src/modules/colors/domain/use-cases/list-colors.use-case.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_src": "list_colors_use_case_listcolorsusecase",
+      "_tgt": "list_colors_use_case_listcolorsusecase_constructor",
+      "source": "list_colors_use_case_listcolorsusecase",
+      "target": "list_colors_use_case_listcolorsusecase_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "apps/api/src/modules/colors/domain/use-cases/list-colors.use-case.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_src": "list_colors_use_case_listcolorsusecase",
+      "_tgt": "list_colors_use_case_listcolorsusecase_execute",
+      "source": "list_colors_use_case_listcolorsusecase",
+      "target": "list_colors_use_case_listcolorsusecase_execute",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "apps/api/src/modules/colors/application/list-colors/list-colors.service.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_src": "apps_api_src_modules_colors_application_list_colors_list_colors_service_ts",
+      "_tgt": "list_colors_service_listcolorsservice",
+      "source": "apps_api_src_modules_colors_application_list_colors_list_colors_service_ts",
+      "target": "list_colors_service_listcolorsservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "apps/api/src/modules/colors/presentation/list-colors.controller.ts",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_src": "apps_api_src_modules_colors_presentation_list_colors_controller_ts",
+      "_tgt": "list_colors_controller_listcolorscontroller",
+      "source": "apps_api_src_modules_colors_presentation_list_colors_controller_ts",
+      "target": "list_colors_controller_listcolorscontroller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "apps/api/src/modules/colors/presentation/list-colors.controller.ts",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_src": "list_colors_controller_listcolorscontroller",
+      "_tgt": "list_colors_controller_listcolorscontroller_constructor",
+      "source": "list_colors_controller_listcolorscontroller",
+      "target": "list_colors_controller_listcolorscontroller_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "apps/api/src/modules/colors/presentation/list-colors.controller.ts",
+      "source_location": "L43",
+      "weight": 1.0,
+      "_src": "list_colors_controller_listcolorscontroller",
+      "_tgt": "list_colors_controller_listcolorscontroller_list",
+      "source": "list_colors_controller_listcolorscontroller",
+      "target": "list_colors_controller_listcolorscontroller_list",
       "confidence_score": 1.0
     },
     {

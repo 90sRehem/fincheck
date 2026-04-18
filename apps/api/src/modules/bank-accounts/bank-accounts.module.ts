@@ -1,9 +1,11 @@
 import { Module } from "@nestjs/common";
 import { CreateBankAccountService } from "./application/create-bank-account/create-bank-account.service";
 import { DeleteBankAccountService } from "./application/delete-bank-account/delete-bank-account.service";
+import { ListAccountTypesService } from "./application/list-account-types/list-account-types.service";
 import { ListBankAccountsService } from "./application/list-bank-accounts/list-bank-accounts.service";
 import { UpdateBankAccountService } from "./application/update-bank-account/update-bank-account.service";
-import { BankAccountRepository } from "./domain";
+import { AccountTypeRepository, BankAccountRepository } from "./domain";
+import { DrizzleAccountTypeRepository } from "./infra/persistence/drizzle-account-type.repository";
 import { DrizzleBankAccountRepository } from "./infra/persistence/drizzle-bank-account.repository";
 import { CreateBankAccountController } from "./presentation/create-bank-account.controller";
 import { DeleteBankAccountController } from "./presentation/delete-bank-account.controller";
@@ -24,8 +26,13 @@ import { UpdateBankAccountController } from "./presentation/update-bank-account.
 			provide: BankAccountRepository,
 			useClass: DrizzleBankAccountRepository,
 		},
+		{
+			provide: AccountTypeRepository,
+			useClass: DrizzleAccountTypeRepository,
+		},
 		CreateBankAccountService,
 		ListBankAccountsService,
+		ListAccountTypesService,
 		UpdateBankAccountService,
 		DeleteBankAccountService,
 	],

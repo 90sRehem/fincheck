@@ -1,7 +1,9 @@
+export { AccountType } from "./entities/account-type.entity";
 export {
 	BankAccount,
 	type BankAccountProps,
 } from "./entities/bank-account.entity";
+export { AccountTypeRepository } from "./repositories/account-type.repository";
 export { BankAccountRepository } from "./repositories/bank-account.repository";
 export {
 	CreateBankAccountUseCase,
@@ -11,6 +13,7 @@ export {
 	DeleteBankAccountUseCase,
 	type DeleteBankAccountUseCaseInput,
 } from "./use-cases/delete-bank-account.use-case";
+export { ListAccountTypesUseCase } from "./use-cases/list-account-types.use-case";
 export {
 	ListBankAccountsUseCase,
 	type ListBankAccountsUseCaseInput,
