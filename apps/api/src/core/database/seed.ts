@@ -2,6 +2,7 @@ import "dotenv/config";
 import { drizzle } from "drizzle-orm/node-postgres";
 import { Pool } from "pg";
 import { accountTypes } from "../../modules/bank-accounts/infra/drizzle/schemas/account-type-schema";
+import { categories } from "../../modules/categories/infra/drizzle/schemas/category-schema";
 import { colors } from "../../modules/colors/infra/drizzle/schemas/color-schema";
 
 const COLORS = [
@@ -30,6 +31,20 @@ const ACCOUNT_TYPES = [
 	{ id: "investment", name: "Investment" },
 ];
 
+const CATEGORIES = [
+	{ id: "food", name: "Alimentação" },
+	{ id: "grocery", name: "Mercado" },
+	{ id: "home", name: "Casa" },
+	{ id: "education", name: "Educação" },
+	{ id: "entertainment", name: "Lazer" },
+	{ id: "clothing", name: "Roupas" },
+	{ id: "health", name: "Saúde" },
+	{ id: "transport", name: "Transporte" },
+	{ id: "trip", name: "Viagem" },
+	{ id: "revenue", name: "Receita" },
+	{ id: "expense", name: "Outros" },
+];
+
 async function main() {
 	const pool = new Pool({
 		connectionString: process.env.DATABASE_URL,
@@ -44,8 +59,11 @@ async function main() {
 		// Seed account types
 		await db.insert(accountTypes).values(ACCOUNT_TYPES).onConflictDoNothing();
 
+		// Seed categories
+		await db.insert(categories).values(CATEGORIES).onConflictDoNothing();
+
 		console.log(
-			`✓ Seeded ${COLORS.length} colors and ${ACCOUNT_TYPES.length} account types`,
+			`✓ Seeded ${COLORS.length} colors, ${ACCOUNT_TYPES.length} account types, and ${CATEGORIES.length} categories`,
 		);
 	} catch (error) {
 		console.error("Error seeding database:", error);
