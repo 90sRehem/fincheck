@@ -1,48 +1,55 @@
 {
-  "version": "7",
-  "dialect": "postgresql",
-  "entries": [
-    {
-      "idx": 0,
-      "version": "7",
-      "when": 1770936528530,
-      "tag": "0000_jazzy_living_lightning",
-      "breakpoints": true
-    },
-    {
-      "idx": 1,
-      "version": "7",
-      "when": 1775609315435,
-      "tag": "0001_natural_doctor_octopus",
-      "breakpoints": true
-    },
-    {
-      "idx": 2,
-      "version": "7",
-      "when": 1776428774123,
-      "tag": "0002_modern_red_wolf",
-      "breakpoints": true
-    },
-    {
-      "idx": 3,
-      "version": "7",
-      "when": 1776468909875,
-      "tag": "0003_freezing_silk_fever",
-      "breakpoints": true
-    },
-    {
-      "idx": 4,
-      "version": "7",
-      "when": 1776473582688,
-      "tag": "0004_groovy_hannibal_king",
-      "breakpoints": true
-    },
-    {
-      "idx": 5,
-      "version": "7",
-      "when": 1776531751535,
-      "tag": "0005_tired_yellow_claw",
-      "breakpoints": true
-    }
-  ]
+	"version": "7",
+	"dialect": "postgresql",
+	"entries": [
+		{
+			"idx": 0,
+			"version": "7",
+			"when": 1770936528530,
+			"tag": "0000_jazzy_living_lightning",
+			"breakpoints": true
+		},
+		{
+			"idx": 1,
+			"version": "7",
+			"when": 1775609315435,
+			"tag": "0001_natural_doctor_octopus",
+			"breakpoints": true
+		},
+		{
+			"idx": 2,
+			"version": "7",
+			"when": 1776428774123,
+			"tag": "0002_modern_red_wolf",
+			"breakpoints": true
+		},
+		{
+			"idx": 3,
+			"version": "7",
+			"when": 1776468909875,
+			"tag": "0003_freezing_silk_fever",
+			"breakpoints": true
+		},
+		{
+			"idx": 4,
+			"version": "7",
+			"when": 1776473582688,
+			"tag": "0004_groovy_hannibal_king",
+			"breakpoints": true
+		},
+		{
+			"idx": 5,
+			"version": "7",
+			"when": 1776531751535,
+			"tag": "0005_tired_yellow_claw",
+			"breakpoints": true
+		},
+		{
+			"idx": 6,
+			"version": "7",
+			"when": 1776538603073,
+			"tag": "0008_unique_santa_claus",
+			"breakpoints": true
+		}
+	]
 }
