@@ -50,7 +50,7 @@ export class Balance extends Entity<BalanceEntityProps> {
 				userId: event.userId,
 				bankAccountId: event.getAggregateId().toString(),
 				amountCents: Math.round(event.initialBalance * CENTS_PER_UNIT),
-				currency: event.currency,
+				currency: event.currencyId,
 				createdAt: new Date(),
 				updatedAt: new Date(),
 			},
