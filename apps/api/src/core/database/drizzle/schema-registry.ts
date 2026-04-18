@@ -3,6 +3,7 @@ import * as accountTypeSchema from "../../../modules/bank-accounts/infra/drizzle
 import * as bankAccountSchema from "../../../modules/bank-accounts/infra/drizzle/schemas/bank-account-schema";
 import * as categorySchema from "../../../modules/categories/infra/drizzle/schemas/category-schema";
 import * as colorSchema from "../../../modules/colors/infra/drizzle/schemas/color-schema";
+import * as currencySchema from "../../../modules/currencies/infra/drizzle/schemas/currency-schema";
 import * as transactionSchema from "../../../modules/transactions/infra/drizzle/schemas/transaction-schema";
 import * as authSchema from "./schemas/auth-schema";
 
@@ -12,6 +13,7 @@ export const schema = {
 	...balanceSchema,
 	...transactionSchema,
 	...colorSchema,
+	...currencySchema,
 	...accountTypeSchema,
 	...categorySchema,
 } as const;
