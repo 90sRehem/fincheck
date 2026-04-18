@@ -7,12 +7,14 @@ import { BankAccountRepository } from "./domain";
 import { DrizzleBankAccountRepository } from "./infra/persistence/drizzle-bank-account.repository";
 import { CreateBankAccountController } from "./presentation/create-bank-account.controller";
 import { DeleteBankAccountController } from "./presentation/delete-bank-account.controller";
+import { ListAccountTypesController } from "./presentation/list-account-types.controller";
 import { ListBankAccountsController } from "./presentation/list-bank-accounts.controller";
 import { UpdateBankAccountController } from "./presentation/update-bank-account.controller";
 
 @Module({
 	controllers: [
 		CreateBankAccountController,
+		ListAccountTypesController,
 		ListBankAccountsController,
 		UpdateBankAccountController,
 		DeleteBankAccountController,

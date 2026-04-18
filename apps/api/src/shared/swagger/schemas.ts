@@ -112,3 +112,11 @@ export const TransactionResponseSchema: SchemaObject = {
 		},
 	},
 };
+
+export const AccountTypeResponseSchema: SchemaObject = {
+	type: "object",
+	properties: {
+		id: { type: "string", example: "checking" },
+		name: { type: "string", example: "Checking" },
+	},
+};
