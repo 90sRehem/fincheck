@@ -4,6 +4,7 @@ import { Pool } from "pg";
 import { accountTypes } from "../../modules/bank-accounts/infra/drizzle/schemas/account-type-schema";
 import { categories } from "../../modules/categories/infra/drizzle/schemas/category-schema";
 import { colors } from "../../modules/colors/infra/drizzle/schemas/color-schema";
+import { currencies } from "../../modules/currencies/infra/drizzle/schemas/currency-schema";
 
 const COLORS = [
 	{ id: "gray", name: "Gray", hex: "#868E96" },
@@ -45,6 +46,12 @@ const CATEGORIES = [
 	{ id: "expense", name: "Outros" },
 ];
 
+const CURRENCIES = [
+	{ id: "BRL", code: "BRL", name: "Real Brasileiro" },
+	{ id: "USD", code: "USD", name: "US Dollar" },
+	{ id: "EUR", code: "EUR", name: "Euro" },
+];
+
 async function main() {
 	const pool = new Pool({
 		connectionString: process.env.DATABASE_URL,
@@ -62,8 +69,11 @@ async function main() {
 		// Seed categories
 		await db.insert(categories).values(CATEGORIES).onConflictDoNothing();
 
+		// Seed currencies
+		await db.insert(currencies).values(CURRENCIES).onConflictDoNothing();
+
 		console.log(
-			`✓ Seeded ${COLORS.length} colors, ${ACCOUNT_TYPES.length} account types, and ${CATEGORIES.length} categories`,
+			`✓ Seeded ${COLORS.length} colors, ${ACCOUNT_TYPES.length} account types, ${CATEGORIES.length} categories, and ${CURRENCIES.length} currencies`,
 		);
 	} catch (error) {
 		console.error("Error seeding database:", error);
