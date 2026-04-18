@@ -33,19 +33,19 @@ export class BankAccount extends AggregateRoot<BankAccountEntityProps> {
 		return this.props.name;
 	}
 
-	get type(): BankAccountProps["type"] {
-		return this.props.type;
+	get accountType() {
+		return this.props.accountType;
 	}
 
 	get initialBalance(): number {
 		return this.props.initialBalance;
 	}
 
-	get currency(): string {
+	get currency() {
 		return this.props.currency;
 	}
 
-	get color(): string {
+	get color() {
 		return this.props.color;
 	}
 

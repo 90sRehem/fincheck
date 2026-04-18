@@ -1,18 +1,18 @@
 import { z } from "zod";
 import { ZodValidationStrategy } from "@/shared/domain/validators/zod-validation-strategy";
-import { BANK_ACCOUNT_TYPE } from "../value-objects/bank-account-type";
+import { AccountType } from "../entities/account-type.entity";
+import { Color } from "../entities/color.entity";
+import { Currency } from "../entities/currency.entity";
 
 const NAME_MAX_LENGTH = 100;
-const CURRENCY_LENGTH = 3;
-const HEX_COLOR_LENGTH = 7;
 
 export interface BankAccountProps {
 	userId: string;
 	name: string;
-	type: (typeof BANK_ACCOUNT_TYPE)[keyof typeof BANK_ACCOUNT_TYPE];
+	accountType: AccountType;
 	initialBalance: number;
-	currency: string;
-	color: string;
+	currency: Currency;
+	color: Color;
 	icon: string | null;
 	createdAt: Date;
 	updatedAt: Date;
@@ -30,27 +30,16 @@ export class BankAccountValidator extends ZodValidationStrategy<BankAccountProps
 						NAME_MAX_LENGTH,
 						`name must have at most ${NAME_MAX_LENGTH} characters`,
 					),
-				type: z.enum([
-					BANK_ACCOUNT_TYPE.CHECKING,
-					BANK_ACCOUNT_TYPE.SAVINGS,
-					BANK_ACCOUNT_TYPE.CREDIT_CARD,
-					BANK_ACCOUNT_TYPE.CASH,
-					BANK_ACCOUNT_TYPE.INVESTMENT,
-				]),
+				accountType: z.instanceof(AccountType, {
+					message: "accountType must be an AccountType instance",
+				}),
 				initialBalance: z.number(),
-				currency: z
-					.string()
-					.length(
-						CURRENCY_LENGTH,
-						`currency must be exactly ${CURRENCY_LENGTH} characters`,
-					),
-				color: z
-					.string()
-					.length(HEX_COLOR_LENGTH, "color must be a valid hex color (#RRGGBB)")
-					.regex(
-						/^#[0-9A-Fa-f]{6}$/,
-						"color must be a valid hex color (#RRGGBB)",
-					),
+				currency: z.instanceof(Currency, {
+					message: "currency must be a Currency instance",
+				}),
+				color: z.instanceof(Color, {
+					message: "color must be a Color instance",
+				}),
 				icon: z.string().nullable().default(null),
 				createdAt: z.date(),
 				updatedAt: z.date(),
