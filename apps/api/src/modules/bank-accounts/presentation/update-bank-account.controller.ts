@@ -18,6 +18,7 @@ import {
 	ApiTags,
 } from "@nestjs/swagger";
 import { Session } from "@thallesp/nestjs-better-auth";
+import type { AuthSession } from "@/core/auth";
 import { NotFoundError } from "@/shared/domain/errors/not-found";
 import { ValidationFieldsError } from "@/shared/domain/validators/validation-fields-error";
 import {
@@ -98,7 +99,7 @@ export class UpdateBankAccountController {
 		schema: NotFoundErrorSchema,
 	})
 	async update(
-		@Session() session: { userId: string },
+		@Session() session: AuthSession,
 		@Param("id", ParseUUIDPipe) id: string,
 		@Body() body: unknown,
 	) {
@@ -110,7 +111,7 @@ export class UpdateBankAccountController {
 
 		const result = await this.updateBankAccountService.execute({
 			id,
-			userId: session.userId,
+			userId: session.user.id,
 			data: parseResult.data,
 		});
 

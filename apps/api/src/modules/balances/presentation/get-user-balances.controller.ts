@@ -6,6 +6,7 @@ import {
 	ApiTags,
 } from "@nestjs/swagger";
 import { Session } from "@thallesp/nestjs-better-auth";
+import type { AuthSession } from "@/core/auth";
 import { UnauthorizedErrorSchema } from "@/shared/swagger/schemas";
 import { GetUserBalancesService } from "../application/get-user-balances/get-user-balances.service";
 
@@ -42,9 +43,9 @@ export class GetUserBalancesController {
 		description: "Não autenticado",
 		schema: UnauthorizedErrorSchema,
 	})
-	async getBalances(@Session() session: { userId: string }) {
+	async getBalances(@Session() session: AuthSession) {
 		const result = await this.getUserBalancesService.execute({
-			userId: session.userId,
+			userId: session.user.id,
 		});
 
 		return result.value;

@@ -14,6 +14,7 @@ import {
 	ApiTags,
 } from "@nestjs/swagger";
 import { Session } from "@thallesp/nestjs-better-auth";
+import type { AuthSession } from "@/core/auth";
 import { ValidationFieldsError } from "@/shared/domain/validators/validation-fields-error";
 import {
 	BankAccountResponseSchema,
@@ -82,7 +83,7 @@ export class CreateBankAccountController {
 		description: "Não autenticado",
 		schema: UnauthorizedErrorSchema,
 	})
-	async create(@Session() session: { userId: string }, @Body() body: unknown) {
+	async create(@Session() session: AuthSession, @Body() body: unknown) {
 		const parseResult = createBankAccountSchema.safeParse(body);
 
 		if (!parseResult.success) {
@@ -90,7 +91,7 @@ export class CreateBankAccountController {
 		}
 
 		const result = await this.createBankAccountService.execute({
-			userId: session.userId,
+			userId: session.user.id,
 			...parseResult.data,
 		});
 

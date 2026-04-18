@@ -24,6 +24,7 @@ import {
 } from "@nestjs/swagger";
 import { Session } from "@thallesp/nestjs-better-auth";
 import type { Response } from "express";
+import type { AuthSession } from "@/core/auth";
 import { NotFoundError } from "@/shared/domain/errors";
 import { ValidationFieldsError } from "@/shared/domain/validators/validation-fields-error";
 import {
@@ -80,7 +81,7 @@ export class TransactionsController {
 		description: "Unauthorized",
 		schema: UnauthorizedErrorSchema,
 	})
-	async create(@Session() session: { userId: string }, @Body() body: unknown) {
+	async create(@Session() session: AuthSession, @Body() body: unknown) {
 		const parseResult = createTransactionSchema.safeParse(body);
 
 		if (!parseResult.success) {
@@ -89,7 +90,7 @@ export class TransactionsController {
 
 		const data = parseResult.data as CreateTransactionInput;
 		const result = await this.createTransactionService.execute({
-			userId: session.userId,
+			userId: session.user.id,
 			accountId: data.accountId,
 			title: data.title,
 			amountCents: data.amountCents,
@@ -126,7 +127,7 @@ export class TransactionsController {
 		schema: UnauthorizedErrorSchema,
 	})
 	async list(
-		@Session() session: { userId: string },
+		@Session() session: AuthSession,
 		@Query() query: unknown,
 		@Res({ passthrough: true }) res: Response,
 	) {
@@ -137,7 +138,7 @@ export class TransactionsController {
 		}
 
 		const result = await this.listTransactionsService.execute({
-			userId: session.userId,
+			userId: session.user.id,
 			filters: {
 				accountId: (parseResult.data as ListTransactionsInput).accountId,
 				year: (parseResult.data as ListTransactionsInput).year,
@@ -179,12 +180,12 @@ export class TransactionsController {
 		schema: UnauthorizedErrorSchema,
 	})
 	async getById(
-		@Session() session: { userId: string },
+		@Session() session: AuthSession,
 		@Param("id", ParseUUIDPipe) id: string,
 	) {
 		const result = await this.getTransactionService.execute({
 			id,
-			userId: session.userId,
+			userId: session.user.id,
 		});
 
 		if (result.isFailure) {
@@ -221,7 +222,7 @@ export class TransactionsController {
 		schema: UnauthorizedErrorSchema,
 	})
 	async update(
-		@Session() session: { userId: string },
+		@Session() session: AuthSession,
 		@Param("id", ParseUUIDPipe) id: string,
 		@Body() body: unknown,
 	) {
@@ -245,7 +246,7 @@ export class TransactionsController {
 
 		const result = await this.updateTransactionService.execute({
 			id,
-			userId: session.userId,
+			userId: session.user.id,
 			data: updateData,
 		});
 
@@ -281,12 +282,12 @@ export class TransactionsController {
 		schema: UnauthorizedErrorSchema,
 	})
 	async delete(
-		@Session() session: { userId: string },
+		@Session() session: AuthSession,
 		@Param("id", ParseUUIDPipe) id: string,
 	) {
 		const result = await this.removeTransactionService.execute({
 			id,
-			userId: session.userId,
+			userId: session.user.id,
 		});
 
 		if (result.isFailure) {

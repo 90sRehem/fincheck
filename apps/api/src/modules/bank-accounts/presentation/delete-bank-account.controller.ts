@@ -16,6 +16,7 @@ import {
 	ApiTags,
 } from "@nestjs/swagger";
 import { Session } from "@thallesp/nestjs-better-auth";
+import type { AuthSession } from "@/core/auth";
 import { NotFoundError } from "@/shared/domain/errors/not-found";
 import {
 	NotFoundErrorSchema,
@@ -58,12 +59,12 @@ export class DeleteBankAccountController {
 		schema: NotFoundErrorSchema,
 	})
 	async delete(
-		@Session() session: { userId: string },
+		@Session() session: AuthSession,
 		@Param("id", ParseUUIDPipe) id: string,
 	) {
 		const result = await this.deleteBankAccountService.execute({
 			id,
-			userId: session.userId,
+			userId: session.user.id,
 		});
 
 		if (result.isFailure) {

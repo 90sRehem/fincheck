@@ -3027,6 +3027,15 @@
       "norm_label": "createauthconfig()"
     },
     {
+      "label": "types.ts",
+      "file_type": "code",
+      "source_file": "apps/api/src/core/auth/types.ts",
+      "source_location": "L1",
+      "id": "apps_api_src_core_auth_types_ts",
+      "community": 276,
+      "norm_label": "types.ts"
+    },
+    {
       "label": "nestjs-event-dispatcher.ts",
       "file_type": "code",
       "source_file": "apps/api/src/core/events/nestjs-event-dispatcher.ts",
@@ -3095,7 +3104,7 @@
       "source_file": "apps/api/src/core/events/index.ts",
       "source_location": "L1",
       "id": "apps_api_src_core_events_index_ts",
-      "community": 276,
+      "community": 277,
       "norm_label": "index.ts"
     },
     {
@@ -3122,7 +3131,7 @@
       "source_file": "apps/api/src/modules/bank-accounts/domain/index.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_bank_accounts_domain_index_ts",
-      "community": 277,
+      "community": 278,
       "norm_label": "index.ts"
     },
     {
@@ -3131,7 +3140,7 @@
       "source_file": "apps/api/src/modules/bank-accounts/domain/repositories/bank-account.repository.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_bank_accounts_domain_repositories_bank_account_repository_ts",
-      "community": 278,
+      "community": 279,
       "norm_label": "bank-account.repository.ts"
     },
     {
@@ -3140,7 +3149,7 @@
       "source_file": "apps/api/src/modules/bank-accounts/domain/repositories/account-type.repository.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_bank_accounts_domain_repositories_account_type_repository_ts",
-      "community": 279,
+      "community": 280,
       "norm_label": "account-type.repository.ts"
     },
     {
@@ -3311,7 +3320,7 @@
       "source_file": "apps/api/src/modules/bank-accounts/domain/value-objects/bank-account-type.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_bank_accounts_domain_value_objects_bank_account_type_ts",
-      "community": 280,
+      "community": 281,
       "norm_label": "bank-account-type.ts"
     },
     {
@@ -3689,7 +3698,7 @@
       "source_file": "apps/api/src/modules/bank-accounts/infra/drizzle/schemas/bank-account-schema.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_bank_accounts_infra_drizzle_schemas_bank_account_schema_ts",
-      "community": 281,
+      "community": 282,
       "norm_label": "bank-account-schema.ts"
     },
     {
@@ -3698,7 +3707,7 @@
       "source_file": "apps/api/src/modules/bank-accounts/infra/drizzle/schemas/account-type-schema.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_bank_accounts_infra_drizzle_schemas_account_type_schema_ts",
-      "community": 282,
+      "community": 283,
       "norm_label": "account-type-schema.ts"
     },
     {
@@ -3707,7 +3716,7 @@
       "source_file": "apps/api/src/modules/bank-accounts/application/create-bank-account/create-bank-account.dto.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_bank_accounts_application_create_bank_account_create_bank_account_dto_ts",
-      "community": 283,
+      "community": 284,
       "norm_label": "create-bank-account.dto.ts"
     },
     {
@@ -3752,7 +3761,7 @@
       "source_file": "apps/api/src/modules/bank-accounts/application/update-bank-account/update-bank-account.dto.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_bank_accounts_application_update_bank_account_update_bank_account_dto_ts",
-      "community": 284,
+      "community": 285,
       "norm_label": "update-bank-account.dto.ts"
     },
     {
@@ -3876,7 +3885,7 @@
       "label": "ListBankAccountsController",
       "file_type": "code",
       "source_file": "apps/api/src/modules/bank-accounts/presentation/list-bank-accounts.controller.ts",
-      "source_location": "L20",
+      "source_location": "L21",
       "id": "list_bank_accounts_controller_listbankaccountscontroller",
       "community": 56,
       "norm_label": "listbankaccountscontroller"
@@ -3885,7 +3894,7 @@
       "label": ".constructor()",
       "file_type": "code",
       "source_file": "apps/api/src/modules/bank-accounts/presentation/list-bank-accounts.controller.ts",
-      "source_location": "L21",
+      "source_location": "L22",
       "id": "list_bank_accounts_controller_listbankaccountscontroller_constructor",
       "community": 56,
       "norm_label": ".constructor()"
@@ -3894,7 +3903,7 @@
       "label": ".list()",
       "file_type": "code",
       "source_file": "apps/api/src/modules/bank-accounts/presentation/list-bank-accounts.controller.ts",
-      "source_location": "L40",
+      "source_location": "L41",
       "id": "list_bank_accounts_controller_listbankaccountscontroller_list",
       "community": 56,
       "norm_label": ".list()"
@@ -3912,7 +3921,7 @@
       "label": "UpdateBankAccountController",
       "file_type": "code",
       "source_file": "apps/api/src/modules/bank-accounts/presentation/update-bank-account.controller.ts",
-      "source_location": "L36",
+      "source_location": "L37",
       "id": "update_bank_account_controller_updatebankaccountcontroller",
       "community": 57,
       "norm_label": "updatebankaccountcontroller"
@@ -3921,7 +3930,7 @@
       "label": ".constructor()",
       "file_type": "code",
       "source_file": "apps/api/src/modules/bank-accounts/presentation/update-bank-account.controller.ts",
-      "source_location": "L37",
+      "source_location": "L38",
       "id": "update_bank_account_controller_updatebankaccountcontroller_constructor",
       "community": 57,
       "norm_label": ".constructor()"
@@ -3930,7 +3939,7 @@
       "label": ".update()",
       "file_type": "code",
       "source_file": "apps/api/src/modules/bank-accounts/presentation/update-bank-account.controller.ts",
-      "source_location": "L100",
+      "source_location": "L101",
       "id": "update_bank_account_controller_updatebankaccountcontroller_update",
       "community": 57,
       "norm_label": ".update()"
@@ -3948,7 +3957,7 @@
       "label": "DeleteBankAccountController",
       "file_type": "code",
       "source_file": "apps/api/src/modules/bank-accounts/presentation/delete-bank-account.controller.ts",
-      "source_location": "L29",
+      "source_location": "L30",
       "id": "delete_bank_account_controller_deletebankaccountcontroller",
       "community": 58,
       "norm_label": "deletebankaccountcontroller"
@@ -3957,7 +3966,7 @@
       "label": ".constructor()",
       "file_type": "code",
       "source_file": "apps/api/src/modules/bank-accounts/presentation/delete-bank-account.controller.ts",
-      "source_location": "L30",
+      "source_location": "L31",
       "id": "delete_bank_account_controller_deletebankaccountcontroller_constructor",
       "community": 58,
       "norm_label": ".constructor()"
@@ -3966,46 +3975,10 @@
       "label": ".delete()",
       "file_type": "code",
       "source_file": "apps/api/src/modules/bank-accounts/presentation/delete-bank-account.controller.ts",
-      "source_location": "L60",
+      "source_location": "L61",
       "id": "delete_bank_account_controller_deletebankaccountcontroller_delete",
       "community": 58,
       "norm_label": ".delete()"
-    },
-    {
-      "label": "create-bank-account.controller.ts",
-      "file_type": "code",
-      "source_file": "apps/api/src/modules/bank-accounts/presentation/create-bank-account.controller.ts",
-      "source_location": "L1",
-      "id": "apps_api_src_modules_bank_accounts_presentation_create_bank_account_controller_ts",
-      "community": 59,
-      "norm_label": "create-bank-account.controller.ts"
-    },
-    {
-      "label": "CreateBankAccountController",
-      "file_type": "code",
-      "source_file": "apps/api/src/modules/bank-accounts/presentation/create-bank-account.controller.ts",
-      "source_location": "L30",
-      "id": "create_bank_account_controller_createbankaccountcontroller",
-      "community": 59,
-      "norm_label": "createbankaccountcontroller"
-    },
-    {
-      "label": ".constructor()",
-      "file_type": "code",
-      "source_file": "apps/api/src/modules/bank-accounts/presentation/create-bank-account.controller.ts",
-      "source_location": "L31",
-      "id": "create_bank_account_controller_createbankaccountcontroller_constructor",
-      "community": 59,
-      "norm_label": ".constructor()"
-    },
-    {
-      "label": ".create()",
-      "file_type": "code",
-      "source_file": "apps/api/src/modules/bank-accounts/presentation/create-bank-account.controller.ts",
-      "source_location": "L85",
-      "id": "create_bank_account_controller_createbankaccountcontroller_create",
-      "community": 59,
-      "norm_label": ".create()"
     },
     {
       "label": "list-account-types.controller.ts",
@@ -4013,7 +3986,7 @@
       "source_file": "apps/api/src/modules/bank-accounts/presentation/list-account-types.controller.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_bank_accounts_presentation_list_account_types_controller_ts",
-      "community": 60,
+      "community": 59,
       "norm_label": "list-account-types.controller.ts"
     },
     {
@@ -4022,7 +3995,7 @@
       "source_file": "apps/api/src/modules/bank-accounts/presentation/list-account-types.controller.ts",
       "source_location": "L18",
       "id": "list_account_types_controller_listaccounttypescontroller",
-      "community": 60,
+      "community": 59,
       "norm_label": "listaccounttypescontroller"
     },
     {
@@ -4031,7 +4004,7 @@
       "source_file": "apps/api/src/modules/bank-accounts/presentation/list-account-types.controller.ts",
       "source_location": "L19",
       "id": "list_account_types_controller_listaccounttypescontroller_constructor",
-      "community": 60,
+      "community": 59,
       "norm_label": ".constructor()"
     },
     {
@@ -4040,8 +4013,44 @@
       "source_file": "apps/api/src/modules/bank-accounts/presentation/list-account-types.controller.ts",
       "source_location": "L38",
       "id": "list_account_types_controller_listaccounttypescontroller_list",
-      "community": 60,
+      "community": 59,
       "norm_label": ".list()"
+    },
+    {
+      "label": "create-bank-account.controller.ts",
+      "file_type": "code",
+      "source_file": "apps/api/src/modules/bank-accounts/presentation/create-bank-account.controller.ts",
+      "source_location": "L1",
+      "id": "apps_api_src_modules_bank_accounts_presentation_create_bank_account_controller_ts",
+      "community": 60,
+      "norm_label": "create-bank-account.controller.ts"
+    },
+    {
+      "label": "CreateBankAccountController",
+      "file_type": "code",
+      "source_file": "apps/api/src/modules/bank-accounts/presentation/create-bank-account.controller.ts",
+      "source_location": "L31",
+      "id": "create_bank_account_controller_createbankaccountcontroller",
+      "community": 60,
+      "norm_label": "createbankaccountcontroller"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "apps/api/src/modules/bank-accounts/presentation/create-bank-account.controller.ts",
+      "source_location": "L32",
+      "id": "create_bank_account_controller_createbankaccountcontroller_constructor",
+      "community": 60,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": ".create()",
+      "file_type": "code",
+      "source_file": "apps/api/src/modules/bank-accounts/presentation/create-bank-account.controller.ts",
+      "source_location": "L86",
+      "id": "create_bank_account_controller_createbankaccountcontroller_create",
+      "community": 60,
+      "norm_label": ".create()"
     },
     {
       "label": "balances.module.ts",
@@ -4067,7 +4076,7 @@
       "source_file": "apps/api/src/modules/balances/domain/index.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_balances_domain_index_ts",
-      "community": 285,
+      "community": 286,
       "norm_label": "index.ts"
     },
     {
@@ -4157,7 +4166,7 @@
       "source_file": "apps/api/src/modules/balances/domain/repositories/balance.repository.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_balances_domain_repositories_balance_repository_ts",
-      "community": 286,
+      "community": 287,
       "norm_label": "balance.repository.ts"
     },
     {
@@ -4299,7 +4308,7 @@
       "label": "GetUserBalancesController",
       "file_type": "code",
       "source_file": "apps/api/src/modules/balances/presentation/get-user-balances.controller.ts",
-      "source_location": "L15",
+      "source_location": "L16",
       "id": "get_user_balances_controller_getuserbalancescontroller",
       "community": 63,
       "norm_label": "getuserbalancescontroller"
@@ -4308,7 +4317,7 @@
       "label": ".constructor()",
       "file_type": "code",
       "source_file": "apps/api/src/modules/balances/presentation/get-user-balances.controller.ts",
-      "source_location": "L16",
+      "source_location": "L17",
       "id": "get_user_balances_controller_getuserbalancescontroller_constructor",
       "community": 63,
       "norm_label": ".constructor()"
@@ -4317,7 +4326,7 @@
       "label": ".getBalances()",
       "file_type": "code",
       "source_file": "apps/api/src/modules/balances/presentation/get-user-balances.controller.ts",
-      "source_location": "L45",
+      "source_location": "L46",
       "id": "get_user_balances_controller_getuserbalancescontroller_getbalances",
       "community": 63,
       "norm_label": ".getbalances()"
@@ -4328,7 +4337,7 @@
       "source_file": "apps/api/src/modules/balances/infra/drizzle/schemas/balance-schema.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_balances_infra_drizzle_schemas_balance_schema_ts",
-      "community": 287,
+      "community": 288,
       "norm_label": "balance-schema.ts"
     },
     {
@@ -4436,7 +4445,7 @@
       "source_file": "apps/api/src/modules/transactions/domain/index.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_transactions_domain_index_ts",
-      "community": 288,
+      "community": 289,
       "norm_label": "index.ts"
     },
     {
@@ -4445,7 +4454,7 @@
       "source_file": "apps/api/src/modules/transactions/domain/value-objects/transaction-type.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_transactions_domain_value_objects_transaction_type_ts",
-      "community": 289,
+      "community": 290,
       "norm_label": "transaction-type.ts"
     },
     {
@@ -4616,7 +4625,7 @@
       "source_file": "apps/api/src/modules/transactions/domain/repositories/transaction.repository.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_transactions_domain_repositories_transaction_repository_ts",
-      "community": 290,
+      "community": 291,
       "norm_label": "transaction.repository.ts"
     },
     {
@@ -4805,7 +4814,7 @@
       "source_file": "apps/api/src/modules/transactions/infra/drizzle/schemas/transaction-schema.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_transactions_infra_drizzle_schemas_transaction_schema_ts",
-      "community": 291,
+      "community": 292,
       "norm_label": "transaction-schema.ts"
     },
     {
@@ -4949,7 +4958,7 @@
       "source_file": "apps/api/src/modules/transactions/application/create-transaction/create-transaction.dto.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_transactions_application_create_transaction_create_transaction_dto_ts",
-      "community": 292,
+      "community": 293,
       "norm_label": "create-transaction.dto.ts"
     },
     {
@@ -4976,7 +4985,7 @@
       "source_file": "apps/api/src/modules/transactions/application/list-transactions/list-transactions.dto.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_transactions_application_list_transactions_list_transactions_dto_ts",
-      "community": 293,
+      "community": 294,
       "norm_label": "list-transactions.dto.ts"
     },
     {
@@ -5030,7 +5039,7 @@
       "source_file": "apps/api/src/modules/transactions/application/update-transaction/update-transaction.dto.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_transactions_application_update_transaction_update_transaction_dto_ts",
-      "community": 294,
+      "community": 295,
       "norm_label": "update-transaction.dto.ts"
     },
     {
@@ -5064,7 +5073,7 @@
       "label": "TransactionsController",
       "file_type": "code",
       "source_file": "apps/api/src/modules/transactions/presentation/transactions.controller.ts",
-      "source_location": "L56",
+      "source_location": "L57",
       "id": "transactions_controller_transactionscontroller",
       "community": 16,
       "norm_label": "transactionscontroller"
@@ -5073,7 +5082,7 @@
       "label": ".constructor()",
       "file_type": "code",
       "source_file": "apps/api/src/modules/transactions/presentation/transactions.controller.ts",
-      "source_location": "L57",
+      "source_location": "L58",
       "id": "transactions_controller_transactionscontroller_constructor",
       "community": 16,
       "norm_label": ".constructor()"
@@ -5082,7 +5091,7 @@
       "label": ".create()",
       "file_type": "code",
       "source_file": "apps/api/src/modules/transactions/presentation/transactions.controller.ts",
-      "source_location": "L83",
+      "source_location": "L84",
       "id": "transactions_controller_transactionscontroller_create",
       "community": 16,
       "norm_label": ".create()"
@@ -5091,7 +5100,7 @@
       "label": ".list()",
       "file_type": "code",
       "source_file": "apps/api/src/modules/transactions/presentation/transactions.controller.ts",
-      "source_location": "L128",
+      "source_location": "L129",
       "id": "transactions_controller_transactionscontroller_list",
       "community": 16,
       "norm_label": ".list()"
@@ -5100,7 +5109,7 @@
       "label": ".getById()",
       "file_type": "code",
       "source_file": "apps/api/src/modules/transactions/presentation/transactions.controller.ts",
-      "source_location": "L181",
+      "source_location": "L182",
       "id": "transactions_controller_transactionscontroller_getbyid",
       "community": 16,
       "norm_label": ".getbyid()"
@@ -5109,7 +5118,7 @@
       "label": ".update()",
       "file_type": "code",
       "source_file": "apps/api/src/modules/transactions/presentation/transactions.controller.ts",
-      "source_location": "L223",
+      "source_location": "L224",
       "id": "transactions_controller_transactionscontroller_update",
       "community": 16,
       "norm_label": ".update()"
@@ -5118,7 +5127,7 @@
       "label": ".delete()",
       "file_type": "code",
       "source_file": "apps/api/src/modules/transactions/presentation/transactions.controller.ts",
-      "source_location": "L283",
+      "source_location": "L284",
       "id": "transactions_controller_transactionscontroller_delete",
       "community": 16,
       "norm_label": ".delete()"
@@ -5147,7 +5156,7 @@
       "source_file": "apps/api/src/modules/colors/infra/drizzle/schemas/color-schema.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_colors_infra_drizzle_schemas_color_schema_ts",
-      "community": 295,
+      "community": 296,
       "norm_label": "color-schema.ts"
     },
     {
@@ -5228,7 +5237,7 @@
       "source_file": "apps/api/src/modules/colors/domain/index.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_colors_domain_index_ts",
-      "community": 296,
+      "community": 297,
       "norm_label": "index.ts"
     },
     {
@@ -5264,7 +5273,7 @@
       "source_file": "apps/api/src/modules/colors/domain/repositories/color.repository.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_colors_domain_repositories_color_repository_ts",
-      "community": 297,
+      "community": 298,
       "norm_label": "color.repository.ts"
     },
     {
@@ -5390,7 +5399,7 @@
       "source_file": "apps/api/src/modules/categories/domain/index.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_categories_domain_index_ts",
-      "community": 298,
+      "community": 299,
       "norm_label": "index.ts"
     },
     {
@@ -5426,7 +5435,7 @@
       "source_file": "apps/api/src/modules/categories/domain/repositories/category.repository.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_categories_domain_repositories_category_repository_ts",
-      "community": 299,
+      "community": 300,
       "norm_label": "category.repository.ts"
     },
     {
@@ -5534,7 +5543,7 @@
       "source_file": "apps/api/src/modules/categories/infra/drizzle/schemas/category-schema.ts",
       "source_location": "L1",
       "id": "apps_api_src_modules_categories_infra_drizzle_schemas_category_schema_ts",
-      "community": 300,
+      "community": 301,
       "norm_label": "category-schema.ts"
     },
     {
@@ -5615,7 +5624,7 @@
       "source_file": "apps/api/src/shared/domain/index.ts",
       "source_location": "L1",
       "id": "apps_api_src_shared_domain_index_ts",
-      "community": 301,
+      "community": 302,
       "norm_label": "index.ts"
     },
     {
@@ -5813,7 +5822,7 @@
       "source_file": "apps/api/src/shared/domain/entities/index.ts",
       "source_location": "L1",
       "id": "apps_api_src_shared_domain_entities_index_ts",
-      "community": 302,
+      "community": 303,
       "norm_label": "index.ts"
     },
     {
@@ -5912,7 +5921,7 @@
       "source_file": "apps/api/src/shared/domain/value-objects/index.ts",
       "source_location": "L1",
       "id": "apps_api_src_shared_domain_value_objects_index_ts",
-      "community": 303,
+      "community": 304,
       "norm_label": "index.ts"
     },
     {
@@ -6020,7 +6029,7 @@
       "source_file": "apps/api/src/shared/domain/types/use-case.ts",
       "source_location": "L1",
       "id": "apps_api_src_shared_domain_types_use_case_ts",
-      "community": 304,
+      "community": 305,
       "norm_label": "use-case.ts"
     },
     {
@@ -6029,7 +6038,7 @@
       "source_file": "apps/api/src/shared/domain/types/optional.ts",
       "source_location": "L1",
       "id": "apps_api_src_shared_domain_types_optional_ts",
-      "community": 305,
+      "community": 306,
       "norm_label": "optional.ts"
     },
     {
@@ -6038,7 +6047,7 @@
       "source_file": "apps/api/src/shared/domain/types/pagination.ts",
       "source_location": "L1",
       "id": "apps_api_src_shared_domain_types_pagination_ts",
-      "community": 306,
+      "community": 307,
       "norm_label": "pagination.ts"
     },
     {
@@ -6047,7 +6056,7 @@
       "source_file": "apps/api/src/shared/domain/types/index.ts",
       "source_location": "L1",
       "id": "apps_api_src_shared_domain_types_index_ts",
-      "community": 307,
+      "community": 308,
       "norm_label": "index.ts"
     },
     {
@@ -6056,7 +6065,7 @@
       "source_file": "apps/api/src/shared/domain/events/domain-event.ts",
       "source_location": "L1",
       "id": "apps_api_src_shared_domain_events_domain_event_ts",
-      "community": 308,
+      "community": 309,
       "norm_label": "domain-event.ts"
     },
     {
@@ -6065,7 +6074,7 @@
       "source_file": "apps/api/src/shared/domain/events/domain-event-dispatcher.ts",
       "source_location": "L1",
       "id": "apps_api_src_shared_domain_events_domain_event_dispatcher_ts",
-      "community": 309,
+      "community": 310,
       "norm_label": "domain-event-dispatcher.ts"
     },
     {
@@ -6110,7 +6119,7 @@
       "source_file": "apps/api/src/shared/domain/events/index.ts",
       "source_location": "L1",
       "id": "apps_api_src_shared_domain_events_index_ts",
-      "community": 310,
+      "community": 311,
       "norm_label": "index.ts"
     },
     {
@@ -6182,7 +6191,7 @@
       "source_file": "apps/api/src/shared/domain/validators/index.ts",
       "source_location": "L1",
       "id": "apps_api_src_shared_domain_validators_index_ts",
-      "community": 311,
+      "community": 312,
       "norm_label": "index.ts"
     },
     {
@@ -6191,7 +6200,7 @@
       "source_file": "apps/api/src/shared/domain/validators/validation-strategy.ts",
       "source_location": "L1",
       "id": "apps_api_src_shared_domain_validators_validation_strategy_ts",
-      "community": 312,
+      "community": 313,
       "norm_label": "validation-strategy.ts"
     },
     {
@@ -6200,7 +6209,7 @@
       "source_file": "apps/api/src/shared/domain/errors/use-case-error.ts",
       "source_location": "L1",
       "id": "apps_api_src_shared_domain_errors_use_case_error_ts",
-      "community": 313,
+      "community": 314,
       "norm_label": "use-case-error.ts"
     },
     {
@@ -6308,7 +6317,7 @@
       "source_file": "apps/api/src/shared/domain/errors/index.ts",
       "source_location": "L1",
       "id": "apps_api_src_shared_domain_errors_index_ts",
-      "community": 314,
+      "community": 315,
       "norm_label": "index.ts"
     },
     {
@@ -6317,7 +6326,7 @@
       "source_file": "apps/api/src/shared/swagger/schemas.ts",
       "source_location": "L1",
       "id": "apps_api_src_shared_swagger_schemas_ts",
-      "community": 315,
+      "community": 316,
       "norm_label": "schemas.ts"
     },
     {
@@ -6326,7 +6335,7 @@
       "source_file": "apps/api/test/app.e2e-spec.ts",
       "source_location": "L1",
       "id": "apps_api_test_app_e2e_spec_ts",
-      "community": 316,
+      "community": 317,
       "norm_label": "app.e2e-spec.ts"
     },
     {
@@ -6335,7 +6344,7 @@
       "source_file": "apps/api/test/setup.e2e.ts",
       "source_location": "L1",
       "id": "apps_api_test_setup_e2e_ts",
-      "community": 317,
+      "community": 318,
       "norm_label": "setup.e2e.ts"
     },
     {
@@ -6344,7 +6353,7 @@
       "source_file": "packages/design-system/vite.config.ts",
       "source_location": "L1",
       "id": "packages_design_system_vite_config_ts",
-      "community": 318,
+      "community": 319,
       "norm_label": "vite.config.ts"
     },
     {
@@ -6353,7 +6362,7 @@
       "source_file": "packages/design-system/src/index.ts",
       "source_location": "L1",
       "id": "packages_design_system_src_index_ts",
-      "community": 319,
+      "community": 320,
       "norm_label": "index.ts"
     },
     {
@@ -6686,7 +6695,7 @@
       "source_file": "packages/design-system/src/components/patterns/index.ts",
       "source_location": "L1",
       "id": "packages_design_system_src_components_patterns_index_ts",
-      "community": 320,
+      "community": 321,
       "norm_label": "index.ts"
     },
     {
@@ -6794,7 +6803,7 @@
       "source_file": "packages/design-system/src/components/patterns/card/icons.tsx",
       "source_location": "L1",
       "id": "packages_design_system_src_components_patterns_card_icons_tsx",
-      "community": 321,
+      "community": 322,
       "norm_label": "icons.tsx"
     },
     {
@@ -6803,7 +6812,7 @@
       "source_file": "packages/design-system/src/components/patterns/card/index.ts",
       "source_location": "L1",
       "id": "packages_design_system_src_components_patterns_card_index_ts",
-      "community": 322,
+      "community": 323,
       "norm_label": "index.ts"
     },
     {
@@ -7091,7 +7100,7 @@
       "source_file": "packages/design-system/src/components/ui/currency-input.tsx",
       "source_location": "L1",
       "id": "packages_design_system_src_components_ui_currency_input_tsx",
-      "community": 323,
+      "community": 324,
       "norm_label": "currency-input.tsx"
     },
     {
@@ -7361,7 +7370,7 @@
       "source_file": "packages/design-system/src/components/ui/index.ts",
       "source_location": "L1",
       "id": "packages_design_system_src_components_ui_index_ts",
-      "community": 324,
+      "community": 325,
       "norm_label": "index.ts"
     },
     {
@@ -7379,7 +7388,7 @@
       "source_file": "packages/design-system/src/components/ui/icons/types.ts",
       "source_location": "L1",
       "id": "packages_design_system_src_components_ui_icons_types_ts",
-      "community": 325,
+      "community": 326,
       "norm_label": "types.ts"
     },
     {
@@ -7451,7 +7460,7 @@
       "source_file": "packages/design-system/src/components/ui/icons/index.ts",
       "source_location": "L1",
       "id": "packages_design_system_src_components_ui_icons_index_ts",
-      "community": 326,
+      "community": 327,
       "norm_label": "index.ts"
     },
     {
@@ -7460,7 +7469,7 @@
       "source_file": "packages/design-system/src/components/ui/icons/icons.tsx",
       "source_location": "L1",
       "id": "packages_design_system_src_components_ui_icons_icons_tsx",
-      "community": 327,
+      "community": 328,
       "norm_label": "icons.tsx"
     },
     {
@@ -7532,7 +7541,7 @@
       "source_file": "packages/design-system/src/components/ui/icons/base/current-account-base.tsx",
       "source_location": "L1",
       "id": "packages_design_system_src_components_ui_icons_base_current_account_base_tsx",
-      "community": 328,
+      "community": 329,
       "norm_label": "current-account-base.tsx"
     },
     {
@@ -7541,7 +7550,7 @@
       "source_file": "packages/design-system/src/components/ui/icons/base/money-base.tsx",
       "source_location": "L1",
       "id": "packages_design_system_src_components_ui_icons_base_money_base_tsx",
-      "community": 329,
+      "community": 330,
       "norm_label": "money-base.tsx"
     },
     {
@@ -7550,7 +7559,7 @@
       "source_file": "packages/design-system/src/components/ui/icons/base/investments-base.tsx",
       "source_location": "L1",
       "id": "packages_design_system_src_components_ui_icons_base_investments_base_tsx",
-      "community": 330,
+      "community": 331,
       "norm_label": "investments-base.tsx"
     },
     {
@@ -7559,7 +7568,7 @@
       "source_file": "packages/design-system/src/components/ui/icons/base/index.ts",
       "source_location": "L1",
       "id": "packages_design_system_src_components_ui_icons_base_index_ts",
-      "community": 331,
+      "community": 332,
       "norm_label": "index.ts"
     },
     {
@@ -7586,7 +7595,7 @@
       "source_file": "infra/docker/api/health-check.js",
       "source_location": "L1",
       "id": "infra_docker_api_health_check_js",
-      "community": 332,
+      "community": 333,
       "norm_label": "health-check.js"
     },
     {
@@ -7676,7 +7685,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 333,
+      "community": 334,
       "norm_label": "apps/web readme \u2014 tanstack app",
       "id": "readme_apps_web"
     },
@@ -7689,7 +7698,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 334,
+      "community": 335,
       "norm_label": "apps/api readme \u2014 nestjs starter",
       "id": "readme_apps_api"
     },
@@ -7702,7 +7711,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 335,
+      "community": 336,
       "norm_label": "apps/docs readme \u2014 react+vite template",
       "id": "readme_apps_docs"
     },
@@ -7715,7 +7724,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 336,
+      "community": 337,
       "norm_label": "packages/ts-config readme",
       "id": "readme_ts_config"
     },
@@ -8989,7 +8998,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 337,
+      "community": 338,
       "norm_label": "task: verification type check and lint",
       "id": "bank_accounts_tasks_Verification"
     },
@@ -9002,7 +9011,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 338,
+      "community": 339,
       "norm_label": "auth module better-auth implementation",
       "id": "learnings_infra_AuthModule"
     },
@@ -9015,7 +9024,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 339,
+      "community": 340,
       "norm_label": "database module drizzle global module",
       "id": "learnings_infra_DatabaseModule"
     },
@@ -9028,7 +9037,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 340,
+      "community": 341,
       "norm_label": "env module zod validated schema",
       "id": "learnings_infra_EnvModule"
     },
@@ -9080,7 +9089,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 341,
+      "community": 342,
       "norm_label": "session decorator usersession type",
       "id": "learnings_infra_SessionDecorator"
     },
@@ -9197,7 +9206,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 342,
+      "community": 343,
       "norm_label": "api endpoints post get put delete bank-accounts",
       "id": "learnings_impl_APIEndpoints"
     },
@@ -9301,7 +9310,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 343,
+      "community": 344,
       "norm_label": "valueobject immutable value equality",
       "id": "learnings_ddd_ValueObject"
     },
@@ -9327,7 +9336,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 344,
+      "community": 345,
       "norm_label": "usecase interface execute input output",
       "id": "learnings_ddd_UseCaseInterface"
     },
@@ -9587,7 +9596,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 345,
+      "community": 346,
       "norm_label": "reports and analytics supporting subdomain",
       "id": "docs_dominios_ReportsAnalytics"
     },
@@ -9769,7 +9778,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 346,
+      "community": 347,
       "norm_label": "roadmap phase 4 user profile settings",
       "id": "docs_roadmap_Phase4"
     },
@@ -9834,7 +9843,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 347,
+      "community": 348,
       "norm_label": "roadmap phase 9 data import rf06 future",
       "id": "docs_roadmap_Phase9"
     },
@@ -9873,7 +9882,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 348,
+      "community": 349,
       "norm_label": "graph report 252 communities detected",
       "id": "graph_report_Communities"
     },
@@ -9912,7 +9921,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 349,
+      "community": 350,
       "norm_label": "assets screenshot",
       "id": "assets_png"
     },
@@ -12934,7 +12943,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "apps/api/src/modules/bank-accounts/presentation/list-bank-accounts.controller.ts",
-      "source_location": "L20",
+      "source_location": "L21",
       "weight": 1.0,
       "_src": "apps_api_src_modules_bank_accounts_presentation_list_bank_accounts_controller_ts",
       "_tgt": "list_bank_accounts_controller_listbankaccountscontroller",
@@ -12946,7 +12955,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "apps/api/src/modules/bank-accounts/presentation/list-bank-accounts.controller.ts",
-      "source_location": "L21",
+      "source_location": "L22",
       "weight": 1.0,
       "_src": "list_bank_accounts_controller_listbankaccountscontroller",
       "_tgt": "list_bank_accounts_controller_listbankaccountscontroller_constructor",
@@ -12958,7 +12967,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "apps/api/src/modules/bank-accounts/presentation/list-bank-accounts.controller.ts",
-      "source_location": "L40",
+      "source_location": "L41",
       "weight": 1.0,
       "_src": "list_bank_accounts_controller_listbankaccountscontroller",
       "_tgt": "list_bank_accounts_controller_listbankaccountscontroller_list",
@@ -12970,7 +12979,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "apps/api/src/modules/bank-accounts/presentation/update-bank-account.controller.ts",
-      "source_location": "L36",
+      "source_location": "L37",
       "weight": 1.0,
       "_src": "apps_api_src_modules_bank_accounts_presentation_update_bank_account_controller_ts",
       "_tgt": "update_bank_account_controller_updatebankaccountcontroller",
@@ -12982,7 +12991,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "apps/api/src/modules/bank-accounts/presentation/update-bank-account.controller.ts",
-      "source_location": "L37",
+      "source_location": "L38",
       "weight": 1.0,
       "_src": "update_bank_account_controller_updatebankaccountcontroller",
       "_tgt": "update_bank_account_controller_updatebankaccountcontroller_constructor",
@@ -12994,7 +13003,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "apps/api/src/modules/bank-accounts/presentation/update-bank-account.controller.ts",
-      "source_location": "L100",
+      "source_location": "L101",
       "weight": 1.0,
       "_src": "update_bank_account_controller_updatebankaccountcontroller",
       "_tgt": "update_bank_account_controller_updatebankaccountcontroller_update",
@@ -13006,7 +13015,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "apps/api/src/modules/bank-accounts/presentation/delete-bank-account.controller.ts",
-      "source_location": "L29",
+      "source_location": "L30",
       "weight": 1.0,
       "_src": "apps_api_src_modules_bank_accounts_presentation_delete_bank_account_controller_ts",
       "_tgt": "delete_bank_account_controller_deletebankaccountcontroller",
@@ -13018,7 +13027,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "apps/api/src/modules/bank-accounts/presentation/delete-bank-account.controller.ts",
-      "source_location": "L30",
+      "source_location": "L31",
       "weight": 1.0,
       "_src": "delete_bank_account_controller_deletebankaccountcontroller",
       "_tgt": "delete_bank_account_controller_deletebankaccountcontroller_constructor",
@@ -13030,48 +13039,12 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "apps/api/src/modules/bank-accounts/presentation/delete-bank-account.controller.ts",
-      "source_location": "L60",
+      "source_location": "L61",
       "weight": 1.0,
       "_src": "delete_bank_account_controller_deletebankaccountcontroller",
       "_tgt": "delete_bank_account_controller_deletebankaccountcontroller_delete",
       "source": "delete_bank_account_controller_deletebankaccountcontroller",
       "target": "delete_bank_account_controller_deletebankaccountcontroller_delete",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "apps/api/src/modules/bank-accounts/presentation/create-bank-account.controller.ts",
-      "source_location": "L30",
-      "weight": 1.0,
-      "_src": "apps_api_src_modules_bank_accounts_presentation_create_bank_account_controller_ts",
-      "_tgt": "create_bank_account_controller_createbankaccountcontroller",
-      "source": "apps_api_src_modules_bank_accounts_presentation_create_bank_account_controller_ts",
-      "target": "create_bank_account_controller_createbankaccountcontroller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "apps/api/src/modules/bank-accounts/presentation/create-bank-account.controller.ts",
-      "source_location": "L31",
-      "weight": 1.0,
-      "_src": "create_bank_account_controller_createbankaccountcontroller",
-      "_tgt": "create_bank_account_controller_createbankaccountcontroller_constructor",
-      "source": "create_bank_account_controller_createbankaccountcontroller",
-      "target": "create_bank_account_controller_createbankaccountcontroller_constructor",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "apps/api/src/modules/bank-accounts/presentation/create-bank-account.controller.ts",
-      "source_location": "L85",
-      "weight": 1.0,
-      "_src": "create_bank_account_controller_createbankaccountcontroller",
-      "_tgt": "create_bank_account_controller_createbankaccountcontroller_create",
-      "source": "create_bank_account_controller_createbankaccountcontroller",
-      "target": "create_bank_account_controller_createbankaccountcontroller_create",
       "confidence_score": 1.0
     },
     {
@@ -13108,6 +13081,42 @@
       "_tgt": "list_account_types_controller_listaccounttypescontroller_list",
       "source": "list_account_types_controller_listaccounttypescontroller",
       "target": "list_account_types_controller_listaccounttypescontroller_list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "apps/api/src/modules/bank-accounts/presentation/create-bank-account.controller.ts",
+      "source_location": "L31",
+      "weight": 1.0,
+      "_src": "apps_api_src_modules_bank_accounts_presentation_create_bank_account_controller_ts",
+      "_tgt": "create_bank_account_controller_createbankaccountcontroller",
+      "source": "apps_api_src_modules_bank_accounts_presentation_create_bank_account_controller_ts",
+      "target": "create_bank_account_controller_createbankaccountcontroller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "apps/api/src/modules/bank-accounts/presentation/create-bank-account.controller.ts",
+      "source_location": "L32",
+      "weight": 1.0,
+      "_src": "create_bank_account_controller_createbankaccountcontroller",
+      "_tgt": "create_bank_account_controller_createbankaccountcontroller_constructor",
+      "source": "create_bank_account_controller_createbankaccountcontroller",
+      "target": "create_bank_account_controller_createbankaccountcontroller_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "apps/api/src/modules/bank-accounts/presentation/create-bank-account.controller.ts",
+      "source_location": "L86",
+      "weight": 1.0,
+      "_src": "create_bank_account_controller_createbankaccountcontroller",
+      "_tgt": "create_bank_account_controller_createbankaccountcontroller_create",
+      "source": "create_bank_account_controller_createbankaccountcontroller",
+      "target": "create_bank_account_controller_createbankaccountcontroller_create",
       "confidence_score": 1.0
     },
     {
@@ -13342,7 +13351,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "apps/api/src/modules/balances/presentation/get-user-balances.controller.ts",
-      "source_location": "L15",
+      "source_location": "L16",
       "weight": 1.0,
       "_src": "apps_api_src_modules_balances_presentation_get_user_balances_controller_ts",
       "_tgt": "get_user_balances_controller_getuserbalancescontroller",
@@ -13354,7 +13363,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "apps/api/src/modules/balances/presentation/get-user-balances.controller.ts",
-      "source_location": "L16",
+      "source_location": "L17",
       "weight": 1.0,
       "_src": "get_user_balances_controller_getuserbalancescontroller",
       "_tgt": "get_user_balances_controller_getuserbalancescontroller_constructor",
@@ -13366,7 +13375,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "apps/api/src/modules/balances/presentation/get-user-balances.controller.ts",
-      "source_location": "L45",
+      "source_location": "L46",
       "weight": 1.0,
       "_src": "get_user_balances_controller_getuserbalancescontroller",
       "_tgt": "get_user_balances_controller_getuserbalancescontroller_getbalances",
@@ -14050,7 +14059,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "apps/api/src/modules/transactions/presentation/transactions.controller.ts",
-      "source_location": "L56",
+      "source_location": "L57",
       "weight": 1.0,
       "_src": "apps_api_src_modules_transactions_presentation_transactions_controller_ts",
       "_tgt": "transactions_controller_transactionscontroller",
@@ -14062,7 +14071,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "apps/api/src/modules/transactions/presentation/transactions.controller.ts",
-      "source_location": "L57",
+      "source_location": "L58",
       "weight": 1.0,
       "_src": "transactions_controller_transactionscontroller",
       "_tgt": "transactions_controller_transactionscontroller_constructor",
@@ -14074,7 +14083,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "apps/api/src/modules/transactions/presentation/transactions.controller.ts",
-      "source_location": "L83",
+      "source_location": "L84",
       "weight": 1.0,
       "_src": "transactions_controller_transactionscontroller",
       "_tgt": "transactions_controller_transactionscontroller_create",
@@ -14086,7 +14095,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "apps/api/src/modules/transactions/presentation/transactions.controller.ts",
-      "source_location": "L128",
+      "source_location": "L129",
       "weight": 1.0,
       "_src": "transactions_controller_transactionscontroller",
       "_tgt": "transactions_controller_transactionscontroller_list",
@@ -14098,7 +14107,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "apps/api/src/modules/transactions/presentation/transactions.controller.ts",
-      "source_location": "L181",
+      "source_location": "L182",
       "weight": 1.0,
       "_src": "transactions_controller_transactionscontroller",
       "_tgt": "transactions_controller_transactionscontroller_getbyid",
@@ -14110,7 +14119,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "apps/api/src/modules/transactions/presentation/transactions.controller.ts",
-      "source_location": "L223",
+      "source_location": "L224",
       "weight": 1.0,
       "_src": "transactions_controller_transactionscontroller",
       "_tgt": "transactions_controller_transactionscontroller_update",
@@ -14122,7 +14131,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "apps/api/src/modules/transactions/presentation/transactions.controller.ts",
-      "source_location": "L283",
+      "source_location": "L284",
       "weight": 1.0,
       "_src": "transactions_controller_transactionscontroller",
       "_tgt": "transactions_controller_transactionscontroller_delete",

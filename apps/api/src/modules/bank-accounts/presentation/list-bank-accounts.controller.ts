@@ -6,6 +6,7 @@ import {
 	ApiTags,
 } from "@nestjs/swagger";
 import { Session } from "@thallesp/nestjs-better-auth";
+import type { AuthSession } from "@/core/auth";
 import {
 	BankAccountResponseSchema,
 	UnauthorizedErrorSchema,
@@ -37,9 +38,9 @@ export class ListBankAccountsController {
 		description: "Não autenticado",
 		schema: UnauthorizedErrorSchema,
 	})
-	async list(@Session() session: { userId: string }) {
+	async list(@Session() session: AuthSession) {
 		const result = await this.listBankAccountsService.execute({
-			userId: session.userId,
+			userId: session.user.id,
 		});
 
 		const accounts = result.value as BankAccount[];
