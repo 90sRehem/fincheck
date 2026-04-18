@@ -19,7 +19,6 @@ interface BalanceEntityProps extends BalanceProps {
 }
 
 export class Balance extends Entity<BalanceEntityProps> {
-	// biome-ignore lint/complexity/noUselessConstructor: Entity base class has protected constructor
 	constructor(props: BalanceEntityProps, id?: string) {
 		super(props, id);
 	}
