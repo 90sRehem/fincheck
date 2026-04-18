@@ -83,7 +83,7 @@ export async function listTransactions({
 	}
 
 	const response = await apiClient.get<Transaction[]>({
-		url: "/api/transactions",
+		url: "/transactions",
 		params,
 	});
 
@@ -123,7 +123,7 @@ export function createTransaction(
 	};
 
 	return apiClient.post<Transaction>({
-		url: "/api/transactions",
+		url: "/transactions",
 		body: transactionData,
 	});
 }
@@ -136,7 +136,7 @@ export function updateTransaction(
 	data: Partial<UpdateTransactionRequest>,
 ): Promise<{ data: Transaction }> {
 	return apiClient.put({
-		url: `/api/transactions/${data.id}`,
+		url: `/transactions/${data.id}`,
 		body: data,
 	});
 }
@@ -150,7 +150,7 @@ async function getTransaction({ id }: GetTransactionRequest) {
 		return;
 	}
 	const response = await apiClient.get<Transaction>({
-		url: `/api/transactions/${id}`,
+		url: `/transactions/${id}`,
 	});
 	return response.data;
 }
@@ -163,7 +163,7 @@ export async function removeTransaction({
 	transactionId,
 }: RemoveTransactionRequest) {
 	const response = await apiClient.delete<Transaction>({
-		url: `/api/transactions/${transactionId}`,
+		url: `/transactions/${transactionId}`,
 	});
 	return response.data;
 }

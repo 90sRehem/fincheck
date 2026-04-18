@@ -12,7 +12,7 @@ export type CreateAccountRequest = {
 
 export async function createAccount(data: CreateAccountRequest) {
 	const response = await apiClient.post({
-		url: "api/bank-accounts",
+		url: "/bank-accounts",
 		body: data,
 	});
 	return response.data;
@@ -34,7 +34,7 @@ type ListAccountsResponse = Account[];
 
 async function listAccounts() {
 	const response = await apiClient.get<ListAccountsResponse>({
-		url: "api/bank-accounts",
+		url: "/bank-accounts",
 	});
 	return response.data;
 }

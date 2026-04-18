@@ -1,4 +1,4 @@
-import { apiClient } from "../api-client";
+import { authClient } from "@/shared/api";
 
 type RegisterRequest = {
 	name: string;
@@ -28,7 +28,7 @@ export async function register({
 	image,
 	rememberMe = false,
 }: RegisterRequest) {
-	const response = await apiClient.post<RegisterResponse>({
+	const response = await authClient.post<RegisterResponse>({
 		url: "/api/auth/sign-up/email",
 		body: {
 			email,

@@ -1,4 +1,4 @@
-import { apiClient } from "@/shared/api";
+import { authClient } from "@/shared/api";
 
 type GetSessionResponse = {
 	session: {
@@ -16,7 +16,7 @@ type GetSessionResponse = {
 };
 
 export async function getUser() {
-	const response = await apiClient.get<GetSessionResponse>({
+	const response = await authClient.get<GetSessionResponse>({
 		url: "/api/auth/get-session",
 	});
 

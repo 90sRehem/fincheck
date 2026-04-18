@@ -12,7 +12,7 @@ export type GetBalanceResponse = {
 
 export async function getBalance(): Promise<GetBalanceResponse> {
 	const response = await apiClient.get<BalanceEntry[]>({
-		url: "api/balances",
+		url: "/balances",
 	});
 
 	const entries = response.data;

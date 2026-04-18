@@ -1,4 +1,4 @@
-import { apiClient } from "@/shared/api";
+import { authClient } from "@/shared/api";
 
 type LoginRequest = {
 	email: string;
@@ -15,8 +15,8 @@ type LoginResponse = {
 };
 
 export async function login({ email, password }: LoginRequest) {
-	const response = await apiClient.post<LoginResponse>({
-		url: "api/auth/sign-in/email",
+	const response = await authClient.post<LoginResponse>({
+		url: "/api/auth/sign-in/email",
 		body: {
 			email,
 			password,
