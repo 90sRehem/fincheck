@@ -3,8 +3,12 @@ export {
 	BankAccount,
 	type BankAccountProps,
 } from "./entities/bank-account.entity";
+export { Color } from "./entities/color.entity";
+export { Currency } from "./entities/currency.entity";
 export { AccountTypeRepository } from "./repositories/account-type.repository";
 export { BankAccountRepository } from "./repositories/bank-account.repository";
+export { ColorRepository } from "./repositories/color.repository";
+export { CurrencyRepository } from "./repositories/currency.repository";
 export {
 	CreateBankAccountUseCase,
 	type CreateBankAccountUseCaseInput,
@@ -26,7 +30,3 @@ export {
 	type BankAccountProps as BankAccountValidatorProps,
 	BankAccountValidator,
 } from "./validators/bank-account.validator";
-export {
-	BANK_ACCOUNT_TYPE,
-	type BankAccountType,
-} from "./value-objects/bank-account-type";
