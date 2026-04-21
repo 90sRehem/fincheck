@@ -6,12 +6,12 @@ import "./styles.css";
 
 const rootElement = document.getElementById("app");
 if (rootElement && !rootElement.innerHTML) {
-  const root = ReactDOM.createRoot(rootElement);
-  root.render(
-    <StrictMode>
-      <AppProvider />
-    </StrictMode>,
-  );
+	const root = ReactDOM.createRoot(rootElement);
+	root.render(
+		<StrictMode>
+			<AppProvider />
+		</StrictMode>,
+	);
 }
 
 // If you want to start measuring performance in your app, pass a function

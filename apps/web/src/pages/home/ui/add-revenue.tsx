@@ -60,7 +60,7 @@ export function AddRevenue() {
 	};
 
 	return (
-		<Dialog open>
+		<Dialog open onOpenChange={(open) => !open && handleClose()}>
 			<Dialog.Content showCloseButton={false} className="gap-10">
 				<Dialog.Header className="relative flex items-center justify-center">
 					<Dialog.Close asChild className="absolute left-0 hover:bg-gray-1">
