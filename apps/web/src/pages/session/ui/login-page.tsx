@@ -2,28 +2,18 @@ import { Button, Form, InputField } from "@fincheck/design-system";
 import { standardSchemaResolver } from "@hookform/resolvers/standard-schema";
 import { Link } from "@tanstack/react-router";
 import { useForm } from "react-hook-form";
-import z from "zod";
+import type { LoginFormData } from "../model/form-schemas";
+import { loginFormSchema } from "../model/form-schemas";
 import { useLogin } from "../model/use-login";
-
-const formSchema = z.object({
-	email: z.email({
-		message: "E-mail inválido.",
-	}),
-	password: z.string().min(8, {
-		message: "Senha deve ter no mínimo 8 caracteres.",
-	}),
-});
-
-type FormData = z.infer<typeof formSchema>;
 
 export function LoginPage() {
 	const form = useForm({
-		resolver: standardSchemaResolver(formSchema),
+		resolver: standardSchemaResolver(loginFormSchema),
 	});
 
 	const { login } = useLogin();
 
-	const handleSubmit = (data: FormData) => {
+	const handleSubmit = (data: LoginFormData) => {
 		console.log("handleSubmit login", data);
 		login(data);
 	};
