@@ -28,10 +28,11 @@ export {
 	UpdateTransactionUseCase,
 	type UpdateTransactionUseCaseInput,
 } from "./use-cases/update-transaction.use-case";
+export { TransactionValidator } from "./validators/transaction.validator";
 export {
-	type TransactionProps as TransactionValidatorProps,
-	TransactionValidator,
-} from "./validators/transaction.validator";
+	TRANSACTION_COLOR,
+	type TransactionColor,
+} from "./value-objects/transaction-color";
 export {
 	TRANSACTION_TYPE,
 	type TransactionType,

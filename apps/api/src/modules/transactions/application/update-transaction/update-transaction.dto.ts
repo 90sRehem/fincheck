@@ -1,10 +1,13 @@
 import { z } from "zod";
+import {
+	TRANSACTION_COLOR,
+	type TransactionColor,
+} from "../../domain/value-objects/transaction-color";
 import { TRANSACTION_TYPE } from "../../domain/value-objects/transaction-type";
 
 const TITLE_MIN_LENGTH = 1;
 const TITLE_MAX_LENGTH = 255;
 const AMOUNT_MIN = 0;
-const HEX_COLOR_LENGTH = 7;
 
 export const updateTransactionSchema = z.object({
 	accountId: z.string().uuid("accountId must be a valid UUID").optional(),
@@ -23,9 +26,13 @@ export const updateTransactionSchema = z.object({
 		.optional(),
 	type: z.enum([TRANSACTION_TYPE.EXPENSE, TRANSACTION_TYPE.REVENUE]).optional(),
 	color: z
-		.string()
-		.length(HEX_COLOR_LENGTH, "color must be a valid hex color (#RRGGBB)")
-		.regex(/^#[0-9A-Fa-f]{6}$/, "color must be a valid hex color (#RRGGBB)")
+		.enum(
+			Object.values(TRANSACTION_COLOR) as [
+				TransactionColor,
+				...TransactionColor[],
+			],
+			{ message: "color must be a valid color name" },
+		)
 		.optional(),
 	category: z.string().nullable().optional(),
 	date: z

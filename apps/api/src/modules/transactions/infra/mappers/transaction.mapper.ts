@@ -1,4 +1,9 @@
-import { Transaction, TransactionProps } from "../../domain";
+import {
+	TRANSACTION_COLOR,
+	Transaction,
+	type TransactionColor,
+	TransactionProps,
+} from "../../domain";
 
 export type TransactionRaw = {
 	id: string;
@@ -14,6 +19,13 @@ export type TransactionRaw = {
 	updatedAt: Date;
 };
 
+function parseColor(value: string): TransactionColor {
+	if ((Object.values(TRANSACTION_COLOR) as string[]).includes(value)) {
+		return value as TransactionColor;
+	}
+	throw new Error(`Invalid transaction color from database: "${value}"`);
+}
+
 // biome-ignore lint/complexity/noStaticOnlyClass: static utility class for mapping
 export class TransactionMapper {
 	static toDomain(raw: TransactionRaw): Transaction {
@@ -23,7 +35,7 @@ export class TransactionMapper {
 			title: raw.title,
 			amountCents: raw.amountCents,
 			type: raw.type as TransactionProps["type"],
-			color: raw.color,
+			color: parseColor(raw.color),
 			category: raw.category ?? null,
 			date: raw.date,
 			createdAt: raw.createdAt,

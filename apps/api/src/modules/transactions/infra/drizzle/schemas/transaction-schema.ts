@@ -9,11 +9,17 @@ import {
 } from "drizzle-orm/pg-core";
 import { users } from "@/core/database/drizzle/schemas/auth-schema";
 import { bankAccounts } from "@/modules/bank-accounts/infra/drizzle/schemas/bank-account-schema";
+import { TRANSACTION_COLOR, type TransactionColor } from "../../../domain";
 
 export const transactionTypeEnum = pgEnum("transaction_type", [
 	"expense",
 	"revenue",
 ]);
+
+export const transactionColorEnum = pgEnum(
+	"transaction_color",
+	Object.values(TRANSACTION_COLOR) as [TransactionColor, ...TransactionColor[]],
+);
 
 export const transactions = pgTable(
 	"transactions",
@@ -28,7 +34,7 @@ export const transactions = pgTable(
 		title: text("title").notNull(),
 		amountCents: integer("amount_cents").notNull(),
 		type: transactionTypeEnum("type").notNull(),
-		color: text("color").notNull(),
+		color: transactionColorEnum("color").notNull(),
 		category: text("category"),
 		date: timestamp("date").notNull(),
 		createdAt: timestamp("created_at").defaultNow().notNull(),

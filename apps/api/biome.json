@@ -18,7 +18,8 @@
 		"rules": {
 			"recommended": true,
 			"complexity": {
-				"noUselessConstructor": "off"
+				"noUselessConstructor": "off",
+				"noStaticOnlyClass": "off"
 			},
 			"style": {
 				"useImportType": "off",

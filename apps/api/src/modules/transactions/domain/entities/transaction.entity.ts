@@ -1,12 +1,22 @@
 import { AggregateRoot } from "@/shared/domain/entities/aggregate-root";
 import type { Either } from "@/shared/domain/types/either";
 import { ValidationFieldsError } from "@/shared/domain/validators/validation-fields-error";
-import {
-	TransactionProps,
-	TransactionValidator,
-} from "../validators/transaction.validator";
+import { TransactionValidator } from "../validators/transaction.validator";
+import type { TransactionColor } from "../value-objects/transaction-color";
+import { TRANSACTION_TYPE } from "../value-objects/transaction-type";
 
-export type { TransactionProps } from "../validators/transaction.validator";
+export interface TransactionProps {
+	userId: string;
+	accountId: string;
+	title: string;
+	amountCents: number;
+	type: (typeof TRANSACTION_TYPE)[keyof typeof TRANSACTION_TYPE];
+	color: TransactionColor;
+	category: string | null;
+	date: Date;
+	createdAt: Date;
+	updatedAt: Date;
+}
 
 interface TransactionEntityProps extends TransactionProps {
 	createdAt: Date;
@@ -21,8 +31,7 @@ export class Transaction extends AggregateRoot<TransactionEntityProps> {
 	}
 
 	validate(): Either<ValidationFieldsError, void> {
-		const validator = new TransactionValidator();
-		return validator.validate(this.props);
+		return TransactionValidator.validate(this.props);
 	}
 
 	get userId(): string {
@@ -45,7 +54,7 @@ export class Transaction extends AggregateRoot<TransactionEntityProps> {
 		return this.props.type;
 	}
 
-	get color(): string {
+	get color(): TransactionColor {
 		return this.props.color;
 	}
 
