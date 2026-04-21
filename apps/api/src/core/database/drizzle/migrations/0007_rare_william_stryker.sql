@@ -1,0 +1,2 @@
+CREATE TYPE "public"."transaction_color" AS ENUM('gray', 'red', 'pink', 'grape', 'violet', 'indigo', 'blue', 'cyan', 'teal', 'green', 'lime', 'yellow', 'orange');--> statement-breakpoint
+ALTER TABLE "transactions" ALTER COLUMN "color" SET DATA TYPE "public"."transaction_color" USING "color"::"public"."transaction_color";
